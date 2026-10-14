@@ -1,0 +1,29 @@
+name: Quality checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests -v
+      - name: Verify public payload contract
+        run: |
+          python - <<'PY'
+          import json
+          d = json.load(open('data/latest.json', encoding='utf-8'))
+          assert d['schema_version'] == 2, 'legacy data is prohibited'
+          assert isinstance(d['assets'], list) and len(d['assets']) == 6
+          assert not any('narration' == k for k in d)
+          PY
