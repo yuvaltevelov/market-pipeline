@@ -1,18 +1,8165 @@
 {
   "schema_version": 3,
-  "generated_at": null,
-  "status": "awaiting_first_collection",
+  "generated_at": "2026-10-14T09:47:32Z",
+  "status": "partial",
   "coverage": {
-    "valid": 0,
-    "unavailable": 0,
+    "valid": 21,
+    "unavailable": 3,
     "cross_verified": 0,
-    "total": 0
+    "total": 24
   },
-  "assets": [],
+  "assets": [
+    {
+      "id": "PLTR",
+      "name": "Palantir",
+      "category": "stock",
+      "symbol": "PLTR",
+      "timeframe": "1d",
+      "source": "Yahoo Finance chart (unofficial)",
+      "source_url": "https://finance.yahoo.com/quote/PLTR/history/",
+      "market_data_verification": "single_source",
+      "pricing_basis": "unofficial chart feed",
+      "status": "reported",
+      "error": null,
+      "bars": 250,
+      "as_of": 1791811800,
+      "score": 90,
+      "bias": "bullish",
+      "reasons": [
+        "ממוצע 20 מעל 50",
+        "מחיר מעל ממוצע 200",
+        "מומנטום 20 נרות חיובי",
+        "CMF חיובי (פרוקסי ללחץ קנייה)"
+      ],
+      "flags": [
+        "MFI גבוה; סיכון למיצוי",
+        "נזילות דובי — תבנית בלבד, לא ראיה למניפולציה",
+        "פער שווי הוגן שורי — תבנית בלבד, לא ראיה למניפולציה"
+      ],
+      "backtest": {
+        "status": "measured",
+        "trades": 8,
+        "win_rate_pct": 62.5,
+        "total_return_pct": 26.68,
+        "max_drawdown_pct": -6.88,
+        "buy_hold_same_window_pct": 56.85,
+        "cost_bps_round_trip": 20,
+        "method": "Fixed long-only heuristic, 25% chronological holdout; next-bar OPEN, exit after 5 bars; no position sizing/borrow costs. NOT a forecast probability."
+      },
+      "data_needs": {
+        "aggressor_side_trades": "unavailable",
+        "level2_order_book": "unavailable",
+        "options_flow": "unavailable",
+        "institutional_identity": "unavailable"
+      },
+      "indicators": {
+        "close": 209.0,
+        "ema20": 190.4777,
+        "ema50": 177.0366,
+        "sma200": 152.4055,
+        "rsi14": 76.2048,
+        "atr14": 6.6833,
+        "momentum20_pct": 20.5932,
+        "change_pct": -0.0239,
+        "rvol": 1.0095,
+        "cmf20": 0.2187,
+        "mfi14": 80.2724,
+        "obv_direction": 1,
+        "rolling_vwap20": 188.6368,
+        "volume_available": true,
+        "sweep": "bearish",
+        "breakout": "none",
+        "fvg": "bullish"
+      },
+      "chart": [
+        {
+          "time": 1781789400,
+          "close": 128.47
+        },
+        {
+          "time": 1782135000,
+          "close": 119.5
+        },
+        {
+          "time": 1782221400,
+          "close": 116.7
+        },
+        {
+          "time": 1782307800,
+          "close": 113.5
+        },
+        {
+          "time": 1782394200,
+          "close": 107.27
+        },
+        {
+          "time": 1782480600,
+          "close": 112.93
+        },
+        {
+          "time": 1782739800,
+          "close": 115.7
+        },
+        {
+          "time": 1782826200,
+          "close": 116.67
+        },
+        {
+          "time": 1782912600,
+          "close": 125.73
+        },
+        {
+          "time": 1782999000,
+          "close": 129.3
+        },
+        {
+          "time": 1783344600,
+          "close": 132.53999
+        },
+        {
+          "time": 1783431000,
+          "close": 134.37
+        },
+        {
+          "time": 1783517400,
+          "close": 132.22
+        },
+        {
+          "time": 1783603800,
+          "close": 129.03999
+        },
+        {
+          "time": 1783690200,
+          "close": 126.79
+        },
+        {
+          "time": 1783949400,
+          "close": 130.03999
+        },
+        {
+          "time": 1784035800,
+          "close": 133.72
+        },
+        {
+          "time": 1784122200,
+          "close": 133.75999
+        },
+        {
+          "time": 1784208600,
+          "close": 134.44
+        },
+        {
+          "time": 1784295000,
+          "close": 132.38
+        },
+        {
+          "time": 1784554200,
+          "close": 134.85001
+        },
+        {
+          "time": 1784640600,
+          "close": 132.66
+        },
+        {
+          "time": 1784727000,
+          "close": 124.57
+        },
+        {
+          "time": 1784813400,
+          "close": 123.37
+        },
+        {
+          "time": 1784899800,
+          "close": 122.92
+        },
+        {
+          "time": 1785159000,
+          "close": 131.53
+        },
+        {
+          "time": 1785245400,
+          "close": 123.53
+        },
+        {
+          "time": 1785331800,
+          "close": 123.0
+        },
+        {
+          "time": 1785418200,
+          "close": 122.26
+        },
+        {
+          "time": 1785504600,
+          "close": 123.06
+        },
+        {
+          "time": 1785763800,
+          "close": 125.65
+        },
+        {
+          "time": 1785850200,
+          "close": 162.66
+        },
+        {
+          "time": 1785936600,
+          "close": 158.42999
+        },
+        {
+          "time": 1786023000,
+          "close": 155.92
+        },
+        {
+          "time": 1786109400,
+          "close": 172.00999
+        },
+        {
+          "time": 1786368600,
+          "close": 175.23
+        },
+        {
+          "time": 1786455000,
+          "close": 174.94
+        },
+        {
+          "time": 1786541400,
+          "close": 171.03999
+        },
+        {
+          "time": 1786627800,
+          "close": 179.00999
+        },
+        {
+          "time": 1786714200,
+          "close": 174.03999
+        },
+        {
+          "time": 1786973400,
+          "close": 172.55
+        },
+        {
+          "time": 1787059800,
+          "close": 171.53999
+        },
+        {
+          "time": 1787146200,
+          "close": 175.19
+        },
+        {
+          "time": 1787232600,
+          "close": 173.96001
+        },
+        {
+          "time": 1787319000,
+          "close": 179.94
+        },
+        {
+          "time": 1787578200,
+          "close": 175.89
+        },
+        {
+          "time": 1787664600,
+          "close": 172.73
+        },
+        {
+          "time": 1787751000,
+          "close": 177.5
+        },
+        {
+          "time": 1787837400,
+          "close": 185.92999
+        },
+        {
+          "time": 1787923800,
+          "close": 186.28999
+        },
+        {
+          "time": 1788183000,
+          "close": 186.38
+        },
+        {
+          "time": 1788269400,
+          "close": 179.92
+        },
+        {
+          "time": 1788355800,
+          "close": 169.46001
+        },
+        {
+          "time": 1788442200,
+          "close": 182.53
+        },
+        {
+          "time": 1788528600,
+          "close": 174.33
+        },
+        {
+          "time": 1788874200,
+          "close": 170.3
+        },
+        {
+          "time": 1788960600,
+          "close": 169.53
+        },
+        {
+          "time": 1789047000,
+          "close": 165.86
+        },
+        {
+          "time": 1789133400,
+          "close": 167.23
+        },
+        {
+          "time": 1789392600,
+          "close": 173.31
+        },
+        {
+          "time": 1789479000,
+          "close": 172.56
+        },
+        {
+          "time": 1789565400,
+          "close": 174.34
+        },
+        {
+          "time": 1789651800,
+          "close": 176.24001
+        },
+        {
+          "time": 1789738200,
+          "close": 177.64
+        },
+        {
+          "time": 1789997400,
+          "close": 183.09
+        },
+        {
+          "time": 1790083800,
+          "close": 184.99001
+        },
+        {
+          "time": 1790170200,
+          "close": 191.78999
+        },
+        {
+          "time": 1790256600,
+          "close": 192.59
+        },
+        {
+          "time": 1790343000,
+          "close": 189.67
+        },
+        {
+          "time": 1790602200,
+          "close": 187.48
+        },
+        {
+          "time": 1790688600,
+          "close": 186.97
+        },
+        {
+          "time": 1790775000,
+          "close": 187.05
+        },
+        {
+          "time": 1790861400,
+          "close": 190.03999
+        },
+        {
+          "time": 1790947800,
+          "close": 188.75
+        },
+        {
+          "time": 1791207000,
+          "close": 189.39999
+        },
+        {
+          "time": 1791293400,
+          "close": 192.07001
+        },
+        {
+          "time": 1791379800,
+          "close": 194.12
+        },
+        {
+          "time": 1791466200,
+          "close": 198.78
+        },
+        {
+          "time": 1791552600,
+          "close": 209.05
+        },
+        {
+          "time": 1791811800,
+          "close": 209.0
+        }
+      ],
+      "currency": "USD",
+      "price": 209.0,
+      "volume_source": "reported instrument volume"
+    },
+    {
+      "id": "PLTR",
+      "name": "Palantir",
+      "category": "stock",
+      "symbol": "PLTR",
+      "timeframe": "60m",
+      "source": "Yahoo Finance chart (unofficial)",
+      "source_url": "https://finance.yahoo.com/quote/PLTR/history/",
+      "market_data_verification": "single_source",
+      "pricing_basis": "unofficial chart feed",
+      "status": "unavailable",
+      "error": "ValueError",
+      "score": null,
+      "bias": "unavailable",
+      "price": null,
+      "as_of": null,
+      "indicators": {},
+      "backtest": {
+        "status": "not_run"
+      },
+      "chart": [],
+      "reasons": [
+        "לא התקבלו מספיק נתונים אמינים מהספק"
+      ],
+      "flags": [],
+      "data_needs": {
+        "aggressor_side_trades": "unavailable",
+        "level2_order_book": "unavailable",
+        "options_flow": "unavailable",
+        "institutional_identity": "unavailable"
+      }
+    },
+    {
+      "id": "NVDA",
+      "name": "NVIDIA",
+      "category": "stock",
+      "symbol": "NVDA",
+      "timeframe": "1d",
+      "source": "Yahoo Finance chart (unofficial)",
+      "source_url": "https://finance.yahoo.com/quote/NVDA/history/",
+      "market_data_verification": "single_source",
+      "pricing_basis": "unofficial chart feed",
+      "status": "reported",
+      "error": null,
+      "bars": 250,
+      "as_of": 1791811800,
+      "score": 69,
+      "bias": "bullish",
+      "reasons": [
+        "ממוצע 20 מעל 50",
+        "מחיר מעל ממוצע 200",
+        "מומנטום 20 נרות חיובי",
+        "CMF שלילי (פרוקסי ללחץ מכירה)"
+      ],
+      "flags": [
+        "פער שווי הוגן דובי — תבנית בלבד, לא ראיה למניפולציה"
+      ],
+      "backtest": {
+        "status": "measured",
+        "trades": 9,
+        "win_rate_pct": 55.6,
+        "total_return_pct": 2.92,
+        "max_drawdown_pct": -6.48,
+        "buy_hold_same_window_pct": 7.48,
+        "cost_bps_round_trip": 20,
+        "method": "Fixed long-only heuristic, 25% chronological holdout; next-bar OPEN, exit after 5 bars; no position sizing/borrow costs. NOT a forecast probability."
+      },
+      "data_needs": {
+        "aggressor_side_trades": "unavailable",
+        "level2_order_book": "unavailable",
+        "options_flow": "unavailable",
+        "institutional_identity": "unavailable"
+      },
+      "indicators": {
+        "close": 226.32,
+        "ema20": 228.4574,
+        "ema50": 222.4138,
+        "sma200": 202.3396,
+        "rsi14": 49.3544,
+        "atr14": 5.5941,
+        "momentum20_pct": 7.281,
+        "change_pct": -1.291,
+        "rvol": 0.6494,
+        "cmf20": -0.1558,
+        "mfi14": 59.6572,
+        "obv_direction": -1,
+        "rolling_vwap20": 227.9784,
+        "volume_available": true,
+        "sweep": "none",
+        "breakout": "none",
+        "fvg": "bearish"
+      },
+      "chart": [
+        {
+          "time": 1781789400,
+          "close": 210.69
+        },
+        {
+          "time": 1782135000,
+          "close": 208.64999
+        },
+        {
+          "time": 1782221400,
+          "close": 200.03999
+        },
+        {
+          "time": 1782307800,
+          "close": 199.0
+        },
+        {
+          "time": 1782394200,
+          "close": 195.74001
+        },
+        {
+          "time": 1782480600,
+          "close": 192.53
+        },
+        {
+          "time": 1782739800,
+          "close": 194.97
+        },
+        {
+          "time": 1782826200,
+          "close": 200.09
+        },
+        {
+          "time": 1782912600,
+          "close": 197.58
+        },
+        {
+          "time": 1782999000,
+          "close": 194.83
+        },
+        {
+          "time": 1783344600,
+          "close": 195.55
+        },
+        {
+          "time": 1783431000,
+          "close": 196.92999
+        },
+        {
+          "time": 1783517400,
+          "close": 204.12
+        },
+        {
+          "time": 1783603800,
+          "close": 202.78
+        },
+        {
+          "time": 1783690200,
+          "close": 210.96001
+        },
+        {
+          "time": 1783949400,
+          "close": 203.53
+        },
+        {
+          "time": 1784035800,
+          "close": 211.8
+        },
+        {
+          "time": 1784122200,
+          "close": 212.5
+        },
+        {
+          "time": 1784208600,
+          "close": 207.39999
+        },
+        {
+          "time": 1784295000,
+          "close": 202.81
+        },
+        {
+          "time": 1784554200,
+          "close": 203.28
+        },
+        {
+          "time": 1784640600,
+          "close": 207.28999
+        },
+        {
+          "time": 1784727000,
+          "close": 212.06
+        },
+        {
+          "time": 1784813400,
+          "close": 208.75999
+        },
+        {
+          "time": 1784899800,
+          "close": 206.84
+        },
+        {
+          "time": 1785159000,
+          "close": 196.50999
+        },
+        {
+          "time": 1785245400,
+          "close": 197.00999
+        },
+        {
+          "time": 1785331800,
+          "close": 190.00999
+        },
+        {
+          "time": 1785418200,
+          "close": 195.03999
+        },
+        {
+          "time": 1785504600,
+          "close": 200.75
+        },
+        {
+          "time": 1785763800,
+          "close": 206.64
+        },
+        {
+          "time": 1785850200,
+          "close": 211.94
+        },
+        {
+          "time": 1785936600,
+          "close": 219.22
+        },
+        {
+          "time": 1786023000,
+          "close": 218.99001
+        },
+        {
+          "time": 1786109400,
+          "close": 223.96001
+        },
+        {
+          "time": 1786368600,
+          "close": 217.55
+        },
+        {
+          "time": 1786455000,
+          "close": 217.5
+        },
+        {
+          "time": 1786541400,
+          "close": 224.09
+        },
+        {
+          "time": 1786627800,
+          "close": 225.3
+        },
+        {
+          "time": 1786714200,
+          "close": 225.16
+        },
+        {
+          "time": 1786973400,
+          "close": 225.00999
+        },
+        {
+          "time": 1787059800,
+          "close": 219.74001
+        },
+        {
+          "time": 1787146200,
+          "close": 217.56
+        },
+        {
+          "time": 1787232600,
+          "close": 216.85001
+        },
+        {
+          "time": 1787319000,
+          "close": 214.72
+        },
+        {
+          "time": 1787578200,
+          "close": 208.48
+        },
+        {
+          "time": 1787664600,
+          "close": 213.05
+        },
+        {
+          "time": 1787751000,
+          "close": 209.66
+        },
+        {
+          "time": 1787837400,
+          "close": 227.98
+        },
+        {
+          "time": 1787923800,
+          "close": 217.55
+        },
+        {
+          "time": 1788183000,
+          "close": 220.78
+        },
+        {
+          "time": 1788269400,
+          "close": 217.44
+        },
+        {
+          "time": 1788355800,
+          "close": 224.41
+        },
+        {
+          "time": 1788442200,
+          "close": 228.45
+        },
+        {
+          "time": 1788528600,
+          "close": 230.36
+        },
+        {
+          "time": 1788874200,
+          "close": 225.73
+        },
+        {
+          "time": 1788960600,
+          "close": 223.67
+        },
+        {
+          "time": 1789047000,
+          "close": 218.36
+        },
+        {
+          "time": 1789133400,
+          "close": 218.28999
+        },
+        {
+          "time": 1789392600,
+          "close": 210.96001
+        },
+        {
+          "time": 1789479000,
+          "close": 212.17
+        },
+        {
+          "time": 1789565400,
+          "close": 213.89999
+        },
+        {
+          "time": 1789651800,
+          "close": 219.34
+        },
+        {
+          "time": 1789738200,
+          "close": 222.27
+        },
+        {
+          "time": 1789997400,
+          "close": 227.38
+        },
+        {
+          "time": 1790083800,
+          "close": 228.87
+        },
+        {
+          "time": 1790170200,
+          "close": 225.50999
+        },
+        {
+          "time": 1790256600,
+          "close": 224.58
+        },
+        {
+          "time": 1790343000,
+          "close": 225.07001
+        },
+        {
+          "time": 1790602200,
+          "close": 228.86
+        },
+        {
+          "time": 1790688600,
+          "close": 227.21001
+        },
+        {
+          "time": 1790775000,
+          "close": 228.38
+        },
+        {
+          "time": 1790861400,
+          "close": 230.86
+        },
+        {
+          "time": 1790947800,
+          "close": 233.95
+        },
+        {
+          "time": 1791207000,
+          "close": 238.89999
+        },
+        {
+          "time": 1791293400,
+          "close": 239.24001
+        },
+        {
+          "time": 1791379800,
+          "close": 237.47
+        },
+        {
+          "time": 1791466200,
+          "close": 230.48
+        },
+        {
+          "time": 1791552600,
+          "close": 229.28
+        },
+        {
+          "time": 1791811800,
+          "close": 226.32001
+        }
+      ],
+      "currency": "USD",
+      "price": 226.32000732421875,
+      "volume_source": "reported instrument volume"
+    },
+    {
+      "id": "AMD",
+      "name": "AMD",
+      "category": "stock",
+      "symbol": "AMD",
+      "timeframe": "1d",
+      "source": "Yahoo Finance chart (unofficial)",
+      "source_url": "https://finance.yahoo.com/quote/AMD/history/",
+      "market_data_verification": "single_source",
+      "pricing_basis": "unofficial chart feed",
+      "status": "reported",
+      "error": null,
+      "bars": 250,
+      "as_of": 1791811800,
+      "score": 90,
+      "bias": "bullish",
+      "reasons": [
+        "ממוצע 20 מעל 50",
+        "מחיר מעל ממוצע 200",
+        "מומנטום 20 נרות חיובי",
+        "CMF חיובי (פרוקסי ללחץ קנייה)"
+      ],
+      "flags": [
+        "פער שווי הוגן דובי — תבנית בלבד, לא ראיה למניפולציה"
+      ],
+      "backtest": {
+        "status": "measured",
+        "trades": 9,
+        "win_rate_pct": 44.4,
+        "total_return_pct": -11.04,
+        "max_drawdown_pct": -23.19,
+        "buy_hold_same_window_pct": 16.47,
+        "cost_bps_round_trip": 20,
+        "method": "Fixed long-only heuristic, 25% chronological holdout; next-bar OPEN, exit after 5 bars; no position sizing/borrow costs. NOT a forecast probability."
+      },
+      "data_needs": {
+        "aggressor_side_trades": "unavailable",
+        "level2_order_book": "unavailable",
+        "options_flow": "unavailable",
+        "institutional_identity": "unavailable"
+      },
+      "indicators": {
+        "close": 594.24,
+        "ema20": 597.0059,
+        "ema50": 552.9236,
+        "sma200": 387.2158,
+        "rsi14": 52.9838,
+        "atr14": 23.7159,
+        "momentum20_pct": 20.4353,
+        "change_pct": -2.2792,
+        "rvol": 0.6947,
+        "cmf20": 0.2721,
+        "mfi14": 51.834,
+        "obv_direction": -1,
+        "rolling_vwap20": 599.7723,
+        "volume_available": true,
+        "sweep": "none",
+        "breakout": "none",
+        "fvg": "bearish"
+      },
+      "chart": [
+        {
+          "time": 1781789400,
+          "close": 537.37
+        },
+        {
+          "time": 1782135000,
+          "close": 551.63
+        },
+        {
+          "time": 1782221400,
+          "close": 519.84998
+        },
+        {
+          "time": 1782307800,
+          "close": 519.73999
+        },
+        {
+          "time": 1782394200,
+          "close": 532.57001
+        },
+        {
+          "time": 1782480600,
+          "close": 521.58002
+        },
+        {
+          "time": 1782739800,
+          "close": 539.48999
+        },
+        {
+          "time": 1782826200,
+          "close": 580.90997
+        },
+        {
+          "time": 1782912600,
+          "close": 540.88
+        },
+        {
+          "time": 1782999000,
+          "close": 517.82001
+        },
+        {
+          "time": 1783344600,
+          "close": 552.04999
+        },
+        {
+          "time": 1783431000,
+          "close": 516.10999
+        },
+        {
+          "time": 1783517400,
+          "close": 517.40997
+        },
+        {
+          "time": 1783603800,
+          "close": 546.71997
+        },
+        {
+          "time": 1783690200,
+          "close": 557.89001
+        },
+        {
+          "time": 1783949400,
+          "close": 534.39001
+        },
+        {
+          "time": 1784035800,
+          "close": 548.13
+        },
+        {
+          "time": 1784122200,
+          "close": 529.14001
+        },
+        {
+          "time": 1784208600,
+          "close": 500.94
+        },
+        {
+          "time": 1784295000,
+          "close": 495.76001
+        },
+        {
+          "time": 1784554200,
+          "close": 503.57001
+        },
+        {
+          "time": 1784640600,
+          "close": 544.42999
+        },
+        {
+          "time": 1784727000,
+          "close": 552.33002
+        },
+        {
+          "time": 1784813400,
+          "close": 539.69
+        },
+        {
+          "time": 1784899800,
+          "close": 521.95001
+        },
+        {
+          "time": 1785159000,
+          "close": 494.95001
+        },
+        {
+          "time": 1785245400,
+          "close": 454.62
+        },
+        {
+          "time": 1785331800,
+          "close": 429.56
+        },
+        {
+          "time": 1785418200,
+          "close": 485.39001
+        },
+        {
+          "time": 1785504600,
+          "close": 476.14999
+        },
+        {
+          "time": 1785763800,
+          "close": 484.64001
+        },
+        {
+          "time": 1785850200,
+          "close": 518.58002
+        },
+        {
+          "time": 1785936600,
+          "close": 482.04999
+        },
+        {
+          "time": 1786023000,
+          "close": 489.28
+        },
+        {
+          "time": 1786109400,
+          "close": 483.35999
+        },
+        {
+          "time": 1786368600,
+          "close": 469.56
+        },
+        {
+          "time": 1786455000,
+          "close": 474.32001
+        },
+        {
+          "time": 1786541400,
+          "close": 482.92999
+        },
+        {
+          "time": 1786627800,
+          "close": 483.01001
+        },
+        {
+          "time": 1786714200,
+          "close": 514.39001
+        },
+        {
+          "time": 1786973400,
+          "close": 506.0
+        },
+        {
+          "time": 1787059800,
+          "close": 484.39001
+        },
+        {
+          "time": 1787146200,
+          "close": 466.42001
+        },
+        {
+          "time": 1787232600,
+          "close": 469.45999
+        },
+        {
+          "time": 1787319000,
+          "close": 473.25
+        },
+        {
+          "time": 1787578200,
+          "close": 456.75
+        },
+        {
+          "time": 1787664600,
+          "close": 479.17999
+        },
+        {
+          "time": 1787751000,
+          "close": 480.92999
+        },
+        {
+          "time": 1787837400,
+          "close": 476.67001
+        },
+        {
+          "time": 1787923800,
+          "close": 465.57999
+        },
+        {
+          "time": 1788183000,
+          "close": 470.72
+        },
+        {
+          "time": 1788269400,
+          "close": 459.60999
+        },
+        {
+          "time": 1788355800,
+          "close": 457.06
+        },
+        {
+          "time": 1788442200,
+          "close": 456.16
+        },
+        {
+          "time": 1788528600,
+          "close": 477.57001
+        },
+        {
+          "time": 1788874200,
+          "close": 505.73999
+        },
+        {
+          "time": 1788960600,
+          "close": 521.09998
+        },
+        {
+          "time": 1789047000,
+          "close": 503.60001
+        },
+        {
+          "time": 1789133400,
+          "close": 516.13
+        },
+        {
+          "time": 1789392600,
+          "close": 493.41
+        },
+        {
+          "time": 1789479000,
+          "close": 504.20001
+        },
+        {
+          "time": 1789565400,
+          "close": 512.5
+        },
+        {
+          "time": 1789651800,
+          "close": 545.09003
+        },
+        {
+          "time": 1789738200,
+          "close": 559.82001
+        },
+        {
+          "time": 1789997400,
+          "close": 615.52002
+        },
+        {
+          "time": 1790083800,
+          "close": 623.77002
+        },
+        {
+          "time": 1790170200,
+          "close": 614.60999
+        },
+        {
+          "time": 1790256600,
+          "close": 629.26001
+        },
+        {
+          "time": 1790343000,
+          "close": 630.63
+        },
+        {
+          "time": 1790602200,
+          "close": 607.87
+        },
+        {
+          "time": 1790688600,
+          "close": 607.57001
+        },
+        {
+          "time": 1790775000,
+          "close": 611.76001
+        },
+        {
+          "time": 1790861400,
+          "close": 615.72998
+        },
+        {
+          "time": 1790947800,
+          "close": 633.90997
+        },
+        {
+          "time": 1791207000,
+          "close": 631.75
+        },
+        {
+          "time": 1791293400,
+          "close": 649.41998
+        },
+        {
+          "time": 1791379800,
+          "close": 645.85999
+        },
+        {
+          "time": 1791466200,
+          "close": 620.67999
+        },
+        {
+          "time": 1791552600,
+          "close": 608.09998
+        },
+        {
+          "time": 1791811800,
+          "close": 594.23999
+        }
+      ],
+      "currency": "USD",
+      "price": 594.239990234375,
+      "volume_source": "reported instrument volume"
+    },
+    {
+      "id": "MSFT",
+      "name": "Microsoft",
+      "category": "stock",
+      "symbol": "MSFT",
+      "timeframe": "1d",
+      "source": "Yahoo Finance chart (unofficial)",
+      "source_url": "https://finance.yahoo.com/quote/MSFT/history/",
+      "market_data_verification": "single_source",
+      "pricing_basis": "unofficial chart feed",
+      "status": "reported",
+      "error": null,
+      "bars": 250,
+      "as_of": 1791811800,
+      "score": 97,
+      "bias": "bullish",
+      "reasons": [
+        "ממוצע 20 מעל 50",
+        "מחיר מעל ממוצע 200",
+        "מומנטום 20 נרות חיובי"
+      ],
+      "flags": [
+        "פריצה שורי — תבנית בלבד, לא ראיה למניפולציה",
+        "פער שווי הוגן שורי — תבנית בלבד, לא ראיה למניפולציה"
+      ],
+      "backtest": {
+        "status": "measured",
+        "trades": 8,
+        "win_rate_pct": 50.0,
+        "total_return_pct": 10.63,
+        "max_drawdown_pct": -4.52,
+        "buy_hold_same_window_pct": 35.66,
+        "cost_bps_round_trip": 20,
+        "method": "Fixed long-only heuristic, 25% chronological holdout; next-bar OPEN, exit after 5 bars; no position sizing/borrow costs. NOT a forecast probability."
+      },
+      "data_needs": {
+        "aggressor_side_trades": "unavailable",
+        "level2_order_book": "unavailable",
+        "options_flow": "unavailable",
+        "institutional_identity": "unavailable"
+      },
+      "indicators": {
+        "close": 541.15,
+        "ema20": 515.9706,
+        "ema50": 493.4785,
+        "sma200": 434.2754,
+        "rsi14": 69.8552,
+        "atr14": 11.542,
+        "momentum20_pct": 7.0715,
+        "change_pct": 1.1363,
+        "rvol": 0.8178,
+        "cmf20": -0.0148,
+        "mfi14": 77.4126,
+        "obv_direction": 1,
+        "rolling_vwap20": 511.2232,
+        "volume_available": true,
+        "sweep": "none",
+        "breakout": "bullish",
+        "fvg": "bullish"
+      },
+      "chart": [
+        {
+          "time": 1781789400,
+          "close": 379.39999
+        },
+        {
+          "time": 1782135000,
+          "close": 367.34
+        },
+        {
+          "time": 1782221400,
+          "close": 373.94
+        },
+        {
+          "time": 1782307800,
+          "close": 365.45999
+        },
+        {
+          "time": 1782394200,
+          "close": 352.82999
+        },
+        {
+          "time": 1782480600,
+          "close": 372.97
+        },
+        {
+          "time": 1782739800,
+          "close": 368.57001
+        },
+        {
+          "time": 1782826200,
+          "close": 373.01999
+        },
+        {
+          "time": 1782912600,
+          "close": 384.28
+        },
+        {
+          "time": 1782999000,
+          "close": 390.48999
+        },
+        {
+          "time": 1783344600,
+          "close": 386.73999
+        },
+        {
+          "time": 1783431000,
+          "close": 388.84
+        },
+        {
+          "time": 1783517400,
+          "close": 383.34
+        },
+        {
+          "time": 1783603800,
+          "close": 384.35999
+        },
+        {
+          "time": 1783690200,
+          "close": 385.10001
+        },
+        {
+          "time": 1783949400,
+          "close": 390.98999
+        },
+        {
+          "time": 1784035800,
+          "close": 384.92999
+        },
+        {
+          "time": 1784122200,
+          "close": 395.63
+        },
+        {
+          "time": 1784208600,
+          "close": 401.10001
+        },
+        {
+          "time": 1784295000,
+          "close": 393.82001
+        },
+        {
+          "time": 1784554200,
+          "close": 402.29001
+        },
+        {
+          "time": 1784640600,
+          "close": 397.75
+        },
+        {
+          "time": 1784727000,
+          "close": 390.34
+        },
+        {
+          "time": 1784813400,
+          "close": 381.57999
+        },
+        {
+          "time": 1784899800,
+          "close": 381.70001
+        },
+        {
+          "time": 1785159000,
+          "close": 389.10001
+        },
+        {
+          "time": 1785245400,
+          "close": 393.35001
+        },
+        {
+          "time": 1785331800,
+          "close": 390.54001
+        },
+        {
+          "time": 1785418200,
+          "close": 451.10001
+        },
+        {
+          "time": 1785504600,
+          "close": 464.72
+        },
+        {
+          "time": 1785763800,
+          "close": 487.64999
+        },
+        {
+          "time": 1785850200,
+          "close": 492.81
+        },
+        {
+          "time": 1785936600,
+          "close": 487.45999
+        },
+        {
+          "time": 1786023000,
+          "close": 499.85999
+        },
+        {
+          "time": 1786109400,
+          "close": 499.98999
+        },
+        {
+          "time": 1786368600,
+          "close": 506.06
+        },
+        {
+          "time": 1786455000,
+          "close": 503.81
+        },
+        {
+          "time": 1786541400,
+          "close": 492.42999
+        },
+        {
+          "time": 1786627800,
+          "close": 496.88
+        },
+        {
+          "time": 1786714200,
+          "close": 495.39999
+        },
+        {
+          "time": 1786973400,
+          "close": 480.35001
+        },
+        {
+          "time": 1787059800,
+          "close": 481.63
+        },
+        {
+          "time": 1787146200,
+          "close": 484.31
+        },
+        {
+          "time": 1787232600,
+          "close": 481.14999
+        },
+        {
+          "time": 1787319000,
+          "close": 483.23999
+        },
+        {
+          "time": 1787578200,
+          "close": 487.31
+        },
+        {
+          "time": 1787664600,
+          "close": 491.70999
+        },
+        {
+          "time": 1787751000,
+          "close": 496.37
+        },
+        {
+          "time": 1787837400,
+          "close": 505.06
+        },
+        {
+          "time": 1787923800,
+          "close": 513.53003
+        },
+        {
+          "time": 1788183000,
+          "close": 507.29001
+        },
+        {
+          "time": 1788269400,
+          "close": 501.01999
+        },
+        {
+          "time": 1788355800,
+          "close": 496.82001
+        },
+        {
+          "time": 1788442200,
+          "close": 510.12
+        },
+        {
+          "time": 1788528600,
+          "close": 499.70001
+        },
+        {
+          "time": 1788874200,
+          "close": 493.95001
+        },
+        {
+          "time": 1788960600,
+          "close": 491.64999
+        },
+        {
+          "time": 1789047000,
+          "close": 492.44
+        },
+        {
+          "time": 1789133400,
+          "close": 495.63
+        },
+        {
+          "time": 1789392600,
+          "close": 505.41
+        },
+        {
+          "time": 1789479000,
+          "close": 497.12
+        },
+        {
+          "time": 1789565400,
+          "close": 490.29999
+        },
+        {
+          "time": 1789651800,
+          "close": 497.75
+        },
+        {
+          "time": 1789738200,
+          "close": 493.78
+        },
+        {
+          "time": 1789997400,
+          "close": 501.60999
+        },
+        {
+          "time": 1790083800,
+          "close": 498.0
+        },
+        {
+          "time": 1790170200,
+          "close": 500.59
+        },
+        {
+          "time": 1790256600,
+          "close": 497.92999
+        },
+        {
+          "time": 1790343000,
+          "close": 516.16998
+        },
+        {
+          "time": 1790602200,
+          "close": 509.22
+        },
+        {
+          "time": 1790688600,
+          "close": 508.95999
+        },
+        {
+          "time": 1790775000,
+          "close": 512.90002
+        },
+        {
+          "time": 1790861400,
+          "close": 512.79999
+        },
+        {
+          "time": 1790947800,
+          "close": 517.53003
+        },
+        {
+          "time": 1791207000,
+          "close": 525.17999
+        },
+        {
+          "time": 1791293400,
+          "close": 529.29999
+        },
+        {
+          "time": 1791379800,
+          "close": 529.76001
+        },
+        {
+          "time": 1791466200,
+          "close": 522.60999
+        },
+        {
+          "time": 1791552600,
+          "close": 535.07001
+        },
+        {
+          "time": 1791811800,
+          "close": 541.15002
+        }
+      ],
+      "currency": "USD",
+      "price": 541.1500244140625,
+      "volume_source": "reported instrument volume"
+    },
+    {
+      "id": "TSM",
+      "name": "TSMC ADR",
+      "category": "stock",
+      "symbol": "TSM",
+      "timeframe": "1d",
+      "source": "Yahoo Finance chart (unofficial)",
+      "source_url": "https://finance.yahoo.com/quote/TSM/history/",
+      "market_data_verification": "single_source",
+      "pricing_basis": "unofficial chart feed",
+      "status": "reported",
+      "error": null,
+      "bars": 250,
+      "as_of": 1791811800,
+      "score": 90,
+      "bias": "bullish",
+      "reasons": [
+        "ממוצע 20 מעל 50",
+        "מחיר מעל ממוצע 200",
+        "מומנטום 20 נרות חיובי",
+        "CMF חיובי (פרוקסי ללחץ קנייה)"
+      ],
+      "flags": [],
+      "backtest": {
+        "status": "measured",
+        "trades": 7,
+        "win_rate_pct": 57.1,
+        "total_return_pct": -2.68,
+        "max_drawdown_pct": -5.47,
+        "buy_hold_same_window_pct": 9.44,
+        "cost_bps_round_trip": 20,
+        "method": "Fixed long-only heuristic, 25% chronological holdout; next-bar OPEN, exit after 5 bars; no position sizing/borrow costs. NOT a forecast probability."
+      },
+      "data_needs": {
+        "aggressor_side_trades": "unavailable",
+        "level2_order_book": "unavailable",
+        "options_flow": "unavailable",
+        "institutional_identity": "unavailable"
+      },
+      "indicators": {
+        "close": 444.35,
+        "ema20": 452.9125,
+        "ema50": 438.9695,
+        "sma200": 392.5074,
+        "rsi14": 47.636,
+        "atr14": 11.3035,
+        "momentum20_pct": 6.3013,
+        "change_pct": -1.9766,
+        "rvol": 0.884,
+        "cmf20": 0.1753,
+        "mfi14": 59.6908,
+        "obv_direction": -1,
+        "rolling_vwap20": 450.449,
+        "volume_available": true,
+        "sweep": "none",
+        "breakout": "none",
+        "fvg": "none"
+      },
+      "chart": [
+        {
+          "time": 1781789400,
+          "close": 462.12
+        },
+        {
+          "time": 1782135000,
+          "close": 467.67001
+        },
+        {
+          "time": 1782221400,
+          "close": 436.39001
+        },
+        {
+          "time": 1782307800,
+          "close": 440.82999
+        },
+        {
+          "time": 1782394200,
+          "close": 434.98999
+        },
+        {
+          "time": 1782480600,
+          "close": 432.35001
+        },
+        {
+          "time": 1782739800,
+          "close": 455.10001
+        },
+        {
+          "time": 1782826200,
+          "close": 477.57001
+        },
+        {
+          "time": 1782912600,
+          "close": 444.23001
+        },
+        {
+          "time": 1782999000,
+          "close": 434.16
+        },
+        {
+          "time": 1783344600,
+          "close": 451.79001
+        },
+        {
+          "time": 1783431000,
+          "close": 432.57001
+        },
+        {
+          "time": 1783517400,
+          "close": 436.98001
+        },
+        {
+          "time": 1783603800,
+          "close": 436.95999
+        },
+        {
+          "time": 1783690200,
+          "close": 434.10999
+        },
+        {
+          "time": 1783949400,
+          "close": 421.57999
+        },
+        {
+          "time": 1784035800,
+          "close": 420.39001
+        },
+        {
+          "time": 1784122200,
+          "close": 419.48001
+        },
+        {
+          "time": 1784208600,
+          "close": 409.73999
+        },
+        {
+          "time": 1784295000,
+          "close": 398.37
+        },
+        {
+          "time": 1784554200,
+          "close": 402.29999
+        },
+        {
+          "time": 1784640600,
+          "close": 424.60999
+        },
+        {
+          "time": 1784727000,
+          "close": 421.20999
+        },
+        {
+          "time": 1784813400,
+          "close": 415.57999
+        },
+        {
+          "time": 1784899800,
+          "close": 403.41
+        },
+        {
+          "time": 1785159000,
+          "close": 399.09
+        },
+        {
+          "time": 1785245400,
+          "close": 392.31
+        },
+        {
+          "time": 1785331800,
+          "close": 374.67001
+        },
+        {
+          "time": 1785418200,
+          "close": 403.31
+        },
+        {
+          "time": 1785504600,
+          "close": 404.25
+        },
+        {
+          "time": 1785763800,
+          "close": 406.10999
+        },
+        {
+          "time": 1785850200,
+          "close": 417.17001
+        },
+        {
+          "time": 1785936600,
+          "close": 414.0
+        },
+        {
+          "time": 1786023000,
+          "close": 418.20001
+        },
+        {
+          "time": 1786109400,
+          "close": 420.04001
+        },
+        {
+          "time": 1786368600,
+          "close": 418.47
+        },
+        {
+          "time": 1786455000,
+          "close": 422.06
+        },
+        {
+          "time": 1786541400,
+          "close": 429.14999
+        },
+        {
+          "time": 1786627800,
+          "close": 430.48999
+        },
+        {
+          "time": 1786714200,
+          "close": 426.35001
+        },
+        {
+          "time": 1786973400,
+          "close": 430.97
+        },
+        {
+          "time": 1787059800,
+          "close": 413.41
+        },
+        {
+          "time": 1787146200,
+          "close": 412.09
+        },
+        {
+          "time": 1787232600,
+          "close": 416.0
+        },
+        {
+          "time": 1787319000,
+          "close": 418.95001
+        },
+        {
+          "time": 1787578200,
+          "close": 410.12
+        },
+        {
+          "time": 1787664600,
+          "close": 417.41
+        },
+        {
+          "time": 1787751000,
+          "close": 417.69
+        },
+        {
+          "time": 1787837400,
+          "close": 427.29999
+        },
+        {
+          "time": 1787923800,
+          "close": 417.51999
+        },
+        {
+          "time": 1788183000,
+          "close": 415.32001
+        },
+        {
+          "time": 1788269400,
+          "close": 414.0
+        },
+        {
+          "time": 1788355800,
+          "close": 415.5
+        },
+        {
+          "time": 1788442200,
+          "close": 417.01001
+        },
+        {
+          "time": 1788528600,
+          "close": 428.91
+        },
+        {
+          "time": 1788874200,
+          "close": 439.0
+        },
+        {
+          "time": 1788960600,
+          "close": 435.35999
+        },
+        {
+          "time": 1789047000,
+          "close": 428.03
+        },
+        {
+          "time": 1789133400,
+          "close": 433.23999
+        },
+        {
+          "time": 1789392600,
+          "close": 418.01001
+        },
+        {
+          "time": 1789479000,
+          "close": 413.75
+        },
+        {
+          "time": 1789565400,
+          "close": 417.72
+        },
+        {
+          "time": 1789651800,
+          "close": 430.26001
+        },
+        {
+          "time": 1789738200,
+          "close": 434.67001
+        },
+        {
+          "time": 1789997400,
+          "close": 445.14001
+        },
+        {
+          "time": 1790083800,
+          "close": 452.0
+        },
+        {
+          "time": 1790170200,
+          "close": 446.57001
+        },
+        {
+          "time": 1790256600,
+          "close": 451.14999
+        },
+        {
+          "time": 1790343000,
+          "close": 450.60999
+        },
+        {
+          "time": 1790602200,
+          "close": 452.88
+        },
+        {
+          "time": 1790688600,
+          "close": 456.94
+        },
+        {
+          "time": 1790775000,
+          "close": 456.19
+        },
+        {
+          "time": 1790861400,
+          "close": 459.20001
+        },
+        {
+          "time": 1790947800,
+          "close": 472.78
+        },
+        {
+          "time": 1791207000,
+          "close": 485.79999
+        },
+        {
+          "time": 1791293400,
+          "close": 482.29999
+        },
+        {
+          "time": 1791379800,
+          "close": 472.20001
+        },
+        {
+          "time": 1791466200,
+          "close": 457.98999
+        },
+        {
+          "time": 1791552600,
+          "close": 453.31
+        },
+        {
+          "time": 1791811800,
+          "close": 444.35001
+        }
+      ],
+      "currency": "USD",
+      "price": 444.3500061035156,
+      "volume_source": "reported instrument volume"
+    },
+    {
+      "id": "SPY",
+      "name": "SPDR S&P 500 ETF",
+      "category": "etf",
+      "symbol": "SPY",
+      "timeframe": "1d",
+      "source": "Yahoo Finance chart (unofficial)",
+      "source_url": "https://finance.yahoo.com/quote/SPY/history/",
+      "market_data_verification": "single_source",
+      "pricing_basis": "unofficial chart feed",
+      "status": "reported",
+      "error": null,
+      "bars": 250,
+      "as_of": 1791811800,
+      "score": 87,
+      "bias": "bullish",
+      "reasons": [
+        "ממוצע 20 מעל 50",
+        "מחיר מעל ממוצע 200",
+        "מומנטום 20 נרות חיובי"
+      ],
+      "flags": [],
+      "backtest": {
+        "status": "measured",
+        "trades": 10,
+        "win_rate_pct": 40.0,
+        "total_return_pct": -0.83,
+        "max_drawdown_pct": -3.99,
+        "buy_hold_same_window_pct": 3.17,
+        "cost_bps_round_trip": 20,
+        "method": "Fixed long-only heuristic, 25% chronological holdout; next-bar OPEN, exit after 5 bars; no position sizing/borrow costs. NOT a forecast probability."
+      },
+      "data_needs": {
+        "aggressor_side_trades": "unavailable",
+        "level2_order_book": "unavailable",
+        "options_flow": "unavailable",
+        "institutional_identity": "unavailable"
+      },
+      "indicators": {
+        "close": 778.1,
+        "ema20": 770.8022,
+        "ema50": 764.8902,
+        "sma200": 723.3791,
+        "rsi14": 59.3313,
+        "atr14": 6.3086,
+        "momentum20_pct": 2.2632,
+        "change_pct": -0.0604,
+        "rvol": 0.4171,
+        "cmf20": 0.0571,
+        "mfi14": 50.5,
+        "obv_direction": -1,
+        "rolling_vwap20": 767.3648,
+        "volume_available": true,
+        "sweep": "none",
+        "breakout": "none",
+        "fvg": "none"
+      },
+      "chart": [
+        {
+          "time": 1781789400,
+          "close": 746.73999
+        },
+        {
+          "time": 1782135000,
+          "close": 744.39001
+        },
+        {
+          "time": 1782221400,
+          "close": 733.58002
+        },
+        {
+          "time": 1782307800,
+          "close": 733.23999
+        },
+        {
+          "time": 1782394200,
+          "close": 734.29999
+        },
+        {
+          "time": 1782480600,
+          "close": 728.98999
+        },
+        {
+          "time": 1782739800,
+          "close": 741.0
+        },
+        {
+          "time": 1782826200,
+          "close": 746.77002
+        },
+        {
+          "time": 1782912600,
+          "close": 745.76001
+        },
+        {
+          "time": 1782999000,
+          "close": 744.78003
+        },
+        {
+          "time": 1783344600,
+          "close": 751.28003
+        },
+        {
+          "time": 1783431000,
+          "close": 747.71002
+        },
+        {
+          "time": 1783517400,
+          "close": 745.40002
+        },
+        {
+          "time": 1783603800,
+          "close": 751.71002
+        },
+        {
+          "time": 1783690200,
+          "close": 754.95001
+        },
+        {
+          "time": 1783949400,
+          "close": 749.16998
+        },
+        {
+          "time": 1784035800,
+          "close": 751.83002
+        },
+        {
+          "time": 1784122200,
+          "close": 754.81
+        },
+        {
+          "time": 1784208600,
+          "close": 750.71997
+        },
+        {
+          "time": 1784295000,
+          "close": 743.28998
+        },
+        {
+          "time": 1784554200,
+          "close": 742.09003
+        },
+        {
+          "time": 1784640600,
+          "close": 748.28003
+        },
+        {
+          "time": 1784727000,
+          "close": 747.40997
+        },
+        {
+          "time": 1784813400,
+          "close": 738.17999
+        },
+        {
+          "time": 1784899800,
+          "close": 738.92999
+        },
+        {
+          "time": 1785159000,
+          "close": 739.09003
+        },
+        {
+          "time": 1785245400,
+          "close": 740.85999
+        },
+        {
+          "time": 1785331800,
+          "close": 729.46002
+        },
+        {
+          "time": 1785418200,
+          "close": 741.69
+        },
+        {
+          "time": 1785504600,
+          "close": 747.03003
+        },
+        {
+          "time": 1785763800,
+          "close": 757.66998
+        },
+        {
+          "time": 1785850200,
+          "close": 771.33002
+        },
+        {
+          "time": 1785936600,
+          "close": 769.78998
+        },
+        {
+          "time": 1786023000,
+          "close": 768.56
+        },
+        {
+          "time": 1786109400,
+          "close": 773.26001
+        },
+        {
+          "time": 1786368600,
+          "close": 773.03003
+        },
+        {
+          "time": 1786455000,
+          "close": 770.56
+        },
+        {
+          "time": 1786541400,
+          "close": 772.48999
+        },
+        {
+          "time": 1786627800,
+          "close": 777.88
+        },
+        {
+          "time": 1786714200,
+          "close": 776.34003
+        },
+        {
+          "time": 1786973400,
+          "close": 772.66998
+        },
+        {
+          "time": 1787059800,
+          "close": 767.45001
+        },
+        {
+          "time": 1787146200,
+          "close": 769.06
+        },
+        {
+          "time": 1787232600,
+          "close": 762.59998
+        },
+        {
+          "time": 1787319000,
+          "close": 765.71997
+        },
+        {
+          "time": 1787578200,
+          "close": 763.46997
+        },
+        {
+          "time": 1787664600,
+          "close": 765.90997
+        },
+        {
+          "time": 1787751000,
+          "close": 766.08002
+        },
+        {
+          "time": 1787837400,
+          "close": 771.09998
+        },
+        {
+          "time": 1787923800,
+          "close": 769.34998
+        },
+        {
+          "time": 1788183000,
+          "close": 767.04999
+        },
+        {
+          "time": 1788269400,
+          "close": 761.78003
+        },
+        {
+          "time": 1788355800,
+          "close": 765.15997
+        },
+        {
+          "time": 1788442200,
+          "close": 773.16998
+        },
+        {
+          "time": 1788528600,
+          "close": 770.19
+        },
+        {
+          "time": 1788874200,
+          "close": 765.96002
+        },
+        {
+          "time": 1788960600,
+          "close": 762.40002
+        },
+        {
+          "time": 1789047000,
+          "close": 757.83002
+        },
+        {
+          "time": 1789133400,
+          "close": 764.28998
+        },
+        {
+          "time": 1789392600,
+          "close": 760.88
+        },
+        {
+          "time": 1789479000,
+          "close": 757.39001
+        },
+        {
+          "time": 1789565400,
+          "close": 754.04999
+        },
+        {
+          "time": 1789651800,
+          "close": 762.59998
+        },
+        {
+          "time": 1789738200,
+          "close": 761.69
+        },
+        {
+          "time": 1789997400,
+          "close": 773.5
+        },
+        {
+          "time": 1790083800,
+          "close": 773.38
+        },
+        {
+          "time": 1790170200,
+          "close": 767.81
+        },
+        {
+          "time": 1790256600,
+          "close": 767.17999
+        },
+        {
+          "time": 1790343000,
+          "close": 771.34998
+        },
+        {
+          "time": 1790602200,
+          "close": 765.60999
+        },
+        {
+          "time": 1790688600,
+          "close": 764.20001
+        },
+        {
+          "time": 1790775000,
+          "close": 762.63
+        },
+        {
+          "time": 1790861400,
+          "close": 763.98999
+        },
+        {
+          "time": 1790947800,
+          "close": 769.64001
+        },
+        {
+          "time": 1791207000,
+          "close": 774.83002
+        },
+        {
+          "time": 1791293400,
+          "close": 779.09003
+        },
+        {
+          "time": 1791379800,
+          "close": 777.21997
+        },
+        {
+          "time": 1791466200,
+          "close": 773.92999
+        },
+        {
+          "time": 1791552600,
+          "close": 778.57001
+        },
+        {
+          "time": 1791811800,
+          "close": 778.09998
+        }
+      ],
+      "currency": "USD",
+      "price": 778.0999755859375,
+      "volume_source": "reported instrument volume"
+    },
+    {
+      "id": "SPY",
+      "name": "SPDR S&P 500 ETF",
+      "category": "etf",
+      "symbol": "SPY",
+      "timeframe": "60m",
+      "source": "Yahoo Finance chart (unofficial)",
+      "source_url": "https://finance.yahoo.com/quote/SPY/history/",
+      "market_data_verification": "single_source",
+      "pricing_basis": "unofficial chart feed",
+      "status": "unavailable",
+      "error": "ValueError",
+      "score": null,
+      "bias": "unavailable",
+      "price": null,
+      "as_of": null,
+      "indicators": {},
+      "backtest": {
+        "status": "not_run"
+      },
+      "chart": [],
+      "reasons": [
+        "לא התקבלו מספיק נתונים אמינים מהספק"
+      ],
+      "flags": [],
+      "data_needs": {
+        "aggressor_side_trades": "unavailable",
+        "level2_order_book": "unavailable",
+        "options_flow": "unavailable",
+        "institutional_identity": "unavailable"
+      }
+    },
+    {
+      "id": "QQQ",
+      "name": "Invesco Nasdaq 100 ETF",
+      "category": "etf",
+      "symbol": "QQQ",
+      "timeframe": "1d",
+      "source": "Yahoo Finance chart (unofficial)",
+      "source_url": "https://finance.yahoo.com/quote/QQQ/history/",
+      "market_data_verification": "single_source",
+      "pricing_basis": "unofficial chart feed",
+      "status": "reported",
+      "error": null,
+      "bars": 250,
+      "as_of": 1791811800,
+      "score": 95,
+      "bias": "bullish",
+      "reasons": [
+        "ממוצע 20 מעל 50",
+        "מחיר מעל ממוצע 200",
+        "מומנטום 20 נרות חיובי",
+        "CMF חיובי (פרוקסי ללחץ קנייה)"
+      ],
+      "flags": [],
+      "backtest": {
+        "status": "measured",
+        "trades": 9,
+        "win_rate_pct": 44.4,
+        "total_return_pct": -2.29,
+        "max_drawdown_pct": -5.42,
+        "buy_hold_same_window_pct": 4.58,
+        "cost_bps_round_trip": 20,
+        "method": "Fixed long-only heuristic, 25% chronological holdout; next-bar OPEN, exit after 5 bars; no position sizing/borrow costs. NOT a forecast probability."
+      },
+      "data_needs": {
+        "aggressor_side_trades": "unavailable",
+        "level2_order_book": "unavailable",
+        "options_flow": "unavailable",
+        "institutional_identity": "unavailable"
+      },
+      "indicators": {
+        "close": 746.04,
+        "ema20": 741.0179,
+        "ema50": 728.0933,
+        "sma200": 672.7982,
+        "rsi14": 56.5646,
+        "atr14": 8.9631,
+        "momentum20_pct": 5.1976,
+        "change_pct": -0.6962,
+        "rvol": 0.7397,
+        "cmf20": 0.1467,
+        "mfi14": 49.5997,
+        "obv_direction": -1,
+        "rolling_vwap20": 737.9947,
+        "volume_available": true,
+        "sweep": "none",
+        "breakout": "none",
+        "fvg": "none"
+      },
+      "chart": [
+        {
+          "time": 1781789400,
+          "close": 740.62
+        },
+        {
+          "time": 1782135000,
+          "close": 737.95001
+        },
+        {
+          "time": 1782221400,
+          "close": 713.65002
+        },
+        {
+          "time": 1782307800,
+          "close": 710.62
+        },
+        {
+          "time": 1782394200,
+          "close": 716.38
+        },
+        {
+          "time": 1782480600,
+          "close": 706.52002
+        },
+        {
+          "time": 1782739800,
+          "close": 724.08002
+        },
+        {
+          "time": 1782826200,
+          "close": 736.40002
+        },
+        {
+          "time": 1782912600,
+          "close": 725.16998
+        },
+        {
+          "time": 1782999000,
+          "close": 712.59998
+        },
+        {
+          "time": 1783344600,
+          "close": 722.82001
+        },
+        {
+          "time": 1783431000,
+          "close": 709.42999
+        },
+        {
+          "time": 1783517400,
+          "close": 711.44
+        },
+        {
+          "time": 1783603800,
+          "close": 723.28003
+        },
+        {
+          "time": 1783690200,
+          "close": 725.51001
+        },
+        {
+          "time": 1783949400,
+          "close": 711.73999
+        },
+        {
+          "time": 1784035800,
+          "close": 719.69
+        },
+        {
+          "time": 1784122200,
+          "close": 717.73999
+        },
+        {
+          "time": 1784208600,
+          "close": 705.94
+        },
+        {
+          "time": 1784295000,
+          "close": 695.33002
+        },
+        {
+          "time": 1784554200,
+          "close": 696.06
+        },
+        {
+          "time": 1784640600,
+          "close": 708.96997
+        },
+        {
+          "time": 1784727000,
+          "close": 705.34998
+        },
+        {
+          "time": 1784813400,
+          "close": 691.96002
+        },
+        {
+          "time": 1784899800,
+          "close": 684.22998
+        },
+        {
+          "time": 1785159000,
+          "close": 682.12
+        },
+        {
+          "time": 1785245400,
+          "close": 675.48999
+        },
+        {
+          "time": 1785331800,
+          "close": 661.72998
+        },
+        {
+          "time": 1785418200,
+          "close": 683.54999
+        },
+        {
+          "time": 1785504600,
+          "close": 687.98999
+        },
+        {
+          "time": 1785763800,
+          "close": 700.07001
+        },
+        {
+          "time": 1785850200,
+          "close": 723.84998
+        },
+        {
+          "time": 1785936600,
+          "close": 717.29999
+        },
+        {
+          "time": 1786023000,
+          "close": 714.65002
+        },
+        {
+          "time": 1786109400,
+          "close": 723.03003
+        },
+        {
+          "time": 1786368600,
+          "close": 720.87
+        },
+        {
+          "time": 1786455000,
+          "close": 718.45001
+        },
+        {
+          "time": 1786541400,
+          "close": 723.70001
+        },
+        {
+          "time": 1786627800,
+          "close": 732.07001
+        },
+        {
+          "time": 1786714200,
+          "close": 731.07001
+        },
+        {
+          "time": 1786973400,
+          "close": 729.87
+        },
+        {
+          "time": 1787059800,
+          "close": 717.51001
+        },
+        {
+          "time": 1787146200,
+          "close": 716.08002
+        },
+        {
+          "time": 1787232600,
+          "close": 710.92999
+        },
+        {
+          "time": 1787319000,
+          "close": 713.44
+        },
+        {
+          "time": 1787578200,
+          "close": 706.32001
+        },
+        {
+          "time": 1787664600,
+          "close": 710.71997
+        },
+        {
+          "time": 1787751000,
+          "close": 711.37
+        },
+        {
+          "time": 1787837400,
+          "close": 721.10999
+        },
+        {
+          "time": 1787923800,
+          "close": 716.42999
+        },
+        {
+          "time": 1788183000,
+          "close": 716.76001
+        },
+        {
+          "time": 1788269400,
+          "close": 707.64001
+        },
+        {
+          "time": 1788355800,
+          "close": 709.23999
+        },
+        {
+          "time": 1788442200,
+          "close": 717.66998
+        },
+        {
+          "time": 1788528600,
+          "close": 718.96002
+        },
+        {
+          "time": 1788874200,
+          "close": 718.35999
+        },
+        {
+          "time": 1788960600,
+          "close": 716.31
+        },
+        {
+          "time": 1789047000,
+          "close": 708.69
+        },
+        {
+          "time": 1789133400,
+          "close": 714.88
+        },
+        {
+          "time": 1789392600,
+          "close": 709.17999
+        },
+        {
+          "time": 1789479000,
+          "close": 704.53998
+        },
+        {
+          "time": 1789565400,
+          "close": 704.71997
+        },
+        {
+          "time": 1789651800,
+          "close": 716.91998
+        },
+        {
+          "time": 1789738200,
+          "close": 721.45001
+        },
+        {
+          "time": 1789997400,
+          "close": 741.46997
+        },
+        {
+          "time": 1790083800,
+          "close": 747.46002
+        },
+        {
+          "time": 1790170200,
+          "close": 741.21002
+        },
+        {
+          "time": 1790256600,
+          "close": 741.09998
+        },
+        {
+          "time": 1790343000,
+          "close": 744.5
+        },
+        {
+          "time": 1790602200,
+          "close": 736.53003
+        },
+        {
+          "time": 1790688600,
+          "close": 737.92999
+        },
+        {
+          "time": 1790775000,
+          "close": 739.77002
+        },
+        {
+          "time": 1790861400,
+          "close": 742.03003
+        },
+        {
+          "time": 1790947800,
+          "close": 749.58002
+        },
+        {
+          "time": 1791207000,
+          "close": 756.20001
+        },
+        {
+          "time": 1791293400,
+          "close": 759.65997
+        },
+        {
+          "time": 1791379800,
+          "close": 757.72998
+        },
+        {
+          "time": 1791466200,
+          "close": 747.58002
+        },
+        {
+          "time": 1791552600,
+          "close": 751.27002
+        },
+        {
+          "time": 1791811800,
+          "close": 746.03998
+        }
+      ],
+      "currency": "USD",
+      "price": 746.0399780273438,
+      "volume_source": "reported instrument volume"
+    },
+    {
+      "id": "QQQ",
+      "name": "Invesco Nasdaq 100 ETF",
+      "category": "etf",
+      "symbol": "QQQ",
+      "timeframe": "60m",
+      "source": "Yahoo Finance chart (unofficial)",
+      "source_url": "https://finance.yahoo.com/quote/QQQ/history/",
+      "market_data_verification": "single_source",
+      "pricing_basis": "unofficial chart feed",
+      "status": "unavailable",
+      "error": "ValueError",
+      "score": null,
+      "bias": "unavailable",
+      "price": null,
+      "as_of": null,
+      "indicators": {},
+      "backtest": {
+        "status": "not_run"
+      },
+      "chart": [],
+      "reasons": [
+        "לא התקבלו מספיק נתונים אמינים מהספק"
+      ],
+      "flags": [],
+      "data_needs": {
+        "aggressor_side_trades": "unavailable",
+        "level2_order_book": "unavailable",
+        "options_flow": "unavailable",
+        "institutional_identity": "unavailable"
+      }
+    },
+    {
+      "id": "SMH",
+      "name": "VanEck Semiconductor ETF",
+      "category": "etf",
+      "symbol": "SMH",
+      "timeframe": "1d",
+      "source": "Yahoo Finance chart (unofficial)",
+      "source_url": "https://finance.yahoo.com/quote/SMH/history/",
+      "market_data_verification": "single_source",
+      "pricing_basis": "unofficial chart feed",
+      "status": "reported",
+      "error": null,
+      "bars": 250,
+      "as_of": 1791811800,
+      "score": 77,
+      "bias": "bullish",
+      "reasons": [
+        "ממוצע 20 מעל 50",
+        "מחיר מעל ממוצע 200",
+        "מומנטום 20 נרות חיובי"
+      ],
+      "flags": [
+        "פער שווי הוגן דובי — תבנית בלבד, לא ראיה למניפולציה"
+      ],
+      "backtest": {
+        "status": "insufficient_trades",
+        "trades": 3,
+        "method": "Long-only fixed rule; chronological 25% holdout"
+      },
+      "data_needs": {
+        "aggressor_side_trades": "unavailable",
+        "level2_order_book": "unavailable",
+        "options_flow": "unavailable",
+        "institutional_identity": "unavailable"
+      },
+      "indicators": {
+        "close": 590.99,
+        "ema20": 601.1986,
+        "ema50": 586.5138,
+        "sma200": 507.3758,
+        "rsi14": 47.6741,
+        "atr14": 14.8739,
+        "momentum20_pct": 9.1394,
+        "change_pct": -2.0453,
+        "rvol": 0.9702,
+        "cmf20": 0.0599,
+        "mfi14": 47.5587,
+        "obv_direction": -1,
+        "rolling_vwap20": 598.5238,
+        "volume_available": true,
+        "sweep": "none",
+        "breakout": "none",
+        "fvg": "bearish"
+      },
+      "chart": [
+        {
+          "time": 1781789400,
+          "close": 659.88
+        },
+        {
+          "time": 1782135000,
+          "close": 668.90997
+        },
+        {
+          "time": 1782221400,
+          "close": 622.04999
+        },
+        {
+          "time": 1782307800,
+          "close": 618.91998
+        },
+        {
+          "time": 1782394200,
+          "close": 636.88
+        },
+        {
+          "time": 1782480600,
+          "close": 611.60999
+        },
+        {
+          "time": 1782739800,
+          "close": 631.97998
+        },
+        {
+          "time": 1782826200,
+          "close": 655.89001
+        },
+        {
+          "time": 1782912600,
+          "close": 620.46002
+        },
+        {
+          "time": 1782999000,
+          "close": 592.28998
+        },
+        {
+          "time": 1783344600,
+          "close": 604.29999
+        },
+        {
+          "time": 1783431000,
+          "close": 581.45001
+        },
+        {
+          "time": 1783517400,
+          "close": 593.0
+        },
+        {
+          "time": 1783603800,
+          "close": 607.72998
+        },
+        {
+          "time": 1783690200,
+          "close": 611.03003
+        },
+        {
+          "time": 1783949400,
+          "close": 585.62
+        },
+        {
+          "time": 1784035800,
+          "close": 600.31
+        },
+        {
+          "time": 1784122200,
+          "close": 590.77002
+        },
+        {
+          "time": 1784208600,
+          "close": 568.91998
+        },
+        {
+          "time": 1784295000,
+          "close": 556.53003
+        },
+        {
+          "time": 1784554200,
+          "close": 558.83002
+        },
+        {
+          "time": 1784640600,
+          "close": 584.08002
+        },
+        {
+          "time": 1784727000,
+          "close": 586.90997
+        },
+        {
+          "time": 1784813400,
+          "close": 580.16998
+        },
+        {
+          "time": 1784899800,
+          "close": 561.19
+        },
+        {
+          "time": 1785159000,
+          "close": 548.54999
+        },
+        {
+          "time": 1785245400,
+          "close": 529.59998
+        },
+        {
+          "time": 1785331800,
+          "close": 504.22
+        },
+        {
+          "time": 1785418200,
+          "close": 538.90002
+        },
+        {
+          "time": 1785504600,
+          "close": 540.53003
+        },
+        {
+          "time": 1785763800,
+          "close": 545.46002
+        },
+        {
+          "time": 1785850200,
+          "close": 575.71002
+        },
+        {
+          "time": 1785936600,
+          "close": 569.70001
+        },
+        {
+          "time": 1786023000,
+          "close": 571.47998
+        },
+        {
+          "time": 1786109400,
+          "close": 582.70001
+        },
+        {
+          "time": 1786368600,
+          "close": 569.40997
+        },
+        {
+          "time": 1786455000,
+          "close": 572.92999
+        },
+        {
+          "time": 1786541400,
+          "close": 584.83002
+        },
+        {
+          "time": 1786627800,
+          "close": 589.12
+        },
+        {
+          "time": 1786714200,
+          "close": 587.82001
+        },
+        {
+          "time": 1786973400,
+          "close": 594.07001
+        },
+        {
+          "time": 1787059800,
+          "close": 569.77002
+        },
+        {
+          "time": 1787146200,
+          "close": 560.91998
+        },
+        {
+          "time": 1787232600,
+          "close": 562.65002
+        },
+        {
+          "time": 1787319000,
+          "close": 560.41998
+        },
+        {
+          "time": 1787578200,
+          "close": 546.79999
+        },
+        {
+          "time": 1787664600,
+          "close": 555.82001
+        },
+        {
+          "time": 1787751000,
+          "close": 555.77002
+        },
+        {
+          "time": 1787837400,
+          "close": 573.0
+        },
+        {
+          "time": 1787923800,
+          "close": 553.10999
+        },
+        {
+          "time": 1788183000,
+          "close": 556.63
+        },
+        {
+          "time": 1788269400,
+          "close": 545.21997
+        },
+        {
+          "time": 1788355800,
+          "close": 550.47998
+        },
+        {
+          "time": 1788442200,
+          "close": 552.59998
+        },
+        {
+          "time": 1788528600,
+          "close": 567.01001
+        },
+        {
+          "time": 1788874200,
+          "close": 573.72998
+        },
+        {
+          "time": 1788960600,
+          "close": 574.28998
+        },
+        {
+          "time": 1789047000,
+          "close": 560.28003
+        },
+        {
+          "time": 1789133400,
+          "close": 568.53003
+        },
+        {
+          "time": 1789392600,
+          "close": 541.5
+        },
+        {
+          "time": 1789479000,
+          "close": 542.10999
+        },
+        {
+          "time": 1789565400,
+          "close": 545.56
+        },
+        {
+          "time": 1789651800,
+          "close": 560.60999
+        },
+        {
+          "time": 1789738200,
+          "close": 573.0
+        },
+        {
+          "time": 1789997400,
+          "close": 596.03003
+        },
+        {
+          "time": 1790083800,
+          "close": 607.46002
+        },
+        {
+          "time": 1790170200,
+          "close": 601.40997
+        },
+        {
+          "time": 1790256600,
+          "close": 600.52002
+        },
+        {
+          "time": 1790343000,
+          "close": 606.56
+        },
+        {
+          "time": 1790602200,
+          "close": 600.01001
+        },
+        {
+          "time": 1790688600,
+          "close": 606.90002
+        },
+        {
+          "time": 1790775000,
+          "close": 609.0
+        },
+        {
+          "time": 1790861400,
+          "close": 617.81
+        },
+        {
+          "time": 1790947800,
+          "close": 630.59998
+        },
+        {
+          "time": 1791207000,
+          "close": 633.90002
+        },
+        {
+          "time": 1791293400,
+          "close": 632.5
+        },
+        {
+          "time": 1791379800,
+          "close": 625.03003
+        },
+        {
+          "time": 1791466200,
+          "close": 607.27002
+        },
+        {
+          "time": 1791552600,
+          "close": 603.33002
+        },
+        {
+          "time": 1791811800,
+          "close": 590.98999
+        }
+      ],
+      "currency": "USD",
+      "price": 590.989990234375,
+      "volume_source": "reported instrument volume"
+    },
+    {
+      "id": "IWM",
+      "name": "iShares Russell 2000 ETF",
+      "category": "etf",
+      "symbol": "IWM",
+      "timeframe": "1d",
+      "source": "Yahoo Finance chart (unofficial)",
+      "source_url": "https://finance.yahoo.com/quote/IWM/history/",
+      "market_data_verification": "single_source",
+      "pricing_basis": "unofficial chart feed",
+      "status": "reported",
+      "error": null,
+      "bars": 250,
+      "as_of": 1791811800,
+      "score": 21,
+      "bias": "bearish",
+      "reasons": [
+        "ממוצע 20 מתחת 50",
+        "מחיר מעל ממוצע 200",
+        "מומנטום 20 נרות שלילי",
+        "CMF שלילי (פרוקסי ללחץ מכירה)"
+      ],
+      "flags": [],
+      "backtest": {
+        "status": "measured",
+        "trades": 7,
+        "win_rate_pct": 28.6,
+        "total_return_pct": -4.04,
+        "max_drawdown_pct": -5.03,
+        "buy_hold_same_window_pct": -5.88,
+        "cost_bps_round_trip": 20,
+        "method": "Fixed long-only heuristic, 25% chronological holdout; next-bar OPEN, exit after 5 bars; no position sizing/borrow costs. NOT a forecast probability."
+      },
+      "data_needs": {
+        "aggressor_side_trades": "unavailable",
+        "level2_order_book": "unavailable",
+        "options_flow": "unavailable",
+        "institutional_identity": "unavailable"
+      },
+      "indicators": {
+        "close": 277.9,
+        "ema20": 282.2052,
+        "ema50": 287.0273,
+        "sma200": 277.1927,
+        "rsi14": 36.8354,
+        "atr14": 3.4525,
+        "momentum20_pct": -3.4768,
+        "change_pct": -0.3728,
+        "rvol": 0.6624,
+        "cmf20": -0.1125,
+        "mfi14": 32.3891,
+        "obv_direction": -1,
+        "rolling_vwap20": 281.6235,
+        "volume_available": true,
+        "sweep": "none",
+        "breakout": "none",
+        "fvg": "none"
+      },
+      "chart": [
+        {
+          "time": 1781789400,
+          "close": 295.59
+        },
+        {
+          "time": 1782135000,
+          "close": 298.17999
+        },
+        {
+          "time": 1782221400,
+          "close": 295.32001
+        },
+        {
+          "time": 1782307800,
+          "close": 296.69
+        },
+        {
+          "time": 1782394200,
+          "close": 298.91
+        },
+        {
+          "time": 1782480600,
+          "close": 299.82999
+        },
+        {
+          "time": 1782739800,
+          "close": 298.97
+        },
+        {
+          "time": 1782826200,
+          "close": 300.45001
+        },
+        {
+          "time": 1782912600,
+          "close": 299.32001
+        },
+        {
+          "time": 1782999000,
+          "close": 297.57999
+        },
+        {
+          "time": 1783344600,
+          "close": 298.89999
+        },
+        {
+          "time": 1783431000,
+          "close": 296.19
+        },
+        {
+          "time": 1783517400,
+          "close": 293.48001
+        },
+        {
+          "time": 1783603800,
+          "close": 297.23999
+        },
+        {
+          "time": 1783690200,
+          "close": 295.98999
+        },
+        {
+          "time": 1783949400,
+          "close": 293.48001
+        },
+        {
+          "time": 1784035800,
+          "close": 294.51001
+        },
+        {
+          "time": 1784122200,
+          "close": 295.76999
+        },
+        {
+          "time": 1784208600,
+          "close": 295.59
+        },
+        {
+          "time": 1784295000,
+          "close": 294.04001
+        },
+        {
+          "time": 1784554200,
+          "close": 292.31
+        },
+        {
+          "time": 1784640600,
+          "close": 296.54001
+        },
+        {
+          "time": 1784727000,
+          "close": 293.79001
+        },
+        {
+          "time": 1784813400,
+          "close": 292.09
+        },
+        {
+          "time": 1784899800,
+          "close": 291.17001
+        },
+        {
+          "time": 1785159000,
+          "close": 292.91
+        },
+        {
+          "time": 1785245400,
+          "close": 293.37
+        },
+        {
+          "time": 1785331800,
+          "close": 288.57001
+        },
+        {
+          "time": 1785418200,
+          "close": 292.59
+        },
+        {
+          "time": 1785504600,
+          "close": 291.20001
+        },
+        {
+          "time": 1785763800,
+          "close": 296.22
+        },
+        {
+          "time": 1785850200,
+          "close": 301.70999
+        },
+        {
+          "time": 1785936600,
+          "close": 299.76999
+        },
+        {
+          "time": 1786023000,
+          "close": 298.25
+        },
+        {
+          "time": 1786109400,
+          "close": 301.56
+        },
+        {
+          "time": 1786368600,
+          "close": 299.98001
+        },
+        {
+          "time": 1786455000,
+          "close": 300.98999
+        },
+        {
+          "time": 1786541400,
+          "close": 302.70999
+        },
+        {
+          "time": 1786627800,
+          "close": 303.5
+        },
+        {
+          "time": 1786714200,
+          "close": 305.09
+        },
+        {
+          "time": 1786973400,
+          "close": 304.06
+        },
+        {
+          "time": 1787059800,
+          "close": 300.23001
+        },
+        {
+          "time": 1787146200,
+          "close": 301.72
+        },
+        {
+          "time": 1787232600,
+          "close": 297.67001
+        },
+        {
+          "time": 1787319000,
+          "close": 299.95999
+        },
+        {
+          "time": 1787578200,
+          "close": 297.97
+        },
+        {
+          "time": 1787664600,
+          "close": 299.23001
+        },
+        {
+          "time": 1787751000,
+          "close": 298.92999
+        },
+        {
+          "time": 1787837400,
+          "close": 299.81
+        },
+        {
+          "time": 1787923800,
+          "close": 295.75
+        },
+        {
+          "time": 1788183000,
+          "close": 293.92999
+        },
+        {
+          "time": 1788269400,
+          "close": 290.57001
+        },
+        {
+          "time": 1788355800,
+          "close": 294.01001
+        },
+        {
+          "time": 1788442200,
+          "close": 295.19
+        },
+        {
+          "time": 1788528600,
+          "close": 296.01001
+        },
+        {
+          "time": 1788874200,
+          "close": 294.67001
+        },
+        {
+          "time": 1788960600,
+          "close": 290.64001
+        },
+        {
+          "time": 1789047000,
+          "close": 287.70001
+        },
+        {
+          "time": 1789133400,
+          "close": 288.89001
+        },
+        {
+          "time": 1789392600,
+          "close": 287.91
+        },
+        {
+          "time": 1789479000,
+          "close": 285.14001
+        },
+        {
+          "time": 1789565400,
+          "close": 283.92001
+        },
+        {
+          "time": 1789651800,
+          "close": 285.42999
+        },
+        {
+          "time": 1789738200,
+          "close": 284.10001
+        },
+        {
+          "time": 1789997400,
+          "close": 285.57999
+        },
+        {
+          "time": 1790083800,
+          "close": 287.20999
+        },
+        {
+          "time": 1790170200,
+          "close": 281.92001
+        },
+        {
+          "time": 1790256600,
+          "close": 281.66
+        },
+        {
+          "time": 1790343000,
+          "close": 281.97
+        },
+        {
+          "time": 1790602200,
+          "close": 280.01999
+        },
+        {
+          "time": 1790688600,
+          "close": 279.01001
+        },
+        {
+          "time": 1790775000,
+          "close": 277.89001
+        },
+        {
+          "time": 1790861400,
+          "close": 279.01999
+        },
+        {
+          "time": 1790947800,
+          "close": 281.51999
+        },
+        {
+          "time": 1791207000,
+          "close": 283.38
+        },
+        {
+          "time": 1791293400,
+          "close": 281.34
+        },
+        {
+          "time": 1791379800,
+          "close": 277.70001
+        },
+        {
+          "time": 1791466200,
+          "close": 277.57001
+        },
+        {
+          "time": 1791552600,
+          "close": 278.94
+        },
+        {
+          "time": 1791811800,
+          "close": 277.89999
+        }
+      ],
+      "currency": "USD",
+      "price": 277.8999938964844,
+      "volume_source": "reported instrument volume"
+    },
+    {
+      "id": "GLD",
+      "name": "SPDR Gold Shares · זהב ETF",
+      "category": "etf",
+      "symbol": "GLD",
+      "timeframe": "1d",
+      "source": "Yahoo Finance chart (unofficial)",
+      "source_url": "https://finance.yahoo.com/quote/GLD/history/",
+      "market_data_verification": "single_source",
+      "pricing_basis": "unofficial chart feed",
+      "status": "reported",
+      "error": null,
+      "bars": 250,
+      "as_of": 1791811800,
+      "score": 23,
+      "bias": "bearish",
+      "reasons": [
+        "ממוצע 20 מתחת 50",
+        "מחיר מתחת ממוצע 200",
+        "מומנטום 20 נרות שלילי"
+      ],
+      "flags": [
+        "פער שווי הוגן שורי — תבנית בלבד, לא ראיה למניפולציה"
+      ],
+      "backtest": {
+        "status": "insufficient_trades",
+        "trades": 3,
+        "method": "Long-only fixed rule; chronological 25% holdout"
+      },
+      "data_needs": {
+        "aggressor_side_trades": "unavailable",
+        "level2_order_book": "unavailable",
+        "options_flow": "unavailable",
+        "institutional_identity": "unavailable"
+      },
+      "indicators": {
+        "close": 382.15,
+        "ema20": 386.6824,
+        "ema50": 391.831,
+        "sma200": 415.4974,
+        "rsi14": 43.9337,
+        "atr14": 6.2126,
+        "momentum20_pct": -2.7212,
+        "change_pct": -0.6319,
+        "rvol": 0.5957,
+        "cmf20": 0.008,
+        "mfi14": 46.3842,
+        "obv_direction": 1,
+        "rolling_vwap20": 387.5164,
+        "volume_available": true,
+        "sweep": "none",
+        "breakout": "none",
+        "fvg": "bullish"
+      },
+      "chart": [
+        {
+          "time": 1781789400,
+          "close": 387.12
+        },
+        {
+          "time": 1782135000,
+          "close": 384.59
+        },
+        {
+          "time": 1782221400,
+          "close": 377.32001
+        },
+        {
+          "time": 1782307800,
+          "close": 365.92001
+        },
+        {
+          "time": 1782394200,
+          "close": 369.45999
+        },
+        {
+          "time": 1782480600,
+          "close": 373.63
+        },
+        {
+          "time": 1782739800,
+          "close": 368.57999
+        },
+        {
+          "time": 1782826200,
+          "close": 368.38
+        },
+        {
+          "time": 1782912600,
+          "close": 370.60001
+        },
+        {
+          "time": 1782999000,
+          "close": 378.13
+        },
+        {
+          "time": 1783344600,
+          "close": 382.13
+        },
+        {
+          "time": 1783431000,
+          "close": 377.48999
+        },
+        {
+          "time": 1783517400,
+          "close": 374.45001
+        },
+        {
+          "time": 1783603800,
+          "close": 378.17999
+        },
+        {
+          "time": 1783690200,
+          "close": 377.01001
+        },
+        {
+          "time": 1783949400,
+          "close": 367.13
+        },
+        {
+          "time": 1784035800,
+          "close": 372.14999
+        },
+        {
+          "time": 1784122200,
+          "close": 372.35001
+        },
+        {
+          "time": 1784208600,
+          "close": 364.95999
+        },
+        {
+          "time": 1784295000,
+          "close": 368.41
+        },
+        {
+          "time": 1784554200,
+          "close": 367.60001
+        },
+        {
+          "time": 1784640600,
+          "close": 374.81
+        },
+        {
+          "time": 1784727000,
+          "close": 379.12
+        },
+        {
+          "time": 1784813400,
+          "close": 371.51999
+        },
+        {
+          "time": 1784899800,
+          "close": 371.89999
+        },
+        {
+          "time": 1785159000,
+          "close": 374.63
+        },
+        {
+          "time": 1785245400,
+          "close": 369.37
+        },
+        {
+          "time": 1785331800,
+          "close": 371.07999
+        },
+        {
+          "time": 1785418200,
+          "close": 377.16
+        },
+        {
+          "time": 1785504600,
+          "close": 371.54001
+        },
+        {
+          "time": 1785763800,
+          "close": 371.70999
+        },
+        {
+          "time": 1785850200,
+          "close": 374.16
+        },
+        {
+          "time": 1785936600,
+          "close": 389.64001
+        },
+        {
+          "time": 1786023000,
+          "close": 389.67001
+        },
+        {
+          "time": 1786109400,
+          "close": 398.47
+        },
+        {
+          "time": 1786368600,
+          "close": 402.54001
+        },
+        {
+          "time": 1786455000,
+          "close": 400.95999
+        },
+        {
+          "time": 1786541400,
+          "close": 404.92001
+        },
+        {
+          "time": 1786627800,
+          "close": 398.95999
+        },
+        {
+          "time": 1786714200,
+          "close": 401.48001
+        },
+        {
+          "time": 1786973400,
+          "close": 405.48999
+        },
+        {
+          "time": 1787059800,
+          "close": 398.54999
+        },
+        {
+          "time": 1787146200,
+          "close": 413.84
+        },
+        {
+          "time": 1787232600,
+          "close": 415.26001
+        },
+        {
+          "time": 1787319000,
+          "close": 423.35999
+        },
+        {
+          "time": 1787578200,
+          "close": 426.69
+        },
+        {
+          "time": 1787664600,
+          "close": 428.07001
+        },
+        {
+          "time": 1787751000,
+          "close": 421.32001
+        },
+        {
+          "time": 1787837400,
+          "close": 422.60001
+        },
+        {
+          "time": 1787923800,
+          "close": 408.89001
+        },
+        {
+          "time": 1788183000,
+          "close": 408.42001
+        },
+        {
+          "time": 1788269400,
+          "close": 396.75
+        },
+        {
+          "time": 1788355800,
+          "close": 402.78
+        },
+        {
+          "time": 1788442200,
+          "close": 410.22
+        },
+        {
+          "time": 1788528600,
+          "close": 406.76999
+        },
+        {
+          "time": 1788874200,
+          "close": 399.72
+        },
+        {
+          "time": 1788960600,
+          "close": 403.35001
+        },
+        {
+          "time": 1789047000,
+          "close": 396.35999
+        },
+        {
+          "time": 1789133400,
+          "close": 398.76999
+        },
+        {
+          "time": 1789392600,
+          "close": 392.84
+        },
+        {
+          "time": 1789479000,
+          "close": 394.14999
+        },
+        {
+          "time": 1789565400,
+          "close": 391.73999
+        },
+        {
+          "time": 1789651800,
+          "close": 398.35999
+        },
+        {
+          "time": 1789738200,
+          "close": 401.17001
+        },
+        {
+          "time": 1789997400,
+          "close": 398.38
+        },
+        {
+          "time": 1790083800,
+          "close": 400.07001
+        },
+        {
+          "time": 1790170200,
+          "close": 392.88
+        },
+        {
+          "time": 1790256600,
+          "close": 391.69
+        },
+        {
+          "time": 1790343000,
+          "close": 393.41
+        },
+        {
+          "time": 1790602200,
+          "close": 377.91
+        },
+        {
+          "time": 1790688600,
+          "close": 382.89001
+        },
+        {
+          "time": 1790775000,
+          "close": 380.84
+        },
+        {
+          "time": 1790861400,
+          "close": 382.76001
+        },
+        {
+          "time": 1790947800,
+          "close": 380.14001
+        },
+        {
+          "time": 1791207000,
+          "close": 379.54999
+        },
+        {
+          "time": 1791293400,
+          "close": 382.26999
+        },
+        {
+          "time": 1791379800,
+          "close": 375.88
+        },
+        {
+          "time": 1791466200,
+          "close": 378.62
+        },
+        {
+          "time": 1791552600,
+          "close": 384.57999
+        },
+        {
+          "time": 1791811800,
+          "close": 382.14999
+        }
+      ],
+      "currency": "USD",
+      "price": 382.1499938964844,
+      "volume_source": "reported instrument volume"
+    },
+    {
+      "id": "USO",
+      "name": "United States Oil Fund · נפט ETF",
+      "category": "etf",
+      "symbol": "USO",
+      "timeframe": "1d",
+      "source": "Yahoo Finance chart (unofficial)",
+      "source_url": "https://finance.yahoo.com/quote/USO/history/",
+      "market_data_verification": "single_source",
+      "pricing_basis": "unofficial chart feed",
+      "status": "reported",
+      "error": null,
+      "bars": 250,
+      "as_of": 1791811800,
+      "score": 76,
+      "bias": "bullish",
+      "reasons": [
+        "ממוצע 20 מעל 50",
+        "מחיר מעל ממוצע 200",
+        "מומנטום 20 נרות שלילי"
+      ],
+      "flags": [
+        "פער שווי הוגן שורי — תבנית בלבד, לא ראיה למניפולציה"
+      ],
+      "backtest": {
+        "status": "measured",
+        "trades": 9,
+        "win_rate_pct": 33.3,
+        "total_return_pct": -3.72,
+        "max_drawdown_pct": -13.78,
+        "buy_hold_same_window_pct": 24.4,
+        "cost_bps_round_trip": 20,
+        "method": "Fixed long-only heuristic, 25% chronological holdout; next-bar OPEN, exit after 5 bars; no position sizing/borrow costs. NOT a forecast probability."
+      },
+      "data_needs": {
+        "aggressor_side_trades": "unavailable",
+        "level2_order_book": "unavailable",
+        "options_flow": "unavailable",
+        "institutional_identity": "unavailable"
+      },
+      "indicators": {
+        "close": 151.03,
+        "ema20": 147.1175,
+        "ema50": 141.4875,
+        "sma200": 117.5239,
+        "rsi14": 56.4151,
+        "atr14": 5.0987,
+        "momentum20_pct": -3.5938,
+        "change_pct": 1.9096,
+        "rvol": 0.4354,
+        "cmf20": -0.0568,
+        "mfi14": 56.964,
+        "obv_direction": 1,
+        "rolling_vwap20": 149.6145,
+        "volume_available": true,
+        "sweep": "none",
+        "breakout": "none",
+        "fvg": "bullish"
+      },
+      "chart": [
+        {
+          "time": 1781789400,
+          "close": 114.87
+        },
+        {
+          "time": 1782135000,
+          "close": 112.69
+        },
+        {
+          "time": 1782221400,
+          "close": 111.26
+        },
+        {
+          "time": 1782307800,
+          "close": 106.29
+        },
+        {
+          "time": 1782394200,
+          "close": 109.31
+        },
+        {
+          "time": 1782480600,
+          "close": 105.48
+        },
+        {
+          "time": 1782739800,
+          "close": 107.08
+        },
+        {
+          "time": 1782826200,
+          "close": 106.44
+        },
+        {
+          "time": 1782912600,
+          "close": 103.27
+        },
+        {
+          "time": 1782999000,
+          "close": 103.98
+        },
+        {
+          "time": 1783344600,
+          "close": 104.35
+        },
+        {
+          "time": 1783431000,
+          "close": 108.92
+        },
+        {
+          "time": 1783517400,
+          "close": 112.21
+        },
+        {
+          "time": 1783603800,
+          "close": 109.01
+        },
+        {
+          "time": 1783690200,
+          "close": 108.7
+        },
+        {
+          "time": 1783949400,
+          "close": 117.79
+        },
+        {
+          "time": 1784035800,
+          "close": 120.17
+        },
+        {
+          "time": 1784122200,
+          "close": 121.38
+        },
+        {
+          "time": 1784208600,
+          "close": 119.3
+        },
+        {
+          "time": 1784295000,
+          "close": 123.96
+        },
+        {
+          "time": 1784554200,
+          "close": 125.51
+        },
+        {
+          "time": 1784640600,
+          "close": 128.85001
+        },
+        {
+          "time": 1784727000,
+          "close": 131.67999
+        },
+        {
+          "time": 1784813400,
+          "close": 139.49001
+        },
+        {
+          "time": 1784899800,
+          "close": 136.69
+        },
+        {
+          "time": 1785159000,
+          "close": 124.76
+        },
+        {
+          "time": 1785245400,
+          "close": 120.49
+        },
+        {
+          "time": 1785331800,
+          "close": 129.31
+        },
+        {
+          "time": 1785418200,
+          "close": 127.48
+        },
+        {
+          "time": 1785504600,
+          "close": 129.17
+        },
+        {
+          "time": 1785763800,
+          "close": 122.12
+        },
+        {
+          "time": 1785850200,
+          "close": 115.78
+        },
+        {
+          "time": 1785936600,
+          "close": 114.88
+        },
+        {
+          "time": 1786023000,
+          "close": 118.87
+        },
+        {
+          "time": 1786109400,
+          "close": 117.98
+        },
+        {
+          "time": 1786368600,
+          "close": 125.92
+        },
+        {
+          "time": 1786455000,
+          "close": 127.61
+        },
+        {
+          "time": 1786541400,
+          "close": 127.3
+        },
+        {
+          "time": 1786627800,
+          "close": 125.03
+        },
+        {
+          "time": 1786714200,
+          "close": 126.6
+        },
+        {
+          "time": 1786973400,
+          "close": 130.28999
+        },
+        {
+          "time": 1787059800,
+          "close": 130.66
+        },
+        {
+          "time": 1787146200,
+          "close": 130.91
+        },
+        {
+          "time": 1787232600,
+          "close": 134.53999
+        },
+        {
+          "time": 1787319000,
+          "close": 134.64
+        },
+        {
+          "time": 1787578200,
+          "close": 132.21001
+        },
+        {
+          "time": 1787664600,
+          "close": 126.15
+        },
+        {
+          "time": 1787751000,
+          "close": 127.35
+        },
+        {
+          "time": 1787837400,
+          "close": 130.00999
+        },
+        {
+          "time": 1787923800,
+          "close": 129.7
+        },
+        {
+          "time": 1788183000,
+          "close": 133.7
+        },
+        {
+          "time": 1788269400,
+          "close": 141.0
+        },
+        {
+          "time": 1788355800,
+          "close": 141.14999
+        },
+        {
+          "time": 1788442200,
+          "close": 142.09
+        },
+        {
+          "time": 1788528600,
+          "close": 141.96001
+        },
+        {
+          "time": 1788874200,
+          "close": 146.03
+        },
+        {
+          "time": 1788960600,
+          "close": 149.97
+        },
+        {
+          "time": 1789047000,
+          "close": 158.38
+        },
+        {
+          "time": 1789133400,
+          "close": 154.89999
+        },
+        {
+          "time": 1789392600,
+          "close": 156.66
+        },
+        {
+          "time": 1789479000,
+          "close": 161.86
+        },
+        {
+          "time": 1789565400,
+          "close": 156.17
+        },
+        {
+          "time": 1789651800,
+          "close": 155.31
+        },
+        {
+          "time": 1789738200,
+          "close": 153.82001
+        },
+        {
+          "time": 1789997400,
+          "close": 148.16
+        },
+        {
+          "time": 1790083800,
+          "close": 144.08
+        },
+        {
+          "time": 1790170200,
+          "close": 148.83
+        },
+        {
+          "time": 1790256600,
+          "close": 153.09
+        },
+        {
+          "time": 1790343000,
+          "close": 148.33
+        },
+        {
+          "time": 1790602200,
+          "close": 150.00999
+        },
+        {
+          "time": 1790688600,
+          "close": 143.35001
+        },
+        {
+          "time": 1790775000,
+          "close": 145.66
+        },
+        {
+          "time": 1790861400,
+          "close": 150.02
+        },
+        {
+          "time": 1790947800,
+          "close": 147.37
+        },
+        {
+          "time": 1791207000,
+          "close": 143.99001
+        },
+        {
+          "time": 1791293400,
+          "close": 144.91
+        },
+        {
+          "time": 1791379800,
+          "close": 143.91
+        },
+        {
+          "time": 1791466200,
+          "close": 147.58
+        },
+        {
+          "time": 1791552600,
+          "close": 148.2
+        },
+        {
+          "time": 1791811800,
+          "close": 151.03
+        }
+      ],
+      "currency": "USD",
+      "price": 151.02999877929688,
+      "volume_source": "reported instrument volume"
+    },
+    {
+      "id": "EURUSD",
+      "name": "EUR/USD · spot indicative",
+      "category": "fx",
+      "symbol": "EURUSD=X",
+      "timeframe": "1d",
+      "source": "Yahoo Finance chart (unofficial)",
+      "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX/history/",
+      "market_data_verification": "single_source",
+      "pricing_basis": "unofficial chart feed",
+      "status": "reported",
+      "error": null,
+      "bars": 250,
+      "as_of": 1791846000,
+      "score": 18,
+      "bias": "bearish",
+      "reasons": [
+        "ממוצע 20 מתחת 50",
+        "מחיר מתחת ממוצע 200",
+        "מומנטום 20 נרות שלילי"
+      ],
+      "flags": [
+        "אין נפח מסחר אמין: RVOL/CMF/MFI/OBV לא מחושבים",
+        "נזילות שורי — תבנית בלבד, לא ראיה למניפולציה"
+      ],
+      "backtest": {
+        "status": "insufficient_trades",
+        "trades": 3,
+        "method": "Long-only fixed rule; chronological 25% holdout"
+      },
+      "data_needs": {
+        "aggressor_side_trades": "unavailable",
+        "level2_order_book": "unavailable",
+        "options_flow": "unavailable",
+        "institutional_identity": "unavailable"
+      },
+      "indicators": {
+        "close": 1.116,
+        "ema20": 1.1324,
+        "ema50": 1.1429,
+        "sma200": 1.1595,
+        "rsi14": 20.4813,
+        "atr14": 0.0064,
+        "momentum20_pct": -3.3626,
+        "change_pct": -0.3973,
+        "rvol": null,
+        "cmf20": null,
+        "mfi14": null,
+        "obv_direction": null,
+        "rolling_vwap20": null,
+        "volume_available": false,
+        "sweep": "bullish",
+        "breakout": "none",
+        "fvg": "none"
+      },
+      "chart": [
+        {
+          "time": 1782169200,
+          "close": 1.14271
+        },
+        {
+          "time": 1782255600,
+          "close": 1.13795
+        },
+        {
+          "time": 1782342000,
+          "close": 1.13542
+        },
+        {
+          "time": 1782428400,
+          "close": 1.13617
+        },
+        {
+          "time": 1782687600,
+          "close": 1.13856
+        },
+        {
+          "time": 1782774000,
+          "close": 1.1422
+        },
+        {
+          "time": 1782860400,
+          "close": 1.14133
+        },
+        {
+          "time": 1782946800,
+          "close": 1.1378
+        },
+        {
+          "time": 1783033200,
+          "close": 1.14227
+        },
+        {
+          "time": 1783292400,
+          "close": 1.14377
+        },
+        {
+          "time": 1783378800,
+          "close": 1.14418
+        },
+        {
+          "time": 1783465200,
+          "close": 1.14038
+        },
+        {
+          "time": 1783551600,
+          "close": 1.1422
+        },
+        {
+          "time": 1783638000,
+          "close": 1.14334
+        },
+        {
+          "time": 1783897200,
+          "close": 1.14045
+        },
+        {
+          "time": 1783983600,
+          "close": 1.13843
+        },
+        {
+          "time": 1784070000,
+          "close": 1.14247
+        },
+        {
+          "time": 1784156400,
+          "close": 1.14703
+        },
+        {
+          "time": 1784242800,
+          "close": 1.14447
+        },
+        {
+          "time": 1784502000,
+          "close": 1.14277
+        },
+        {
+          "time": 1784588400,
+          "close": 1.14181
+        },
+        {
+          "time": 1784674800,
+          "close": 1.14038
+        },
+        {
+          "time": 1784761200,
+          "close": 1.14117
+        },
+        {
+          "time": 1784847600,
+          "close": 1.13768
+        },
+        {
+          "time": 1785106800,
+          "close": 1.1395
+        },
+        {
+          "time": 1785193200,
+          "close": 1.13695
+        },
+        {
+          "time": 1785279600,
+          "close": 1.13865
+        },
+        {
+          "time": 1785366000,
+          "close": 1.14672
+        },
+        {
+          "time": 1785452400,
+          "close": 1.15235
+        },
+        {
+          "time": 1785711600,
+          "close": 1.1544
+        },
+        {
+          "time": 1785798000,
+          "close": 1.15073
+        },
+        {
+          "time": 1785884400,
+          "close": 1.15324
+        },
+        {
+          "time": 1785970800,
+          "close": 1.15574
+        },
+        {
+          "time": 1786057200,
+          "close": 1.15247
+        },
+        {
+          "time": 1786316400,
+          "close": 1.15564
+        },
+        {
+          "time": 1786402800,
+          "close": 1.15464
+        },
+        {
+          "time": 1786489200,
+          "close": 1.15437
+        },
+        {
+          "time": 1786575600,
+          "close": 1.153
+        },
+        {
+          "time": 1786662000,
+          "close": 1.15354
+        },
+        {
+          "time": 1787007600,
+          "close": 1.15828
+        },
+        {
+          "time": 1787094000,
+          "close": 1.15794
+        },
+        {
+          "time": 1787180400,
+          "close": 1.16738
+        },
+        {
+          "time": 1787266800,
+          "close": 1.16878
+        },
+        {
+          "time": 1787526000,
+          "close": 1.16816
+        },
+        {
+          "time": 1787612400,
+          "close": 1.16683
+        },
+        {
+          "time": 1787698800,
+          "close": 1.16747
+        },
+        {
+          "time": 1787785200,
+          "close": 1.16549
+        },
+        {
+          "time": 1787871600,
+          "close": 1.16564
+        },
+        {
+          "time": 1788130800,
+          "close": 1.1589
+        },
+        {
+          "time": 1788217200,
+          "close": 1.16176
+        },
+        {
+          "time": 1788303600,
+          "close": 1.15955
+        },
+        {
+          "time": 1788390000,
+          "close": 1.15853
+        },
+        {
+          "time": 1788476400,
+          "close": 1.16283
+        },
+        {
+          "time": 1788735600,
+          "close": 1.1614
+        },
+        {
+          "time": 1788822000,
+          "close": 1.16276
+        },
+        {
+          "time": 1788908400,
+          "close": 1.16274
+        },
+        {
+          "time": 1788994800,
+          "close": 1.16339
+        },
+        {
+          "time": 1789081200,
+          "close": 1.161
+        },
+        {
+          "time": 1789340400,
+          "close": 1.15939
+        },
+        {
+          "time": 1789426800,
+          "close": 1.15485
+        },
+        {
+          "time": 1789513200,
+          "close": 1.15376
+        },
+        {
+          "time": 1789599600,
+          "close": 1.14699
+        },
+        {
+          "time": 1789686000,
+          "close": 1.1476
+        },
+        {
+          "time": 1789945200,
+          "close": 1.14797
+        },
+        {
+          "time": 1790031600,
+          "close": 1.14646
+        },
+        {
+          "time": 1790118000,
+          "close": 1.14479
+        },
+        {
+          "time": 1790204400,
+          "close": 1.13819
+        },
+        {
+          "time": 1790290800,
+          "close": 1.13748
+        },
+        {
+          "time": 1790550000,
+          "close": 1.1378
+        },
+        {
+          "time": 1790636400,
+          "close": 1.13727
+        },
+        {
+          "time": 1790722800,
+          "close": 1.13408
+        },
+        {
+          "time": 1790809200,
+          "close": 1.13272
+        },
+        {
+          "time": 1790895600,
+          "close": 1.12499
+        },
+        {
+          "time": 1791154800,
+          "close": 1.12545
+        },
+        {
+          "time": 1791241200,
+          "close": 1.12171
+        },
+        {
+          "time": 1791327600,
+          "close": 1.12535
+        },
+        {
+          "time": 1791414000,
+          "close": 1.12013
+        },
+        {
+          "time": 1791500400,
+          "close": 1.1213
+        },
+        {
+          "time": 1791759600,
+          "close": 1.12047
+        },
+        {
+          "time": 1791846000,
+          "close": 1.11602
+        }
+      ],
+      "currency": "quote currency",
+      "price": 1.1160216331481934,
+      "volume_source": "unavailable"
+    },
+    {
+      "id": "EURUSD",
+      "name": "EUR/USD · spot indicative",
+      "category": "fx",
+      "symbol": "EURUSD=X",
+      "timeframe": "60m",
+      "source": "Yahoo Finance chart (unofficial)",
+      "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX/history/",
+      "market_data_verification": "single_source",
+      "pricing_basis": "unofficial chart feed",
+      "status": "reported",
+      "error": null,
+      "bars": 1414,
+      "as_of": 1791964800,
+      "score": 58,
+      "bias": "neutral",
+      "reasons": [
+        "ממוצע 20 מעל 50",
+        "מחיר מתחת ממוצע 200"
+      ],
+      "flags": [
+        "אין נפח מסחר אמין: RVOL/CMF/MFI/OBV לא מחושבים"
+      ],
+      "backtest": {
+        "status": "insufficient_trades",
+        "trades": 1,
+        "method": "Long-only fixed rule; chronological 25% holdout"
+      },
+      "data_needs": {
+        "aggressor_side_trades": "unavailable",
+        "level2_order_book": "unavailable",
+        "options_flow": "unavailable",
+        "institutional_identity": "unavailable"
+      },
+      "indicators": {
+        "close": 1.1198,
+        "ema20": 1.1202,
+        "ema50": 1.1197,
+        "sma200": 1.1214,
+        "rsi14": 48.5498,
+        "atr14": 0.0007,
+        "momentum20_pct": -0.0112,
+        "change_pct": -0.0448,
+        "rvol": null,
+        "cmf20": null,
+        "mfi14": null,
+        "obv_direction": null,
+        "rolling_vwap20": null,
+        "volume_available": false,
+        "sweep": "none",
+        "breakout": "none",
+        "fvg": "none"
+      },
+      "chart": [
+        {
+          "time": 1791504000,
+          "close": 1.12221
+        },
+        {
+          "time": 1791507600,
+          "close": 1.12296
+        },
+        {
+          "time": 1791511200,
+          "close": 1.12309
+        },
+        {
+          "time": 1791514800,
+          "close": 1.12296
+        },
+        {
+          "time": 1791518400,
+          "close": 1.12322
+        },
+        {
+          "time": 1791522000,
+          "close": 1.12347
+        },
+        {
+          "time": 1791525600,
+          "close": 1.12284
+        },
+        {
+          "time": 1791529200,
+          "close": 1.12347
+        },
+        {
+          "time": 1791532800,
+          "close": 1.12208
+        },
+        {
+          "time": 1791536400,
+          "close": 1.12196
+        },
+        {
+          "time": 1791540000,
+          "close": 1.12108
+        },
+        {
+          "time": 1791543600,
+          "close": 1.1212
+        },
+        {
+          "time": 1791547200,
+          "close": 1.12007
+        },
+        {
+          "time": 1791550800,
+          "close": 1.1197
+        },
+        {
+          "time": 1791554400,
+          "close": 1.11995
+        },
+        {
+          "time": 1791558000,
+          "close": 1.11957
+        },
+        {
+          "time": 1791561600,
+          "close": 1.11932
+        },
+        {
+          "time": 1791565200,
+          "close": 1.11995
+        },
+        {
+          "time": 1791568800,
+          "close": 1.12057
+        },
+        {
+          "time": 1791572400,
+          "close": 1.12032
+        },
+        {
+          "time": 1791576000,
+          "close": 1.12057
+        },
+        {
+          "time": 1791579600,
+          "close": 1.12057
+        },
+        {
+          "time": 1791759600,
+          "close": 1.1207
+        },
+        {
+          "time": 1791763200,
+          "close": 1.12183
+        },
+        {
+          "time": 1791766800,
+          "close": 1.12171
+        },
+        {
+          "time": 1791770400,
+          "close": 1.12095
+        },
+        {
+          "time": 1791774000,
+          "close": 1.12133
+        },
+        {
+          "time": 1791777600,
+          "close": 1.12108
+        },
+        {
+          "time": 1791781200,
+          "close": 1.12057
+        },
+        {
+          "time": 1791784800,
+          "close": 1.12095
+        },
+        {
+          "time": 1791788400,
+          "close": 1.12057
+        },
+        {
+          "time": 1791792000,
+          "close": 1.11957
+        },
+        {
+          "time": 1791795600,
+          "close": 1.11844
+        },
+        {
+          "time": 1791799200,
+          "close": 1.11844
+        },
+        {
+          "time": 1791802800,
+          "close": 1.11794
+        },
+        {
+          "time": 1791806400,
+          "close": 1.11794
+        },
+        {
+          "time": 1791810000,
+          "close": 1.11794
+        },
+        {
+          "time": 1791813600,
+          "close": 1.11757
+        },
+        {
+          "time": 1791817200,
+          "close": 1.11607
+        },
+        {
+          "time": 1791820800,
+          "close": 1.1162
+        },
+        {
+          "time": 1791824400,
+          "close": 1.1162
+        },
+        {
+          "time": 1791828000,
+          "close": 1.11595
+        },
+        {
+          "time": 1791831600,
+          "close": 1.1157
+        },
+        {
+          "time": 1791835200,
+          "close": 1.11595
+        },
+        {
+          "time": 1791838800,
+          "close": 1.11632
+        },
+        {
+          "time": 1791842400,
+          "close": 1.11595
+        },
+        {
+          "time": 1791846000,
+          "close": 1.11632
+        },
+        {
+          "time": 1791849600,
+          "close": 1.1162
+        },
+        {
+          "time": 1791853200,
+          "close": 1.11744
+        },
+        {
+          "time": 1791856800,
+          "close": 1.11807
+        },
+        {
+          "time": 1791860400,
+          "close": 1.11794
+        },
+        {
+          "time": 1791864000,
+          "close": 1.11744
+        },
+        {
+          "time": 1791867600,
+          "close": 1.11819
+        },
+        {
+          "time": 1791871200,
+          "close": 1.11819
+        },
+        {
+          "time": 1791874800,
+          "close": 1.11919
+        },
+        {
+          "time": 1791878400,
+          "close": 1.11857
+        },
+        {
+          "time": 1791882000,
+          "close": 1.11832
+        },
+        {
+          "time": 1791885600,
+          "close": 1.11882
+        },
+        {
+          "time": 1791889200,
+          "close": 1.11907
+        },
+        {
+          "time": 1791892800,
+          "close": 1.11995
+        },
+        {
+          "time": 1791896400,
+          "close": 1.11907
+        },
+        {
+          "time": 1791900000,
+          "close": 1.1197
+        },
+        {
+          "time": 1791903600,
+          "close": 1.11982
+        },
+        {
+          "time": 1791907200,
+          "close": 1.11932
+        },
+        {
+          "time": 1791910800,
+          "close": 1.1197
+        },
+        {
+          "time": 1791914400,
+          "close": 1.12032
+        },
+        {
+          "time": 1791918000,
+          "close": 1.12007
+        },
+        {
+          "time": 1791921600,
+          "close": 1.12007
+        },
+        {
+          "time": 1791925200,
+          "close": 1.11995
+        },
+        {
+          "time": 1791928800,
+          "close": 1.12007
+        },
+        {
+          "time": 1791932400,
+          "close": 1.12045
+        },
+        {
+          "time": 1791936000,
+          "close": 1.1207
+        },
+        {
+          "time": 1791939600,
+          "close": 1.12095
+        },
+        {
+          "time": 1791943200,
+          "close": 1.12133
+        },
+        {
+          "time": 1791946800,
+          "close": 1.12108
+        },
+        {
+          "time": 1791950400,
+          "close": 1.12133
+        },
+        {
+          "time": 1791954000,
+          "close": 1.12082
+        },
+        {
+          "time": 1791957600,
+          "close": 1.1212
+        },
+        {
+          "time": 1791961200,
+          "close": 1.12032
+        },
+        {
+          "time": 1791964800,
+          "close": 1.11982
+        }
+      ],
+      "currency": "quote currency",
+      "price": 1.1198208332061768,
+      "volume_source": "unavailable"
+    },
+    {
+      "id": "GBPUSD",
+      "name": "GBP/USD · spot indicative",
+      "category": "fx",
+      "symbol": "GBPUSD=X",
+      "timeframe": "1d",
+      "source": "Yahoo Finance chart (unofficial)",
+      "source_url": "https://finance.yahoo.com/quote/GBPUSD%3DX/history/",
+      "market_data_verification": "single_source",
+      "pricing_basis": "unofficial chart feed",
+      "status": "reported",
+      "error": null,
+      "bars": 256,
+      "as_of": 1791846000,
+      "score": 13,
+      "bias": "bearish",
+      "reasons": [
+        "ממוצע 20 מתחת 50",
+        "מחיר מתחת ממוצע 200",
+        "מומנטום 20 נרות שלילי"
+      ],
+      "flags": [
+        "אין נפח מסחר אמין: RVOL/CMF/MFI/OBV לא מחושבים"
+      ],
+      "backtest": {
+        "status": "measured",
+        "trades": 7,
+        "win_rate_pct": 28.6,
+        "total_return_pct": -2.59,
+        "max_drawdown_pct": -2.59,
+        "buy_hold_same_window_pct": -2.63,
+        "cost_bps_round_trip": 20,
+        "method": "Fixed long-only heuristic, 25% chronological holdout; next-bar OPEN, exit after 5 bars; no position sizing/borrow costs. NOT a forecast probability."
+      },
+      "data_needs": {
+        "aggressor_side_trades": "unavailable",
+        "level2_order_book": "unavailable",
+        "options_flow": "unavailable",
+        "institutional_identity": "unavailable"
+      },
+      "indicators": {
+        "close": 1.321,
+        "ema20": 1.3288,
+        "ema50": 1.3367,
+        "sma200": 1.3439,
+        "rsi14": 37.6266,
+        "atr14": 0.0068,
+        "momentum20_pct": -2.1564,
+        "change_pct": -0.2396,
+        "rvol": null,
+        "cmf20": null,
+        "mfi14": null,
+        "obv_direction": null,
+        "rolling_vwap20": null,
+        "volume_available": false,
+        "sweep": "none",
+        "breakout": "none",
+        "fvg": "none"
+      },
+      "chart": [
+        {
+          "time": 1782169200,
+          "close": 1.32471
+        },
+        {
+          "time": 1782255600,
+          "close": 1.32001
+        },
+        {
+          "time": 1782342000,
+          "close": 1.31666
+        },
+        {
+          "time": 1782428400,
+          "close": 1.31879
+        },
+        {
+          "time": 1782687600,
+          "close": 1.31971
+        },
+        {
+          "time": 1782774000,
+          "close": 1.3254
+        },
+        {
+          "time": 1782860400,
+          "close": 1.32507
+        },
+        {
+          "time": 1782946800,
+          "close": 1.32793
+        },
+        {
+          "time": 1783033200,
+          "close": 1.33387
+        },
+        {
+          "time": 1783292400,
+          "close": 1.33531
+        },
+        {
+          "time": 1783378800,
+          "close": 1.33979
+        },
+        {
+          "time": 1783465200,
+          "close": 1.33489
+        },
+        {
+          "time": 1783551600,
+          "close": 1.33962
+        },
+        {
+          "time": 1783638000,
+          "close": 1.34156
+        },
+        {
+          "time": 1783897200,
+          "close": 1.33869
+        },
+        {
+          "time": 1783983600,
+          "close": 1.33479
+        },
+        {
+          "time": 1784070000,
+          "close": 1.33971
+        },
+        {
+          "time": 1784156400,
+          "close": 1.35413
+        },
+        {
+          "time": 1784242800,
+          "close": 1.34789
+        },
+        {
+          "time": 1784502000,
+          "close": 1.34463
+        },
+        {
+          "time": 1784588400,
+          "close": 1.34317
+        },
+        {
+          "time": 1784674800,
+          "close": 1.33792
+        },
+        {
+          "time": 1784761200,
+          "close": 1.33752
+        },
+        {
+          "time": 1784847600,
+          "close": 1.33127
+        },
+        {
+          "time": 1785106800,
+          "close": 1.33513
+        },
+        {
+          "time": 1785193200,
+          "close": 1.32899
+        },
+        {
+          "time": 1785279600,
+          "close": 1.32873
+        },
+        {
+          "time": 1785366000,
+          "close": 1.33673
+        },
+        {
+          "time": 1785452400,
+          "close": 1.34609
+        },
+        {
+          "time": 1785711600,
+          "close": 1.34916
+        },
+        {
+          "time": 1785798000,
+          "close": 1.3427
+        },
+        {
+          "time": 1785884400,
+          "close": 1.3451
+        },
+        {
+          "time": 1785970800,
+          "close": 1.34696
+        },
+        {
+          "time": 1786057200,
+          "close": 1.34553
+        },
+        {
+          "time": 1786316400,
+          "close": 1.34907
+        },
+        {
+          "time": 1786402800,
+          "close": 1.35113
+        },
+        {
+          "time": 1786489200,
+          "close": 1.35099
+        },
+        {
+          "time": 1786575600,
+          "close": 1.34978
+        },
+        {
+          "time": 1786662000,
+          "close": 1.34907
+        },
+        {
+          "time": 1787007600,
+          "close": 1.35503
+        },
+        {
+          "time": 1787094000,
+          "close": 1.35367
+        },
+        {
+          "time": 1787180400,
+          "close": 1.35999
+        },
+        {
+          "time": 1787266800,
+          "close": 1.36435
+        },
+        {
+          "time": 1787526000,
+          "close": 1.36536
+        },
+        {
+          "time": 1787612400,
+          "close": 1.36383
+        },
+        {
+          "time": 1787698800,
+          "close": 1.3647
+        },
+        {
+          "time": 1787785200,
+          "close": 1.35969
+        },
+        {
+          "time": 1787871600,
+          "close": 1.35971
+        },
+        {
+          "time": 1788130800,
+          "close": 1.35404
+        },
+        {
+          "time": 1788217200,
+          "close": 1.35501
+        },
+        {
+          "time": 1788303600,
+          "close": 1.35153
+        },
+        {
+          "time": 1788390000,
+          "close": 1.34836
+        },
+        {
+          "time": 1788476400,
+          "close": 1.35318
+        },
+        {
+          "time": 1788735600,
+          "close": 1.35172
+        },
+        {
+          "time": 1788822000,
+          "close": 1.35468
+        },
+        {
+          "time": 1788908400,
+          "close": 1.35446
+        },
+        {
+          "time": 1788994800,
+          "close": 1.3552
+        },
+        {
+          "time": 1789081200,
+          "close": 1.35093
+        },
+        {
+          "time": 1789340400,
+          "close": 1.35258
+        },
+        {
+          "time": 1789426800,
+          "close": 1.35009
+        },
+        {
+          "time": 1789513200,
+          "close": 1.34735
+        },
+        {
+          "time": 1789599600,
+          "close": 1.33829
+        },
+        {
+          "time": 1789686000,
+          "close": 1.3358
+        },
+        {
+          "time": 1789945200,
+          "close": 1.33887
+        },
+        {
+          "time": 1790031600,
+          "close": 1.33709
+        },
+        {
+          "time": 1790118000,
+          "close": 1.33431
+        },
+        {
+          "time": 1790204400,
+          "close": 1.32415
+        },
+        {
+          "time": 1790290800,
+          "close": 1.32107
+        },
+        {
+          "time": 1790550000,
+          "close": 1.32293
+        },
+        {
+          "time": 1790636400,
+          "close": 1.32543
+        },
+        {
+          "time": 1790722800,
+          "close": 1.32328
+        },
+        {
+          "time": 1790809200,
+          "close": 1.32644
+        },
+        {
+          "time": 1790895600,
+          "close": 1.31996
+        },
+        {
+          "time": 1791154800,
+          "close": 1.32429
+        },
+        {
+          "time": 1791241200,
+          "close": 1.32186
+        },
+        {
+          "time": 1791327600,
+          "close": 1.32668
+        },
+        {
+          "time": 1791414000,
+          "close": 1.32149
+        },
+        {
+          "time": 1791500400,
+          "close": 1.32291
+        },
+        {
+          "time": 1791759600,
+          "close": 1.32415
+        },
+        {
+          "time": 1791846000,
+          "close": 1.32098
+        }
+      ],
+      "currency": "quote currency",
+      "price": 1.3209795951843262,
+      "volume_source": "unavailable"
+    },
+    {
+      "id": "USDJPY",
+      "name": "USD/JPY · spot indicative",
+      "category": "fx",
+      "symbol": "JPY=X",
+      "timeframe": "1d",
+      "source": "Yahoo Finance chart (unofficial)",
+      "source_url": "https://finance.yahoo.com/quote/JPY%3DX/history/",
+      "market_data_verification": "single_source",
+      "pricing_basis": "unofficial chart feed",
+      "status": "reported",
+      "error": null,
+      "bars": 244,
+      "as_of": 1791759600,
+      "score": 39,
+      "bias": "neutral",
+      "reasons": [
+        "ממוצע 20 מתחת 50",
+        "מחיר מתחת ממוצע 200",
+        "מומנטום 20 נרות חיובי"
+      ],
+      "flags": [
+        "אין נפח מסחר אמין: RVOL/CMF/MFI/OBV לא מחושבים"
+      ],
+      "backtest": {
+        "status": "insufficient_trades",
+        "trades": 2,
+        "method": "Long-only fixed rule; chronological 25% holdout"
+      },
+      "data_needs": {
+        "aggressor_side_trades": "unavailable",
+        "level2_order_book": "unavailable",
+        "options_flow": "unavailable",
+        "institutional_identity": "unavailable"
+      },
+      "indicators": {
+        "close": 158.203,
+        "ema20": 157.6384,
+        "ema50": 158.0823,
+        "sma200": 158.4037,
+        "rsi14": 54.6834,
+        "atr14": 1.1593,
+        "momentum20_pct": 2.4087,
+        "change_pct": 0.0886,
+        "rvol": null,
+        "cmf20": null,
+        "mfi14": null,
+        "obv_direction": null,
+        "rolling_vwap20": null,
+        "volume_available": false,
+        "sweep": "none",
+        "breakout": "none",
+        "fvg": "none"
+      },
+      "chart": [
+        {
+          "time": 1781564400,
+          "close": 160.229
+        },
+        {
+          "time": 1781650800,
+          "close": 160.41901
+        },
+        {
+          "time": 1781737200,
+          "close": 160.60001
+        },
+        {
+          "time": 1781823600,
+          "close": 161.289
+        },
+        {
+          "time": 1782082800,
+          "close": 161.433
+        },
+        {
+          "time": 1782169200,
+          "close": 161.57001
+        },
+        {
+          "time": 1782255600,
+          "close": 161.599
+        },
+        {
+          "time": 1782342000,
+          "close": 161.763
+        },
+        {
+          "time": 1782428400,
+          "close": 161.80499
+        },
+        {
+          "time": 1782687600,
+          "close": 161.787
+        },
+        {
+          "time": 1782774000,
+          "close": 161.923
+        },
+        {
+          "time": 1782860400,
+          "close": 162.62801
+        },
+        {
+          "time": 1782946800,
+          "close": 162.539
+        },
+        {
+          "time": 1783033200,
+          "close": 161.44901
+        },
+        {
+          "time": 1783378800,
+          "close": 162.088
+        },
+        {
+          "time": 1783465200,
+          "close": 162.36301
+        },
+        {
+          "time": 1783551600,
+          "close": 162.539
+        },
+        {
+          "time": 1783638000,
+          "close": 162.36301
+        },
+        {
+          "time": 1783983600,
+          "close": 162.429
+        },
+        {
+          "time": 1784070000,
+          "close": 162.187
+        },
+        {
+          "time": 1784156400,
+          "close": 162.07201
+        },
+        {
+          "time": 1784242800,
+          "close": 162.37601
+        },
+        {
+          "time": 1784502000,
+          "close": 162.51199
+        },
+        {
+          "time": 1784588400,
+          "close": 162.487
+        },
+        {
+          "time": 1784674800,
+          "close": 163.186
+        },
+        {
+          "time": 1784761200,
+          "close": 163.08099
+        },
+        {
+          "time": 1784847600,
+          "close": 163.832
+        },
+        {
+          "time": 1785106800,
+          "close": 163.61099
+        },
+        {
+          "time": 1785193200,
+          "close": 163.771
+        },
+        {
+          "time": 1785279600,
+          "close": 163.864
+        },
+        {
+          "time": 1785366000,
+          "close": 163.3
+        },
+        {
+          "time": 1785452400,
+          "close": 160.183
+        },
+        {
+          "time": 1785711600,
+          "close": 157.582
+        },
+        {
+          "time": 1785798000,
+          "close": 157.52901
+        },
+        {
+          "time": 1785884400,
+          "close": 157.692
+        },
+        {
+          "time": 1785970800,
+          "close": 157.60001
+        },
+        {
+          "time": 1786057200,
+          "close": 158.409
+        },
+        {
+          "time": 1786316400,
+          "close": 157.89101
+        },
+        {
+          "time": 1786402800,
+          "close": 159.15601
+        },
+        {
+          "time": 1786489200,
+          "close": 159.265
+        },
+        {
+          "time": 1786575600,
+          "close": 159.328
+        },
+        {
+          "time": 1786662000,
+          "close": 159.42599
+        },
+        {
+          "time": 1786921200,
+          "close": 159.22301
+        },
+        {
+          "time": 1787007600,
+          "close": 159.34
+        },
+        {
+          "time": 1787180400,
+          "close": 158.276
+        },
+        {
+          "time": 1787266800,
+          "close": 158.883
+        },
+        {
+          "time": 1787526000,
+          "close": 158.90401
+        },
+        {
+          "time": 1787612400,
+          "close": 159.13901
+        },
+        {
+          "time": 1787698800,
+          "close": 159.22301
+        },
+        {
+          "time": 1787785200,
+          "close": 159.255
+        },
+        {
+          "time": 1787871600,
+          "close": 159.321
+        },
+        {
+          "time": 1788217200,
+          "close": 159.74699
+        },
+        {
+          "time": 1788303600,
+          "close": 160.196
+        },
+        {
+          "time": 1788390000,
+          "close": 158.923
+        },
+        {
+          "time": 1788476400,
+          "close": 155.66
+        },
+        {
+          "time": 1788735600,
+          "close": 156.19701
+        },
+        {
+          "time": 1788822000,
+          "close": 153.855
+        },
+        {
+          "time": 1788908400,
+          "close": 153.478
+        },
+        {
+          "time": 1788994800,
+          "close": 153.573
+        },
+        {
+          "time": 1789081200,
+          "close": 154.48199
+        },
+        {
+          "time": 1789340400,
+          "close": 153.424
+        },
+        {
+          "time": 1789513200,
+          "close": 155.26601
+        },
+        {
+          "time": 1789599600,
+          "close": 156.01401
+        },
+        {
+          "time": 1789686000,
+          "close": 156.129
+        },
+        {
+          "time": 1789945200,
+          "close": 157.04601
+        },
+        {
+          "time": 1790031600,
+          "close": 157.369
+        },
+        {
+          "time": 1790118000,
+          "close": 157.464
+        },
+        {
+          "time": 1790204400,
+          "close": 158.265
+        },
+        {
+          "time": 1790290800,
+          "close": 158.811
+        },
+        {
+          "time": 1790550000,
+          "close": 157.463
+        },
+        {
+          "time": 1790636400,
+          "close": 157.36099
+        },
+        {
+          "time": 1790722800,
+          "close": 157.40401
+        },
+        {
+          "time": 1790809200,
+          "close": 157.558
+        },
+        {
+          "time": 1790895600,
+          "close": 157.927
+        },
+        {
+          "time": 1791154800,
+          "close": 157.73399
+        },
+        {
+          "time": 1791241200,
+          "close": 157.963
+        },
+        {
+          "time": 1791327600,
+          "close": 158.29601
+        },
+        {
+          "time": 1791414000,
+          "close": 158.06
+        },
+        {
+          "time": 1791500400,
+          "close": 158.063
+        },
+        {
+          "time": 1791759600,
+          "close": 158.203
+        }
+      ],
+      "currency": "quote currency",
+      "price": 158.2030029296875,
+      "volume_source": "unavailable"
+    },
+    {
+      "id": "GC_F",
+      "name": "חוזה עתידי זהב · GC",
+      "category": "futures",
+      "symbol": "GC=F",
+      "timeframe": "1d",
+      "source": "Yahoo Finance chart (unofficial)",
+      "source_url": "https://finance.yahoo.com/quote/GC%3DF/history/",
+      "market_data_verification": "single_source",
+      "pricing_basis": "unofficial chart feed",
+      "status": "reported",
+      "error": null,
+      "bars": 251,
+      "as_of": 1791864000,
+      "score": 10,
+      "bias": "bearish",
+      "reasons": [
+        "ממוצע 20 מתחת 50",
+        "מחיר מתחת ממוצע 200",
+        "מומנטום 20 נרות שלילי",
+        "CMF שלילי (פרוקסי ללחץ מכירה)"
+      ],
+      "flags": [],
+      "backtest": {
+        "status": "insufficient_trades",
+        "trades": 4,
+        "method": "Long-only fixed rule; chronological 25% holdout"
+      },
+      "data_needs": {
+        "aggressor_side_trades": "unavailable",
+        "level2_order_book": "unavailable",
+        "options_flow": "unavailable",
+        "institutional_identity": "unavailable"
+      },
+      "indicators": {
+        "close": 4177.2998,
+        "ema20": 4242.5116,
+        "ema50": 4304.4424,
+        "sma200": 4544.815,
+        "rsi14": 40.2606,
+        "atr14": 84.8696,
+        "momentum20_pct": -3.5889,
+        "change_pct": -0.3174,
+        "rvol": 0.665,
+        "cmf20": -0.0975,
+        "mfi14": 37.02,
+        "obv_direction": -1,
+        "rolling_vwap20": 4261.0754,
+        "volume_available": true,
+        "sweep": "none",
+        "breakout": "none",
+        "fvg": "none"
+      },
+      "chart": [
+        {
+          "time": 1782100800,
+          "close": 4202.7002
+        },
+        {
+          "time": 1782187200,
+          "close": 4149.3999
+        },
+        {
+          "time": 1782273600,
+          "close": 4008.80005
+        },
+        {
+          "time": 1782360000,
+          "close": 4047.6001
+        },
+        {
+          "time": 1782446400,
+          "close": 4096.2998
+        },
+        {
+          "time": 1782705600,
+          "close": 4038.8999
+        },
+        {
+          "time": 1782792000,
+          "close": 4038.5
+        },
+        {
+          "time": 1782878400,
+          "close": 4082.3999
+        },
+        {
+          "time": 1782964800,
+          "close": 4125.7002
+        },
+        {
+          "time": 1783310400,
+          "close": 4167.5
+        },
+        {
+          "time": 1783396800,
+          "close": 4157.3999
+        },
+        {
+          "time": 1783483200,
+          "close": 4082.3999
+        },
+        {
+          "time": 1783569600,
+          "close": 4140.7998
+        },
+        {
+          "time": 1783656000,
+          "close": 4113.7002
+        },
+        {
+          "time": 1783915200,
+          "close": 4005.69995
+        },
+        {
+          "time": 1784001600,
+          "close": 4069.69995
+        },
+        {
+          "time": 1784088000,
+          "close": 4051.80005
+        },
+        {
+          "time": 1784174400,
+          "close": 3992.1001
+        },
+        {
+          "time": 1784260800,
+          "close": 4018.80005
+        },
+        {
+          "time": 1784520000,
+          "close": 4015.8999
+        },
+        {
+          "time": 1784606400,
+          "close": 4076.3999
+        },
+        {
+          "time": 1784692800,
+          "close": 4151.8999
+        },
+        {
+          "time": 1784779200,
+          "close": 4050.19995
+        },
+        {
+          "time": 1784865600,
+          "close": 4070.80005
+        },
+        {
+          "time": 1785124800,
+          "close": 4077.0
+        },
+        {
+          "time": 1785211200,
+          "close": 4038.69995
+        },
+        {
+          "time": 1785297600,
+          "close": 4036.30005
+        },
+        {
+          "time": 1785384000,
+          "close": 4100.1001
+        },
+        {
+          "time": 1785470400,
+          "close": 4107.0
+        },
+        {
+          "time": 1785729600,
+          "close": 4090.5
+        },
+        {
+          "time": 1785816000,
+          "close": 4152.6001
+        },
+        {
+          "time": 1785902400,
+          "close": 4305.2002
+        },
+        {
+          "time": 1785988800,
+          "close": 4299.6001
+        },
+        {
+          "time": 1786075200,
+          "close": 4399.7002
+        },
+        {
+          "time": 1786334400,
+          "close": 4419.7002
+        },
+        {
+          "time": 1786420800,
+          "close": 4441.1001
+        },
+        {
+          "time": 1786507200,
+          "close": 4467.5
+        },
+        {
+          "time": 1786593600,
+          "close": 4420.3999
+        },
+        {
+          "time": 1786680000,
+          "close": 4437.2998
+        },
+        {
+          "time": 1786939200,
+          "close": 4473.7002
+        },
+        {
+          "time": 1787025600,
+          "close": 4420.6001
+        },
+        {
+          "time": 1787112000,
+          "close": 4545.2998
+        },
+        {
+          "time": 1787198400,
+          "close": 4571.3999
+        },
+        {
+          "time": 1787284800,
+          "close": 4680.6001
+        },
+        {
+          "time": 1787544000,
+          "close": 4697.7998
+        },
+        {
+          "time": 1787630400,
+          "close": 4694.5
+        },
+        {
+          "time": 1787716800,
+          "close": 4653.2998
+        },
+        {
+          "time": 1787803200,
+          "close": 4664.0
+        },
+        {
+          "time": 1787889600,
+          "close": 4529.8999
+        },
+        {
+          "time": 1788148800,
+          "close": 4481.5
+        },
+        {
+          "time": 1788235200,
+          "close": 4396.3999
+        },
+        {
+          "time": 1788321600,
+          "close": 4414.6001
+        },
+        {
+          "time": 1788408000,
+          "close": 4539.8999
+        },
+        {
+          "time": 1788494400,
+          "close": 4476.6001
+        },
+        {
+          "time": 1788840000,
+          "close": 4439.0
+        },
+        {
+          "time": 1788926400,
+          "close": 4460.7002
+        },
+        {
+          "time": 1789012800,
+          "close": 4407.2998
+        },
+        {
+          "time": 1789099200,
+          "close": 4408.8999
+        },
+        {
+          "time": 1789358400,
+          "close": 4351.8999
+        },
+        {
+          "time": 1789444800,
+          "close": 4332.7998
+        },
+        {
+          "time": 1789531200,
+          "close": 4387.5
+        },
+        {
+          "time": 1789617600,
+          "close": 4399.7002
+        },
+        {
+          "time": 1789704000,
+          "close": 4424.8999
+        },
+        {
+          "time": 1789963200,
+          "close": 4383.8999
+        },
+        {
+          "time": 1790049600,
+          "close": 4376.3999
+        },
+        {
+          "time": 1790136000,
+          "close": 4318.3999
+        },
+        {
+          "time": 1790222400,
+          "close": 4298.0
+        },
+        {
+          "time": 1790308800,
+          "close": 4321.2002
+        },
+        {
+          "time": 1790568000,
+          "close": 4168.3999
+        },
+        {
+          "time": 1790654400,
+          "close": 4179.7002
+        },
+        {
+          "time": 1790740800,
+          "close": 4186.7002
+        },
+        {
+          "time": 1790827200,
+          "close": 4202.2998
+        },
+        {
+          "time": 1790913600,
+          "close": 4162.2998
+        },
+        {
+          "time": 1791172800,
+          "close": 4156.7998
+        },
+        {
+          "time": 1791259200,
+          "close": 4187.1001
+        },
+        {
+          "time": 1791345600,
+          "close": 4140.7002
+        },
+        {
+          "time": 1791432000,
+          "close": 4157.0
+        },
+        {
+          "time": 1791518400,
+          "close": 4216.2998
+        },
+        {
+          "time": 1791777600,
+          "close": 4190.6001
+        },
+        {
+          "time": 1791864000,
+          "close": 4177.2998
+        }
+      ],
+      "currency": "USD",
+      "price": 4177.2998046875,
+      "volume_source": "reported instrument volume"
+    },
+    {
+      "id": "BZ_F",
+      "name": "חוזה עתידי Brent · BZ",
+      "category": "futures",
+      "symbol": "BZ=F",
+      "timeframe": "1d",
+      "source": "Yahoo Finance chart (unofficial)",
+      "source_url": "https://finance.yahoo.com/quote/BZ%3DF/history/",
+      "market_data_verification": "single_source",
+      "pricing_basis": "unofficial chart feed",
+      "status": "reported",
+      "error": null,
+      "bars": 251,
+      "as_of": 1791864000,
+      "score": 79,
+      "bias": "bullish",
+      "reasons": [
+        "ממוצע 20 מעל 50",
+        "מחיר מעל ממוצע 200",
+        "מומנטום 20 נרות שלילי",
+        "CMF חיובי (פרוקסי ללחץ קנייה)"
+      ],
+      "flags": [],
+      "backtest": {
+        "status": "measured",
+        "trades": 7,
+        "win_rate_pct": 57.1,
+        "total_return_pct": -0.85,
+        "max_drawdown_pct": -13.92,
+        "buy_hold_same_window_pct": 24.3,
+        "cost_bps_round_trip": 20,
+        "method": "Fixed long-only heuristic, 25% chronological holdout; next-bar OPEN, exit after 5 bars; no position sizing/borrow costs. NOT a forecast probability."
+      },
+      "data_needs": {
+        "aggressor_side_trades": "unavailable",
+        "level2_order_book": "unavailable",
+        "options_flow": "unavailable",
+        "institutional_identity": "unavailable"
+      },
+      "indicators": {
+        "close": 105.69,
+        "ema20": 102.6804,
+        "ema50": 98.539,
+        "sma200": 89.222,
+        "rsi14": 58.8915,
+        "atr14": 4.2909,
+        "momentum20_pct": -2.8138,
+        "change_pct": -0.9001,
+        "rvol": 0.8126,
+        "cmf20": 0.2105,
+        "mfi14": 61.8097,
+        "obv_direction": 1,
+        "rolling_vwap20": 102.8965,
+        "volume_available": true,
+        "sweep": "none",
+        "breakout": "none",
+        "fvg": "none"
+      },
+      "chart": [
+        {
+          "time": 1782100800,
+          "close": 77.9
+        },
+        {
+          "time": 1782187200,
+          "close": 77.08
+        },
+        {
+          "time": 1782273600,
+          "close": 73.74
+        },
+        {
+          "time": 1782360000,
+          "close": 75.26
+        },
+        {
+          "time": 1782446400,
+          "close": 71.99
+        },
+        {
+          "time": 1782705600,
+          "close": 73.15
+        },
+        {
+          "time": 1782792000,
+          "close": 72.92
+        },
+        {
+          "time": 1782878400,
+          "close": 71.57
+        },
+        {
+          "time": 1782964800,
+          "close": 71.8
+        },
+        {
+          "time": 1783310400,
+          "close": 71.99
+        },
+        {
+          "time": 1783396800,
+          "close": 74.16
+        },
+        {
+          "time": 1783483200,
+          "close": 78.02
+        },
+        {
+          "time": 1783569600,
+          "close": 76.3
+        },
+        {
+          "time": 1783656000,
+          "close": 76.01
+        },
+        {
+          "time": 1783915200,
+          "close": 83.3
+        },
+        {
+          "time": 1784001600,
+          "close": 84.73
+        },
+        {
+          "time": 1784088000,
+          "close": 84.95
+        },
+        {
+          "time": 1784174400,
+          "close": 84.23
+        },
+        {
+          "time": 1784260800,
+          "close": 88.1
+        },
+        {
+          "time": 1784520000,
+          "close": 89.22
+        },
+        {
+          "time": 1784606400,
+          "close": 91.01
+        },
+        {
+          "time": 1784692800,
+          "close": 94.07
+        },
+        {
+          "time": 1784779200,
+          "close": 100.69
+        },
+        {
+          "time": 1784865600,
+          "close": 96.78
+        },
+        {
+          "time": 1785124800,
+          "close": 88.36
+        },
+        {
+          "time": 1785211200,
+          "close": 84.09
+        },
+        {
+          "time": 1785297600,
+          "close": 90.74
+        },
+        {
+          "time": 1785384000,
+          "close": 89.03
+        },
+        {
+          "time": 1785470400,
+          "close": 90.12
+        },
+        {
+          "time": 1785729600,
+          "close": 83.77
+        },
+        {
+          "time": 1785816000,
+          "close": 79.36
+        },
+        {
+          "time": 1785902400,
+          "close": 79.45
+        },
+        {
+          "time": 1785988800,
+          "close": 82.49
+        },
+        {
+          "time": 1786075200,
+          "close": 83.55
+        },
+        {
+          "time": 1786334400,
+          "close": 87.72
+        },
+        {
+          "time": 1786420800,
+          "close": 88.91
+        },
+        {
+          "time": 1786507200,
+          "close": 88.98
+        },
+        {
+          "time": 1786593600,
+          "close": 87.07
+        },
+        {
+          "time": 1786680000,
+          "close": 88.52
+        },
+        {
+          "time": 1786939200,
+          "close": 90.87
+        },
+        {
+          "time": 1787025600,
+          "close": 91.02
+        },
+        {
+          "time": 1787112000,
+          "close": 91.62
+        },
+        {
+          "time": 1787198400,
+          "close": 93.78
+        },
+        {
+          "time": 1787284800,
+          "close": 94.39
+        },
+        {
+          "time": 1787544000,
+          "close": 92.17
+        },
+        {
+          "time": 1787630400,
+          "close": 88.58
+        },
+        {
+          "time": 1787716800,
+          "close": 87.84
+        },
+        {
+          "time": 1787803200,
+          "close": 89.7
+        },
+        {
+          "time": 1787889600,
+          "close": 89.31
+        },
+        {
+          "time": 1788148800,
+          "close": 90.49
+        },
+        {
+          "time": 1788235200,
+          "close": 94.65
+        },
+        {
+          "time": 1788321600,
+          "close": 95.63
+        },
+        {
+          "time": 1788408000,
+          "close": 95.52
+        },
+        {
+          "time": 1788494400,
+          "close": 96.28
+        },
+        {
+          "time": 1788840000,
+          "close": 97.92
+        },
+        {
+          "time": 1788926400,
+          "close": 101.21
+        },
+        {
+          "time": 1789012800,
+          "close": 107.63
+        },
+        {
+          "time": 1789099200,
+          "close": 104.61
+        },
+        {
+          "time": 1789358400,
+          "close": 105.68
+        },
+        {
+          "time": 1789444800,
+          "close": 108.75
+        },
+        {
+          "time": 1789531200,
+          "close": 105.83
+        },
+        {
+          "time": 1789617600,
+          "close": 104.82
+        },
+        {
+          "time": 1789704000,
+          "close": 103.87
+        },
+        {
+          "time": 1789963200,
+          "close": 100.34
+        },
+        {
+          "time": 1790049600,
+          "close": 99.25
+        },
+        {
+          "time": 1790136000,
+          "close": 103.08
+        },
+        {
+          "time": 1790222400,
+          "close": 106.6
+        },
+        {
+          "time": 1790308800,
+          "close": 104.32
+        },
+        {
+          "time": 1790568000,
+          "close": 105.28
+        },
+        {
+          "time": 1790654400,
+          "close": 102.59
+        },
+        {
+          "time": 1790740800,
+          "close": 103.53
+        },
+        {
+          "time": 1790827200,
+          "close": 102.31
+        },
+        {
+          "time": 1790913600,
+          "close": 102.25
+        },
+        {
+          "time": 1791172800,
+          "close": 100.32
+        },
+        {
+          "time": 1791259200,
+          "close": 100.58
+        },
+        {
+          "time": 1791345600,
+          "close": 100.2
+        },
+        {
+          "time": 1791432000,
+          "close": 104.28
+        },
+        {
+          "time": 1791518400,
+          "close": 104.72
+        },
+        {
+          "time": 1791777600,
+          "close": 106.65
+        },
+        {
+          "time": 1791864000,
+          "close": 105.69
+        }
+      ],
+      "currency": "USD",
+      "price": 105.69000244140625,
+      "volume_source": "reported instrument volume"
+    },
+    {
+      "id": "BTC",
+      "name": "Bitcoin · Kraken XBT/USD",
+      "category": "crypto",
+      "symbol": "XBTUSD",
+      "timeframe": "1d",
+      "source": "Kraken",
+      "source_url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "market_data_verification": "single_source",
+      "pricing_basis": "Kraken exchange OHLCV",
+      "status": "reported",
+      "error": null,
+      "bars": 720,
+      "as_of": 1791849600,
+      "score": 71,
+      "bias": "bullish",
+      "reasons": [
+        "ממוצע 20 מעל 50",
+        "מחיר מעל ממוצע 200",
+        "CMF שלילי (פרוקסי ללחץ מכירה)"
+      ],
+      "flags": [],
+      "backtest": {
+        "status": "measured",
+        "trades": 13,
+        "win_rate_pct": 46.2,
+        "total_return_pct": 20.16,
+        "max_drawdown_pct": -4.85,
+        "buy_hold_same_window_pct": 7.56,
+        "cost_bps_round_trip": 20,
+        "method": "Fixed long-only heuristic, 25% chronological holdout; next-bar OPEN, exit after 5 bars; no position sizing/borrow costs. NOT a forecast probability."
+      },
+      "data_needs": {
+        "aggressor_side_trades": "unavailable",
+        "level2_order_book": "unavailable",
+        "options_flow": "unavailable",
+        "institutional_identity": "unavailable"
+      },
+      "indicators": {
+        "close": 83101.2,
+        "ema20": 83108.614,
+        "ema50": 80203.5641,
+        "sma200": 72128.139,
+        "rsi14": 51.8899,
+        "atr14": 2183.2078,
+        "momentum20_pct": -1.5209,
+        "change_pct": 1.6689,
+        "rvol": 1.2068,
+        "cmf20": -0.1149,
+        "mfi14": 51.4526,
+        "obv_direction": 1,
+        "rolling_vwap20": 83971.1559,
+        "volume_available": true,
+        "sweep": "none",
+        "breakout": "none",
+        "fvg": "none"
+      },
+      "chart": [
+        {
+          "time": 1785024000,
+          "close": 65336.6
+        },
+        {
+          "time": 1785110400,
+          "close": 63697.1
+        },
+        {
+          "time": 1785196800,
+          "close": 63859.6
+        },
+        {
+          "time": 1785283200,
+          "close": 63901.0
+        },
+        {
+          "time": 1785369600,
+          "close": 64723.0
+        },
+        {
+          "time": 1785456000,
+          "close": 62822.0
+        },
+        {
+          "time": 1785542400,
+          "close": 62760.0
+        },
+        {
+          "time": 1785628800,
+          "close": 63500.0
+        },
+        {
+          "time": 1785715200,
+          "close": 63461.7
+        },
+        {
+          "time": 1785801600,
+          "close": 64053.7
+        },
+        {
+          "time": 1785888000,
+          "close": 64599.2
+        },
+        {
+          "time": 1785974400,
+          "close": 64259.2
+        },
+        {
+          "time": 1786060800,
+          "close": 64886.1
+        },
+        {
+          "time": 1786147200,
+          "close": 64901.1
+        },
+        {
+          "time": 1786233600,
+          "close": 64860.0
+        },
+        {
+          "time": 1786320000,
+          "close": 63922.1
+        },
+        {
+          "time": 1786406400,
+          "close": 63541.1
+        },
+        {
+          "time": 1786492800,
+          "close": 63412.0
+        },
+        {
+          "time": 1786579200,
+          "close": 63423.3
+        },
+        {
+          "time": 1786665600,
+          "close": 62979.4
+        },
+        {
+          "time": 1786752000,
+          "close": 63024.3
+        },
+        {
+          "time": 1786838400,
+          "close": 62819.1
+        },
+        {
+          "time": 1786924800,
+          "close": 64471.7
+        },
+        {
+          "time": 1787011200,
+          "close": 64677.2
+        },
+        {
+          "time": 1787097600,
+          "close": 69285.0
+        },
+        {
+          "time": 1787184000,
+          "close": 73001.1
+        },
+        {
+          "time": 1787270400,
+          "close": 78327.2
+        },
+        {
+          "time": 1787356800,
+          "close": 77082.6
+        },
+        {
+          "time": 1787443200,
+          "close": 77737.5
+        },
+        {
+          "time": 1787529600,
+          "close": 78966.1
+        },
+        {
+          "time": 1787616000,
+          "close": 78509.4
+        },
+        {
+          "time": 1787702400,
+          "close": 79008.6
+        },
+        {
+          "time": 1787788800,
+          "close": 80265.9
+        },
+        {
+          "time": 1787875200,
+          "close": 77841.8
+        },
+        {
+          "time": 1787961600,
+          "close": 78227.8
+        },
+        {
+          "time": 1788048000,
+          "close": 77681.6
+        },
+        {
+          "time": 1788134400,
+          "close": 78566.1
+        },
+        {
+          "time": 1788220800,
+          "close": 77398.1
+        },
+        {
+          "time": 1788307200,
+          "close": 77305.1
+        },
+        {
+          "time": 1788393600,
+          "close": 81276.1
+        },
+        {
+          "time": 1788480000,
+          "close": 79676.4
+        },
+        {
+          "time": 1788566400,
+          "close": 79828.4
+        },
+        {
+          "time": 1788652800,
+          "close": 80334.3
+        },
+        {
+          "time": 1788739200,
+          "close": 79090.3
+        },
+        {
+          "time": 1788825600,
+          "close": 78449.6
+        },
+        {
+          "time": 1788912000,
+          "close": 78288.6
+        },
+        {
+          "time": 1788998400,
+          "close": 76542.0
+        },
+        {
+          "time": 1789084800,
+          "close": 77210.9
+        },
+        {
+          "time": 1789171200,
+          "close": 77264.9
+        },
+        {
+          "time": 1789257600,
+          "close": 76800.2
+        },
+        {
+          "time": 1789344000,
+          "close": 78193.1
+        },
+        {
+          "time": 1789430400,
+          "close": 75585.1
+        },
+        {
+          "time": 1789516800,
+          "close": 76146.1
+        },
+        {
+          "time": 1789603200,
+          "close": 76354.8
+        },
+        {
+          "time": 1789689600,
+          "close": 80878.1
+        },
+        {
+          "time": 1789776000,
+          "close": 81226.5
+        },
+        {
+          "time": 1789862400,
+          "close": 81164.0
+        },
+        {
+          "time": 1789948800,
+          "close": 86593.8
+        },
+        {
+          "time": 1790035200,
+          "close": 86196.7
+        },
+        {
+          "time": 1790121600,
+          "close": 84384.6
+        },
+        {
+          "time": 1790208000,
+          "close": 84380.0
+        },
+        {
+          "time": 1790294400,
+          "close": 84090.5
+        },
+        {
+          "time": 1790380800,
+          "close": 84426.7
+        },
+        {
+          "time": 1790467200,
+          "close": 84444.2
+        },
+        {
+          "time": 1790553600,
+          "close": 83462.7
+        },
+        {
+          "time": 1790640000,
+          "close": 83633.4
+        },
+        {
+          "time": 1790726400,
+          "close": 83564.7
+        },
+        {
+          "time": 1790812800,
+          "close": 84849.1
+        },
+        {
+          "time": 1790899200,
+          "close": 84503.7
+        },
+        {
+          "time": 1790985600,
+          "close": 84740.0
+        },
+        {
+          "time": 1791072000,
+          "close": 86510.4
+        },
+        {
+          "time": 1791158400,
+          "close": 85751.5
+        },
+        {
+          "time": 1791244800,
+          "close": 85542.1
+        },
+        {
+          "time": 1791331200,
+          "close": 83276.1
+        },
+        {
+          "time": 1791417600,
+          "close": 81683.8
+        },
+        {
+          "time": 1791504000,
+          "close": 82559.4
+        },
+        {
+          "time": 1791590400,
+          "close": 82912.7
+        },
+        {
+          "time": 1791676800,
+          "close": 83675.6
+        },
+        {
+          "time": 1791763200,
+          "close": 81737.1
+        },
+        {
+          "time": 1791849600,
+          "close": 83101.2
+        }
+      ],
+      "currency": "USD",
+      "price": 83101.2,
+      "volume_source": "exchange volume"
+    },
+    {
+      "id": "BTC",
+      "name": "Bitcoin · Kraken XBT/USD",
+      "category": "crypto",
+      "symbol": "XBTUSD",
+      "timeframe": "60m",
+      "source": "Kraken",
+      "source_url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "market_data_verification": "single_source",
+      "pricing_basis": "Kraken exchange OHLCV",
+      "status": "reported",
+      "error": null,
+      "bars": 720,
+      "as_of": 1791964800,
+      "score": 74,
+      "bias": "bullish",
+      "reasons": [
+        "ממוצע 20 מעל 50",
+        "מחיר מעל ממוצע 200"
+      ],
+      "flags": [
+        "נזילות דובי — תבנית בלבד, לא ראיה למניפולציה"
+      ],
+      "backtest": {
+        "status": "measured",
+        "trades": 6,
+        "win_rate_pct": 16.7,
+        "total_return_pct": -2.64,
+        "max_drawdown_pct": -2.64,
+        "buy_hold_same_window_pct": -2.83,
+        "cost_bps_round_trip": 20,
+        "method": "Fixed long-only heuristic, 25% chronological holdout; next-bar OPEN, exit after 8 bars; no position sizing/borrow costs. NOT a forecast probability."
+      },
+      "data_needs": {
+        "aggressor_side_trades": "unavailable",
+        "level2_order_book": "unavailable",
+        "options_flow": "unavailable",
+        "institutional_identity": "unavailable"
+      },
+      "indicators": {
+        "close": 83353.1,
+        "ema20": 83352.6742,
+        "ema50": 83233.686,
+        "sma200": 83306.6815,
+        "rsi14": 50.9076,
+        "atr14": 396.0462,
+        "momentum20_pct": 0.1282,
+        "change_pct": -0.1634,
+        "rvol": 1.147,
+        "cmf20": -0.0684,
+        "mfi14": 67.1509,
+        "obv_direction": -1,
+        "rolling_vwap20": 83344.3558,
+        "volume_available": true,
+        "sweep": "bearish",
+        "breakout": "none",
+        "fvg": "none"
+      },
+      "chart": [
+        {
+          "time": 1791680400,
+          "close": 82953.8
+        },
+        {
+          "time": 1791684000,
+          "close": 83010.5
+        },
+        {
+          "time": 1791687600,
+          "close": 82736.6
+        },
+        {
+          "time": 1791691200,
+          "close": 82940.2
+        },
+        {
+          "time": 1791694800,
+          "close": 82966.1
+        },
+        {
+          "time": 1791698400,
+          "close": 83086.1
+        },
+        {
+          "time": 1791702000,
+          "close": 82942.1
+        },
+        {
+          "time": 1791705600,
+          "close": 82958.3
+        },
+        {
+          "time": 1791709200,
+          "close": 82960.7
+        },
+        {
+          "time": 1791712800,
+          "close": 82924.7
+        },
+        {
+          "time": 1791716400,
+          "close": 83079.7
+        },
+        {
+          "time": 1791720000,
+          "close": 83030.3
+        },
+        {
+          "time": 1791723600,
+          "close": 82999.1
+        },
+        {
+          "time": 1791727200,
+          "close": 83038.9
+        },
+        {
+          "time": 1791730800,
+          "close": 83801.5
+        },
+        {
+          "time": 1791734400,
+          "close": 83829.2
+        },
+        {
+          "time": 1791738000,
+          "close": 83750.1
+        },
+        {
+          "time": 1791741600,
+          "close": 83590.9
+        },
+        {
+          "time": 1791745200,
+          "close": 83576.3
+        },
+        {
+          "time": 1791748800,
+          "close": 83580.1
+        },
+        {
+          "time": 1791752400,
+          "close": 83436.8
+        },
+        {
+          "time": 1791756000,
+          "close": 83559.1
+        },
+        {
+          "time": 1791759600,
+          "close": 83675.6
+        },
+        {
+          "time": 1791763200,
+          "close": 83870.9
+        },
+        {
+          "time": 1791766800,
+          "close": 83573.7
+        },
+        {
+          "time": 1791770400,
+          "close": 83738.3
+        },
+        {
+          "time": 1791774000,
+          "close": 83513.2
+        },
+        {
+          "time": 1791777600,
+          "close": 84041.4
+        },
+        {
+          "time": 1791781200,
+          "close": 83930.4
+        },
+        {
+          "time": 1791784800,
+          "close": 84128.6
+        },
+        {
+          "time": 1791788400,
+          "close": 83901.4
+        },
+        {
+          "time": 1791792000,
+          "close": 83419.8
+        },
+        {
+          "time": 1791795600,
+          "close": 83463.5
+        },
+        {
+          "time": 1791799200,
+          "close": 83421.0
+        },
+        {
+          "time": 1791802800,
+          "close": 83315.5
+        },
+        {
+          "time": 1791806400,
+          "close": 82672.3
+        },
+        {
+          "time": 1791810000,
+          "close": 82882.5
+        },
+        {
+          "time": 1791813600,
+          "close": 82499.0
+        },
+        {
+          "time": 1791817200,
+          "close": 82641.1
+        },
+        {
+          "time": 1791820800,
+          "close": 82401.6
+        },
+        {
+          "time": 1791824400,
+          "close": 82410.0
+        },
+        {
+          "time": 1791828000,
+          "close": 82338.6
+        },
+        {
+          "time": 1791831600,
+          "close": 82755.7
+        },
+        {
+          "time": 1791835200,
+          "close": 82990.1
+        },
+        {
+          "time": 1791838800,
+          "close": 82473.5
+        },
+        {
+          "time": 1791842400,
+          "close": 82055.2
+        },
+        {
+          "time": 1791846000,
+          "close": 81737.1
+        },
+        {
+          "time": 1791849600,
+          "close": 81343.7
+        },
+        {
+          "time": 1791853200,
+          "close": 82345.3
+        },
+        {
+          "time": 1791856800,
+          "close": 82831.0
+        },
+        {
+          "time": 1791860400,
+          "close": 83221.5
+        },
+        {
+          "time": 1791864000,
+          "close": 83347.9
+        },
+        {
+          "time": 1791867600,
+          "close": 83573.7
+        },
+        {
+          "time": 1791871200,
+          "close": 83666.8
+        },
+        {
+          "time": 1791874800,
+          "close": 83769.8
+        },
+        {
+          "time": 1791878400,
+          "close": 83487.5
+        },
+        {
+          "time": 1791882000,
+          "close": 83523.5
+        },
+        {
+          "time": 1791885600,
+          "close": 83234.2
+        },
+        {
+          "time": 1791889200,
+          "close": 83253.5
+        },
+        {
+          "time": 1791892800,
+          "close": 83246.4
+        },
+        {
+          "time": 1791896400,
+          "close": 83169.1
+        },
+        {
+          "time": 1791900000,
+          "close": 83424.0
+        },
+        {
+          "time": 1791903600,
+          "close": 83338.2
+        },
+        {
+          "time": 1791907200,
+          "close": 83300.1
+        },
+        {
+          "time": 1791910800,
+          "close": 82999.1
+        },
+        {
+          "time": 1791914400,
+          "close": 83057.1
+        },
+        {
+          "time": 1791918000,
+          "close": 83203.3
+        },
+        {
+          "time": 1791921600,
+          "close": 83343.5
+        },
+        {
+          "time": 1791925200,
+          "close": 83459.2
+        },
+        {
+          "time": 1791928800,
+          "close": 83453.0
+        },
+        {
+          "time": 1791932400,
+          "close": 83101.2
+        },
+        {
+          "time": 1791936000,
+          "close": 83339.2
+        },
+        {
+          "time": 1791939600,
+          "close": 83247.8
+        },
+        {
+          "time": 1791943200,
+          "close": 83572.4
+        },
+        {
+          "time": 1791946800,
+          "close": 83623.9
+        },
+        {
+          "time": 1791950400,
+          "close": 83670.5
+        },
+        {
+          "time": 1791954000,
+          "close": 83378.0
+        },
+        {
+          "time": 1791957600,
+          "close": 83349.5
+        },
+        {
+          "time": 1791961200,
+          "close": 83489.5
+        },
+        {
+          "time": 1791964800,
+          "close": 83353.1
+        }
+      ],
+      "currency": "USD",
+      "price": 83353.1,
+      "volume_source": "exchange volume"
+    },
+    {
+      "id": "ETH",
+      "name": "Ethereum · Kraken ETH/USD",
+      "category": "crypto",
+      "symbol": "ETHUSD",
+      "timeframe": "1d",
+      "source": "Kraken",
+      "source_url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "market_data_verification": "single_source",
+      "pricing_basis": "Kraken exchange OHLCV",
+      "status": "reported",
+      "error": null,
+      "bars": 720,
+      "as_of": 1791849600,
+      "score": 58,
+      "bias": "neutral",
+      "reasons": [
+        "ממוצע 20 מעל 50",
+        "מחיר מעל ממוצע 200",
+        "מומנטום 20 נרות שלילי",
+        "CMF שלילי (פרוקסי ללחץ מכירה)"
+      ],
+      "flags": [],
+      "backtest": {
+        "status": "measured",
+        "trades": 14,
+        "win_rate_pct": 28.6,
+        "total_return_pct": -5.37,
+        "max_drawdown_pct": -11.65,
+        "buy_hold_same_window_pct": 2.94,
+        "cost_bps_round_trip": 20,
+        "method": "Fixed long-only heuristic, 25% chronological holdout; next-bar OPEN, exit after 5 bars; no position sizing/borrow costs. NOT a forecast probability."
+      },
+      "data_needs": {
+        "aggressor_side_trades": "unavailable",
+        "level2_order_book": "unavailable",
+        "options_flow": "unavailable",
+        "institutional_identity": "unavailable"
+      },
+      "indicators": {
+        "close": 2495.97,
+        "ema20": 2576.1455,
+        "ema50": 2500.0825,
+        "sma200": 2138.3203,
+        "rsi14": 43.0349,
+        "atr14": 90.228,
+        "momentum20_pct": -7.0052,
+        "change_pct": 2.1223,
+        "rvol": 0.891,
+        "cmf20": -0.1237,
+        "mfi14": 40.2272,
+        "obv_direction": 1,
+        "rolling_vwap20": 2628.6733,
+        "volume_available": true,
+        "sweep": "none",
+        "breakout": "none",
+        "fvg": "none"
+      },
+      "chart": [
+        {
+          "time": 1785024000,
+          "close": 1953.47
+        },
+        {
+          "time": 1785110400,
+          "close": 1891.1
+        },
+        {
+          "time": 1785196800,
+          "close": 1919.88
+        },
+        {
+          "time": 1785283200,
+          "close": 1908.21
+        },
+        {
+          "time": 1785369600,
+          "close": 1916.66
+        },
+        {
+          "time": 1785456000,
+          "close": 1860.49
+        },
+        {
+          "time": 1785542400,
+          "close": 1843.51
+        },
+        {
+          "time": 1785628800,
+          "close": 1882.88
+        },
+        {
+          "time": 1785715200,
+          "close": 1858.77
+        },
+        {
+          "time": 1785801600,
+          "close": 1868.45
+        },
+        {
+          "time": 1785888000,
+          "close": 1907.01
+        },
+        {
+          "time": 1785974400,
+          "close": 1902.26
+        },
+        {
+          "time": 1786060800,
+          "close": 1913.0
+        },
+        {
+          "time": 1786147200,
+          "close": 1915.15
+        },
+        {
+          "time": 1786233600,
+          "close": 1908.63
+        },
+        {
+          "time": 1786320000,
+          "close": 1871.15
+        },
+        {
+          "time": 1786406400,
+          "close": 1881.01
+        },
+        {
+          "time": 1786492800,
+          "close": 1878.32
+        },
+        {
+          "time": 1786579200,
+          "close": 1884.56
+        },
+        {
+          "time": 1786665600,
+          "close": 1880.21
+        },
+        {
+          "time": 1786752000,
+          "close": 1881.19
+        },
+        {
+          "time": 1786838400,
+          "close": 1873.89
+        },
+        {
+          "time": 1786924800,
+          "close": 1912.46
+        },
+        {
+          "time": 1787011200,
+          "close": 1916.04
+        },
+        {
+          "time": 1787097600,
+          "close": 2251.9
+        },
+        {
+          "time": 1787184000,
+          "close": 2326.33
+        },
+        {
+          "time": 1787270400,
+          "close": 2515.72
+        },
+        {
+          "time": 1787356800,
+          "close": 2422.94
+        },
+        {
+          "time": 1787443200,
+          "close": 2462.4
+        },
+        {
+          "time": 1787529600,
+          "close": 2482.69
+        },
+        {
+          "time": 1787616000,
+          "close": 2442.55
+        },
+        {
+          "time": 1787702400,
+          "close": 2507.08
+        },
+        {
+          "time": 1787788800,
+          "close": 2511.32
+        },
+        {
+          "time": 1787875200,
+          "close": 2442.73
+        },
+        {
+          "time": 1787961600,
+          "close": 2457.38
+        },
+        {
+          "time": 1788048000,
+          "close": 2416.95
+        },
+        {
+          "time": 1788134400,
+          "close": 2467.12
+        },
+        {
+          "time": 1788220800,
+          "close": 2417.26
+        },
+        {
+          "time": 1788307200,
+          "close": 2390.98
+        },
+        {
+          "time": 1788393600,
+          "close": 2507.42
+        },
+        {
+          "time": 1788480000,
+          "close": 2456.27
+        },
+        {
+          "time": 1788566400,
+          "close": 2480.62
+        },
+        {
+          "time": 1788652800,
+          "close": 2514.35
+        },
+        {
+          "time": 1788739200,
+          "close": 2489.67
+        },
+        {
+          "time": 1788825600,
+          "close": 2484.92
+        },
+        {
+          "time": 1788912000,
+          "close": 2468.02
+        },
+        {
+          "time": 1788998400,
+          "close": 2437.29
+        },
+        {
+          "time": 1789084800,
+          "close": 2515.99
+        },
+        {
+          "time": 1789171200,
+          "close": 2525.44
+        },
+        {
+          "time": 1789257600,
+          "close": 2475.94
+        },
+        {
+          "time": 1789344000,
+          "close": 2515.81
+        },
+        {
+          "time": 1789430400,
+          "close": 2396.41
+        },
+        {
+          "time": 1789516800,
+          "close": 2416.61
+        },
+        {
+          "time": 1789603200,
+          "close": 2445.34
+        },
+        {
+          "time": 1789689600,
+          "close": 2611.32
+        },
+        {
+          "time": 1789776000,
+          "close": 2631.55
+        },
+        {
+          "time": 1789862400,
+          "close": 2645.06
+        },
+        {
+          "time": 1789948800,
+          "close": 2775.84
+        },
+        {
+          "time": 1790035200,
+          "close": 2753.25
+        },
+        {
+          "time": 1790121600,
+          "close": 2683.99
+        },
+        {
+          "time": 1790208000,
+          "close": 2687.24
+        },
+        {
+          "time": 1790294400,
+          "close": 2691.35
+        },
+        {
+          "time": 1790380800,
+          "close": 2695.35
+        },
+        {
+          "time": 1790467200,
+          "close": 2688.02
+        },
+        {
+          "time": 1790553600,
+          "close": 2687.45
+        },
+        {
+          "time": 1790640000,
+          "close": 2676.7
+        },
+        {
+          "time": 1790726400,
+          "close": 2684.11
+        },
+        {
+          "time": 1790812800,
+          "close": 2705.61
+        },
+        {
+          "time": 1790899200,
+          "close": 2668.1
+        },
+        {
+          "time": 1790985600,
+          "close": 2687.02
+        },
+        {
+          "time": 1791072000,
+          "close": 2726.49
+        },
+        {
+          "time": 1791158400,
+          "close": 2709.39
+        },
+        {
+          "time": 1791244800,
+          "close": 2697.24
+        },
+        {
+          "time": 1791331200,
+          "close": 2572.75
+        },
+        {
+          "time": 1791417600,
+          "close": 2472.9
+        },
+        {
+          "time": 1791504000,
+          "close": 2485.34
+        },
+        {
+          "time": 1791590400,
+          "close": 2504.09
+        },
+        {
+          "time": 1791676800,
+          "close": 2534.19
+        },
+        {
+          "time": 1791763200,
+          "close": 2444.1
+        },
+        {
+          "time": 1791849600,
+          "close": 2495.97
+        }
+      ],
+      "currency": "USD",
+      "price": 2495.97,
+      "volume_source": "exchange volume"
+    },
+    {
+      "id": "ETH",
+      "name": "Ethereum · Kraken ETH/USD",
+      "category": "crypto",
+      "symbol": "ETHUSD",
+      "timeframe": "60m",
+      "source": "Kraken",
+      "source_url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "market_data_verification": "single_source",
+      "pricing_basis": "Kraken exchange OHLCV",
+      "status": "reported",
+      "error": null,
+      "bars": 720,
+      "as_of": 1791964800,
+      "score": 21,
+      "bias": "bearish",
+      "reasons": [
+        "ממוצע 20 מתחת 50",
+        "מחיר מתחת ממוצע 200"
+      ],
+      "flags": [
+        "נזילות דובי — תבנית בלבד, לא ראיה למניפולציה"
+      ],
+      "backtest": {
+        "status": "insufficient_trades",
+        "trades": 3,
+        "method": "Long-only fixed rule; chronological 25% holdout"
+      },
+      "data_needs": {
+        "aggressor_side_trades": "unavailable",
+        "level2_order_book": "unavailable",
+        "options_flow": "unavailable",
+        "institutional_identity": "unavailable"
+      },
+      "indicators": {
+        "close": 2503.68,
+        "ema20": 2506.264,
+        "ema50": 2508.8968,
+        "sma200": 2540.8929,
+        "rsi14": 48.1852,
+        "atr14": 15.6271,
+        "momentum20_pct": 0.0599,
+        "change_pct": -0.2009,
+        "rvol": 1.1449,
+        "cmf20": -0.0611,
+        "mfi14": 75.065,
+        "obv_direction": 1,
+        "rolling_vwap20": 2507.8396,
+        "volume_available": true,
+        "sweep": "bearish",
+        "breakout": "none",
+        "fvg": "none"
+      },
+      "chart": [
+        {
+          "time": 1791680400,
+          "close": 2508.07
+        },
+        {
+          "time": 1791684000,
+          "close": 2508.5
+        },
+        {
+          "time": 1791687600,
+          "close": 2497.2
+        },
+        {
+          "time": 1791691200,
+          "close": 2504.85
+        },
+        {
+          "time": 1791694800,
+          "close": 2501.59
+        },
+        {
+          "time": 1791698400,
+          "close": 2503.64
+        },
+        {
+          "time": 1791702000,
+          "close": 2498.38
+        },
+        {
+          "time": 1791705600,
+          "close": 2498.74
+        },
+        {
+          "time": 1791709200,
+          "close": 2500.33
+        },
+        {
+          "time": 1791712800,
+          "close": 2498.49
+        },
+        {
+          "time": 1791716400,
+          "close": 2503.8
+        },
+        {
+          "time": 1791720000,
+          "close": 2502.76
+        },
+        {
+          "time": 1791723600,
+          "close": 2500.47
+        },
+        {
+          "time": 1791727200,
+          "close": 2505.51
+        },
+        {
+          "time": 1791730800,
+          "close": 2533.16
+        },
+        {
+          "time": 1791734400,
+          "close": 2548.36
+        },
+        {
+          "time": 1791738000,
+          "close": 2534.99
+        },
+        {
+          "time": 1791741600,
+          "close": 2532.02
+        },
+        {
+          "time": 1791745200,
+          "close": 2534.1
+        },
+        {
+          "time": 1791748800,
+          "close": 2535.43
+        },
+        {
+          "time": 1791752400,
+          "close": 2526.76
+        },
+        {
+          "time": 1791756000,
+          "close": 2530.95
+        },
+        {
+          "time": 1791759600,
+          "close": 2534.19
+        },
+        {
+          "time": 1791763200,
+          "close": 2543.82
+        },
+        {
+          "time": 1791766800,
+          "close": 2539.12
+        },
+        {
+          "time": 1791770400,
+          "close": 2544.67
+        },
+        {
+          "time": 1791774000,
+          "close": 2543.92
+        },
+        {
+          "time": 1791777600,
+          "close": 2564.04
+        },
+        {
+          "time": 1791781200,
+          "close": 2562.23
+        },
+        {
+          "time": 1791784800,
+          "close": 2568.54
+        },
+        {
+          "time": 1791788400,
+          "close": 2561.82
+        },
+        {
+          "time": 1791792000,
+          "close": 2549.63
+        },
+        {
+          "time": 1791795600,
+          "close": 2557.74
+        },
+        {
+          "time": 1791799200,
+          "close": 2553.44
+        },
+        {
+          "time": 1791802800,
+          "close": 2543.99
+        },
+        {
+          "time": 1791806400,
+          "close": 2529.37
+        },
+        {
+          "time": 1791810000,
+          "close": 2539.22
+        },
+        {
+          "time": 1791813600,
+          "close": 2521.07
+        },
+        {
+          "time": 1791817200,
+          "close": 2527.57
+        },
+        {
+          "time": 1791820800,
+          "close": 2510.52
+        },
+        {
+          "time": 1791824400,
+          "close": 2509.08
+        },
+        {
+          "time": 1791828000,
+          "close": 2510.64
+        },
+        {
+          "time": 1791831600,
+          "close": 2518.27
+        },
+        {
+          "time": 1791835200,
+          "close": 2516.37
+        },
+        {
+          "time": 1791838800,
+          "close": 2487.7
+        },
+        {
+          "time": 1791842400,
+          "close": 2463.37
+        },
+        {
+          "time": 1791846000,
+          "close": 2444.1
+        },
+        {
+          "time": 1791849600,
+          "close": 2418.71
+        },
+        {
+          "time": 1791853200,
+          "close": 2461.51
+        },
+        {
+          "time": 1791856800,
+          "close": 2488.6
+        },
+        {
+          "time": 1791860400,
+          "close": 2505.93
+        },
+        {
+          "time": 1791864000,
+          "close": 2515.11
+        },
+        {
+          "time": 1791867600,
+          "close": 2528.54
+        },
+        {
+          "time": 1791871200,
+          "close": 2531.5
+        },
+        {
+          "time": 1791874800,
+          "close": 2526.26
+        },
+        {
+          "time": 1791878400,
+          "close": 2515.58
+        },
+        {
+          "time": 1791882000,
+          "close": 2511.55
+        },
+        {
+          "time": 1791885600,
+          "close": 2495.3
+        },
+        {
+          "time": 1791889200,
+          "close": 2497.43
+        },
+        {
+          "time": 1791892800,
+          "close": 2502.18
+        },
+        {
+          "time": 1791896400,
+          "close": 2500.02
+        },
+        {
+          "time": 1791900000,
+          "close": 2513.79
+        },
+        {
+          "time": 1791903600,
+          "close": 2513.68
+        },
+        {
+          "time": 1791907200,
+          "close": 2510.26
+        },
+        {
+          "time": 1791910800,
+          "close": 2498.27
+        },
+        {
+          "time": 1791914400,
+          "close": 2506.24
+        },
+        {
+          "time": 1791918000,
+          "close": 2505.29
+        },
+        {
+          "time": 1791921600,
+          "close": 2508.41
+        },
+        {
+          "time": 1791925200,
+          "close": 2509.89
+        },
+        {
+          "time": 1791928800,
+          "close": 2508.69
+        },
+        {
+          "time": 1791932400,
+          "close": 2495.97
+        },
+        {
+          "time": 1791936000,
+          "close": 2505.27
+        },
+        {
+          "time": 1791939600,
+          "close": 2503.98
+        },
+        {
+          "time": 1791943200,
+          "close": 2511.91
+        },
+        {
+          "time": 1791946800,
+          "close": 2511.2
+        },
+        {
+          "time": 1791950400,
+          "close": 2512.45
+        },
+        {
+          "time": 1791954000,
+          "close": 2500.98
+        },
+        {
+          "time": 1791957600,
+          "close": 2502.44
+        },
+        {
+          "time": 1791961200,
+          "close": 2508.72
+        },
+        {
+          "time": 1791964800,
+          "close": 2503.68
+        }
+      ],
+      "currency": "USD",
+      "price": 2503.68,
+      "volume_source": "exchange volume"
+    }
+  ],
   "scope": {
     "ohlcv": "historical research only",
+    "timeframes": [
+      "1d",
+      "60m"
+    ],
     "orderflow": "not available",
-    "confidence": "heuristic score, not probability"
+    "institutional_positions": "not observable",
+    "confidence": "heuristic score; NOT probability",
+    "backtest": "chronological holdout, next open, disclosed fixed rule"
   },
-  "disclaimer": "נתוני מסחר היסטוריים בלבד, ללא אימות עצמאי."
+  "disclaimer": "מחקר היסטורי בלבד; ספקים חינמיים עשויים להתעכב או להיחסם. אין ייעוץ השקעות, המלצת מסחר, זיהוי מוכח של מוסדיים או נתוני פקודות."
 }
