@@ -1,6 +1,8 @@
 name: Verified market data refresh
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
   schedule:
     - cron: '17,47 * * * *'

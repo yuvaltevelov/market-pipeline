@@ -97,12 +97,26 @@ function observeDate(a){
   const d=new Date(a.as_of);
   return Number.isFinite(d.getTime())?d.toLocaleString("he-IL",{timeZone:"Asia/Jerusalem",dateStyle:"short",timeStyle:"short"})+" (שעון ישראל)":"זמן לא תקין";
 }
+function observationFresh(a){
+  if(!a.as_of || a.quality!=="reported")return false;
+  if(a.granularity==="date"){
+    const t=Date.parse(a.as_of+"T00:00:00Z");
+    const days=Math.floor((Date.now()-t)/86400000);
+    return Number.isFinite(t)&&days>=0&&days<=(a.id==="PLTR"?5:7);
+  }
+  if(a.granularity==="timestamp"){
+    const t=Date.parse(a.as_of),seconds=(Date.now()-t)/1000;
+    return Number.isFinite(t)&&seconds>=-300&&seconds<=(a.id==="XAUUSD"?3600:10800);
+  }
+  return false;
+}
 function quoteStatus(a,generatedAge){
   if(a.quality!=="reported")return a.quality==="stale"?"נתון ישן":"לא זמין";
+  if(!observationFresh(a))return "המדידה התיישנה";
   if(a.granularity==="timestamp"&&generatedAge>180*60*1000)return "תמונת מצב ישנה";
   return a.granularity==="date"?"סגירה מדווחת":"דיווח מקור יחיד";
 }
-function effectivePrice(a,generatedAge){return a.quality==="reported"&&(a.granularity==="date"||generatedAge<=180*60*1000)&&typeof a.price==="number"&&Number.isFinite(a.price)&&a.price>0;}
+function effectivePrice(a,generatedAge){return observationFresh(a)&&(a.granularity==="date"||generatedAge<=180*60*1000)&&typeof a.price==="number"&&Number.isFinite(a.price)&&a.price>0;}
 function renderAssets(data,age){
   const cards=byId("cards"),rows=byId("rows");clear(cards);clear(rows);
   for(const a of data.assets){
