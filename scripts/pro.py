@@ -69,7 +69,7 @@ def parse_yahoo(payload,now,interval):
 
 def yahoo(symbol,interval,now):
     encoded=quote(symbol,safe="")
-    query=urlencode({"range":"1y" if interval=="1d" else "60d",
+    query=urlencode({"range":"1y" if interval=="1d" else "1mo",
                      "interval":interval,"includePrePost":"false",
                      "events":"false"})
     payload=fetch_json("https://query1.finance.yahoo.com/v8/finance/chart/"+encoded+"?"+query)
