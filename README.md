@@ -43,3 +43,17 @@ python -m scripts.refresh  # requires network; fails closed if no source works
 CI tests are offline and use canned response fixtures; they **do not** validate live provider availability, pricing accuracy, or rights to redistribute data. Live verification requires a successful collector workflow and manual comparison against source pages.
 
 No portfolio positions, broker credentials or private API keys should ever be committed: this repository and Pages site are public.
+
+## Market Pipeline PRO · Historical research
+
+Open [PRO scanner](https://yuvaltevelov.github.io/market-pipeline/pro.html) for stock, ETF, crypto, FX and commodity-futures watchlists, hourly/daily candles, explainable indicator biases, RVOL, CMF, MFI, OBV direction, liquidity sweep, FVG and breakout pattern flags, and paired-return correlations. Mobile-first and RTL.
+
+**Data sources:** Kraken public REST OHLC candles for BTC/ETH; Yahoo Finance's **unofficial and unauthenticated** chart endpoint for stocks, ETFs, FX and commodity futures. The Yahoo feed can rate-limit, change or block access at any time; it is not a licensed or exchange-certified quote service. Data is source-tagged and never cross-verified by default. Historical prices are not execution quotes. FX tick volume is not assumed equal to exchange trading volume. Index/ETF/futures instruments are named distinctly and not substituted for spot XAU/USD or Brent spot.
+
+**Analysis:** 20/50 EMA, 200 SMA (when possible), Wilder RSI14, ATR14, 20-bar relative volume (excluding current volume from comparison baseline), CMF20, MFI14, OBV direction, 20-bar rolling VWAP (not intraday anchored VWAP), sweep, 20-bar breakout and three-candle FVG. All patterns are *hypotheses*, not manipulation or institutional ownership detection. CVD, level-2 depth, actual aggressive buy/sell transaction classification, institutional holdings, and live options flow are explicitly **unavailable**, not synthesized.
+
+**Backtest:** deterministic, fixed-parameter long-only rules. The final chronological 25% of historical data is treated as holdout; signal at bar close, enter at next bar's open, close after five daily or eight hourly bars at an open, with 20 bps roundtrip friction. No forward knowledge, no leverage/short financing assumed, and no parameter fit on holdout. At least five non-overlapping trades required or outcome is unavailable. This exploratory backtest is not a calibrated win probability, is sensitive to survivorship, fill/slippage assumptions and timeframe selection, and is **not** independently verified trading performance. Review provider rights and test on further out-of-sample sets before relying on it.
+
+**Operations:** \`.github/workflows/pro.yml\` schedules a scan every four hours (best effort) plus manual dispatch and refresh after relevant code merges. Real data refresh must succeed for \`data/pro.json\` to be published; provider outages are explicit. Daily bars are complete only; intraday analysis uses completed hourly bars only. User can modify \`WATCHLIST\` in \`scripts/pro.py\`. Data file is public. Existing basic dashboard remains at \`index.html\`.
+
+**Run offline tests:** \`python -m unittest discover -s tests -v\` and \`node --check assets/pro.js\`. GitHub Actions performs live ingestion testing; external providers may remain unavailable. No keys should be committed.
