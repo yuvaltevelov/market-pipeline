@@ -74,6 +74,16 @@ class ProviderTests(unittest.TestCase):
         output=parse_yahoo(p,now,"1d")
         self.assertEqual(len(output),1)
 
+    def test_yahoo_hourly_requests_supported_calendar_range(self):
+        from unittest.mock import patch
+        from scripts.pro import yahoo
+        with patch("scripts.pro.fetch_json",return_value={
+            "chart":{"error":None,"result":[{"timestamp":[],"indicators":{"quote":[{
+                "open":[],"high":[],"low":[],"close":[],"volume":[]} ]}}]}}) as mock:
+            yahoo("PLTR","60m",NOW)
+        self.assertIn("range=1mo",mock.call_args.args[0])
+        self.assertIn("interval=60m",mock.call_args.args[0])
+
     def test_kraken_excludes_running_bar(self):
         ts=int(NOW.timestamp())
         row=lambda t:[t,"100","110","90","101","101","250",10]
