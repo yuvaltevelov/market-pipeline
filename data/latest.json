@@ -1,113 +1,163 @@
 {
   "schema_version": 2,
-  "generated_at": null,
-  "status": "awaiting_first_collection",
+  "generated_at": "2026-10-14T07:53:12Z",
+  "status": "partial",
   "quality": {
-    "reported": 0,
-    "stale": 0,
-    "unavailable": 6,
+    "reported": 4,
+    "stale": 1,
+    "unavailable": 1,
     "cross_verified": 0,
-    "source_errors": []
+    "source_errors": [
+      "PLTR: ValueError"
+    ]
   },
   "assets": [
     {
       "id": "PLTR",
       "name": "PLTR · Palantir",
-      "source": "Stooq",
-      "source_url": "https://stooq.com/q/?s=pltr.us",
-      "pricing_basis": "daily_close",
+      "description": "מניה · סגירה יומית",
       "currency": "USD",
       "unit": "share",
       "price": null,
       "change_percent": null,
       "as_of": null,
       "granularity": null,
+      "source": "Stooq",
+      "source_url": "https://stooq.com/q/?s=pltr.us",
+      "pricing_basis": "daily_close",
       "quality": "unavailable",
       "verification": "none",
-      "warning": "ממתין לאיסוף ראשון"
+      "warning": "source_unavailable"
     },
     {
       "id": "XAUUSD",
       "name": "זהב XAU/USD",
+      "description": "ספוט אינדיקטיבי · אונקיית טרוי",
+      "currency": "USD",
+      "unit": "troy_oz",
+      "price": 4149.2002,
+      "change_percent": null,
+      "as_of": "2026-10-14T07:52:49Z",
+      "granularity": "timestamp",
       "source": "Gold-API",
       "source_url": "https://gold-api.com/docs",
       "pricing_basis": "indicative_spot",
-      "currency": "USD",
-      "unit": "troy_oz",
-      "price": null,
-      "change_percent": null,
-      "as_of": null,
-      "granularity": null,
-      "quality": "unavailable",
-      "verification": "none",
-      "warning": "ממתין לאיסוף ראשון"
+      "quality": "reported",
+      "verification": "single_source",
+      "warning": "המקור אינו אימות עצמאי נוסף"
     },
     {
       "id": "BTC",
       "name": "Bitcoin",
+      "description": "קריפטו · USD",
+      "currency": "USD",
+      "unit": "coin",
+      "price": 83411.0,
+      "change_percent": -0.583,
+      "as_of": "2026-10-14T07:52:15Z",
+      "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/bitcoin",
       "pricing_basis": "indicative_spot",
-      "currency": "USD",
-      "unit": "coin",
-      "price": null,
-      "change_percent": null,
-      "as_of": null,
-      "granularity": null,
-      "quality": "unavailable",
-      "verification": "none",
-      "warning": "ממתין לאיסוף ראשון"
+      "quality": "reported",
+      "verification": "single_source",
+      "warning": "המקור אינו אימות עצמאי נוסף"
     },
     {
       "id": "ETH",
       "name": "Ethereum",
+      "description": "קריפטו · USD",
+      "currency": "USD",
+      "unit": "coin",
+      "price": 2505.64,
+      "change_percent": -1.039,
+      "as_of": "2026-10-14T07:52:15Z",
+      "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ethereum",
       "pricing_basis": "indicative_spot",
-      "currency": "USD",
-      "unit": "coin",
-      "price": null,
-      "change_percent": null,
-      "as_of": null,
-      "granularity": null,
-      "quality": "unavailable",
-      "verification": "none",
-      "warning": "ממתין לאיסוף ראשון"
+      "quality": "reported",
+      "verification": "single_source",
+      "warning": "המקור אינו אימות עצמאי נוסף"
     },
     {
       "id": "BRENT",
-      "name": "ברנט · ספוט יומי",
+      "name": "ברנט · מחיר ספוט יומי",
+      "description": "נפט · חבית",
+      "currency": "USD",
+      "unit": "barrel",
+      "price": 125.44,
+      "change_percent": -0.056,
+      "as_of": "2026-10-06",
+      "granularity": "date",
       "source": "FRED / EIA",
       "source_url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
       "pricing_basis": "daily_spot",
-      "currency": "USD",
-      "unit": "barrel",
-      "price": null,
-      "change_percent": null,
-      "as_of": null,
-      "granularity": null,
-      "quality": "unavailable",
-      "verification": "none",
-      "warning": "ממתין לאיסוף ראשון"
+      "quality": "stale",
+      "verification": "single_source",
+      "warning": "נתון ישן — אינו מחיר עדכני"
     },
     {
       "id": "VIX",
       "name": "VIX · סגירה יומית",
+      "description": "מדד תנודתיות",
+      "currency": "index",
+      "unit": "index",
+      "price": 15.21,
+      "change_percent": 2.493,
+      "as_of": "2026-10-12",
+      "granularity": "date",
       "source": "FRED / CBOE",
       "source_url": "https://fred.stlouisfed.org/series/VIXCLS",
       "pricing_basis": "daily_close",
-      "currency": "index",
-      "unit": "index",
-      "price": null,
-      "change_percent": null,
-      "as_of": null,
-      "granularity": null,
-      "quality": "unavailable",
-      "verification": "none",
-      "warning": "ממתין לאיסוף ראשון"
+      "quality": "reported",
+      "verification": "single_source",
+      "warning": "המקור אינו אימות עצמאי נוסף"
     }
   ],
-  "signals": [],
-  "news": [],
-  "disclaimer": "נתונים נמשכים ממקורות חינמיים; אין לראות בהם נתוני מסחר בזמן אמת."
+  "signals": [
+    {
+      "title": "אימות מקורות",
+      "text": "4 מתוך 6 מקורות דיווחו נתון תקף לזמנם; אין אימות בלתי תלוי בין ספקים."
+    },
+    {
+      "title": "זמן מדידה",
+      "text": "לכל נכס מוצג זמן המדידה של המקור, בנפרד מזמן יצירת הדוח."
+    },
+    {
+      "title": "ניתוח זהיר",
+      "text": "שינוי יומי אינו מעיד לבדו על סיבת התנועה או על תנועה עתידית."
+    },
+    {
+      "title": "מידע ישן",
+      "text": "1 נכסים סומנו כישנים ולא יוצגו כמחיר נוכחי."
+    }
+  ],
+  "news": [
+    {
+      "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
+      "published_at": "2026-10-13T18:00:00Z",
+      "source": "Federal Reserve"
+    },
+    {
+      "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
+      "published_at": "2026-10-09T14:00:00Z",
+      "source": "Federal Reserve"
+    },
+    {
+      "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
+      "published_at": "2026-10-08T20:30:00Z",
+      "source": "Federal Reserve"
+    },
+    {
+      "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
+      "published_at": "2026-10-07T18:00:00Z",
+      "source": "Federal Reserve"
+    }
+  ],
+  "disclaimer": "נתוני מקור חינמי, חלקם מעוכבים או אינדיקטיביים. ללא אימות צולב וללא המלצת השקעה."
 }
