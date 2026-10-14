@@ -56,8 +56,13 @@ def parse_yahoo(payload,now,interval):
     out=[]
     for i in range(count):
         t=times[i]
-        # Last (incomplete) candle must never create signals or backtest entries.
-        if not isinstance(t,int) or t+seconds>now.timestamp():
+        # For daily Yahoo candles, timestamps denote SESSION START, not close.
+        # UTC prior-date bars are completed by today's UTC date; current UTC day
+        # is conservatively excluded. Hourly bars require a full 60-minute close.
+        if not isinstance(t,int) or (
+            datetime.fromtimestamp(t,UTC).date()>=now.astimezone(UTC).date()
+            if interval=="1d" else t+seconds>now.timestamp()
+        ):
             continue
         try:
             v=q["volume"][i]
@@ -106,8 +111,12 @@ def collect_one(id_,name,category,symbol,timeframe,now,load_yahoo=yahoo,load_kra
     try:
         bars=(load_kraken(symbol,timeframe,now) if category=="crypto"
               else load_yahoo(symbol,timeframe,now))
-        max_age=3*86400 if timeframe=="1d" else 4*3600
-        if category=="crypto":max_age=2*86400 if timeframe=="1d" else 2*3600
+        # A closed US equity market is not a data outage. Its last hourly bar
+        # may legitimately be 12-72 hours old (overnight/weekends/holidays).
+        # The UI still displays its exact historical observation time.
+        max_age=(2*86400 if category=="crypto" else 5*86400) if timeframe=="1d" else (
+            2*3600 if category=="crypto" else 72*3600 if category in ("stock","etf","futures") else 4*3600
+        )
         if len(bars)<65:raise ValueError("insufficient completed candles")
         if now.timestamp()-bars[-1]["time"] > max_age:
             raise ValueError("stale completed candles")

@@ -84,6 +84,30 @@ class ProviderTests(unittest.TestCase):
         self.assertIn("range=1mo",mock.call_args.args[0])
         self.assertIn("interval=60m",mock.call_args.args[0])
 
+    def test_daily_yahoo_prior_session_kept_even_with_market_timezone_offset(self):
+        # NY daily-session opening stamp on Oct 13 is NOT a 24-hour bar start.
+        from datetime import datetime
+        prior=int(datetime(2026,10,13,13,30,tzinfo=timezone.utc).timestamp())
+        current=int(datetime(2026,10,14,13,30,tzinfo=timezone.utc).timestamp())
+        q={"open":[100,101],"high":[102,103],"low":[99,100],
+           "close":[101,102],"volume":[1000,1200]}
+        p={"chart":{"result":[{"timestamp":[prior,current],
+           "indicators":{"quote":[q]}}],"error":None}}
+        out=parse_yahoo(p,NOW,"1d")
+        self.assertEqual([r["time"] for r in out],[prior])
+
+    def test_closed_equity_market_hourly_candles_are_not_falsely_missing(self):
+        from unittest.mock import Mock
+        hourly=[]
+        for n in range(120):
+            t=int(NOW.timestamp())-(120-n)*3600-12*3600
+            hourly.append({"time":t,"open":100+n/10,"high":101+n/10,
+                           "low":99+n/10,"close":100+n/10,"volume":1000})
+        data=collect_one("PLTR","Palantir","stock","PLTR","60m",NOW,
+             load_yahoo=Mock(return_value=hourly))
+        self.assertEqual(data["status"],"reported")
+        self.assertIsNotNone(data["score"])
+
     def test_kraken_excludes_running_bar(self):
         ts=int(NOW.timestamp())
         row=lambda t:[t,"100","110","90","101","101","250",10]
