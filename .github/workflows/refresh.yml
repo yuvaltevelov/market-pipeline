@@ -1,34 +1,47 @@
-name: Refresh dashboard marker
+name: Verified market data refresh
+
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
   schedule:
-    - cron: '30 4 * * 1-5'
-    - cron: '0 7 * * 1-5'
-    - cron: '15 12 * * 1-5'
-    - cron: '45 13 * * 1-5'
-    - cron: '0 15 * * 1-5'
-    - cron: '45 20 * * 1-5'
+    - cron: '17,47 * * * *'
+
 permissions:
   contents: write
+
+concurrency:
+  group: market-data-refresh
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
-      - name: Update refresh marker
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run offline collector tests
+        run: python -m unittest discover -s tests -v
+      - name: Collect source-attributed quotes
+        run: python -m scripts.refresh
+      - name: Validate published snapshot
         run: |
           python - <<'PY'
-          import json, datetime
-          p='data/latest.json'
-          with open(p, encoding='utf-8') as f: d=json.load(f)
-          d['status']='רענון אוטומטי הושלם — הוסף מקור נתונים/סוכן כדי למשוך מחירים וחדשות חדשים'
-          d['updated']=datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
-          with open(p,'w',encoding='utf-8') as f: json.dump(d,f,ensure_ascii=False)
+          import json
+          d=json.load(open("data/latest.json", encoding="utf-8"))
+          assert d["schema_version"] == 2
+          assert d["quality"]["reported"] >= 1
+          assert all(a["verification"] in ("single_source","none") for a in d["assets"])
           PY
-      - name: Commit marker if changed
+      - name: Commit only genuine snapshot updates
         run: |
-          git config user.name 'market-pipeline-bot'
-          git config user.email 'market-pipeline-bot@users.noreply.github.com'
+          git config user.name "market-pipeline-bot"
+          git config user.email "market-pipeline-bot@users.noreply.github.com"
           git add data/latest.json
-          git diff --cached --quiet || git commit -m 'chore: refresh dashboard marker'
-          git push
+          git diff --cached --quiet || git commit -m "data: fetch source-attributed market observations"
+          git pull --rebase origin main
+          git push origin HEAD:main
