@@ -18,6 +18,8 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m unittest discover -s tests -v
+      - name: Validate Pro client syntax
+        run: node --check assets/pro.js
       - name: Validate browser script and safe DOM rendering
         run: |
           python - <<'PY'
@@ -39,4 +41,7 @@ jobs:
           assert d['schema_version'] == 2, 'legacy data is prohibited'
           assert isinstance(d['assets'], list) and len(d['assets']) == 6
           assert not any('narration' == k for k in d)
+          pro=json.load(open("data/pro.json",encoding="utf-8"))
+          assert pro["schema_version"]==3
+          assert isinstance(pro["assets"],list)
           PY

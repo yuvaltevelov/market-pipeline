@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#080e1b"><meta name="description" content="Market Pipeline Pro: historical multi-market research and explicitly limited rule-based backtesting.">
+<title>Market Pipeline PRO | Market Research</title><link rel="stylesheet" href="./assets/pro.css"></head>
+<body><main>
+<header><div class="brand">MARKET PIPELINE / PRO RESEARCH TERMINAL</div><h1>מפת הזדמנויות וסיכונים</h1>
+<p class="sub">מניות, קרנות סל, קריפטו, מט"ח וחוזים. מחקר OHLCV ולא נתוני מסחר בזמן אמת או פקודות מוסדיות.</p>
+<nav class="nav"><a href="./index.html">← דשבורד שוק</a><a href="https://github.com/yuvaltevelov/market-pipeline/actions/workflows/pro.yml" target="_blank" rel="noopener noreferrer">הרץ איסוף היסטורי</a><a href="https://github.com/yuvaltevelov/market-pipeline" target="_blank" rel="noopener noreferrer">מאגר וקוד</a></nav>
+</header>
+<div class="gridtop" id="summary" aria-live="polite"><div class="stat"><span>מערכת</span><strong>טוען…</strong></div></div>
+<div id="status" role="status" class="notice">ממתין לנתונים מאומתים במבנה המערכת…</div>
+<div class="controls">
+ <input id="query" class="control" type="search" placeholder="חיפוש סימול / חברה…" aria-label="חיפוש נכס" maxlength="50">
+ <select id="period" class="control" aria-label="טווח נרות"><option value="1d">יומי · סווינג / השקעות</option><option value="60m">שעתי · מעקב יומי</option></select>
+ <select id="sort" class="control" aria-label="סדר"><option value="score">סדר לפי ניקוד מחקר</option><option value="rvol">נפח יחסי (RVOL)</option><option value="symbol">סימול אלפביתי</option></select>
+ <button class="control" id="reload" type="button">רענן דוח מהאתר</button>
+</div>
+<div class="filters" id="filters" aria-label="סינון שווקים">
+<button class="filter active" data-category="all">הכול</button><button class="filter" data-category="stock">מניות</button><button class="filter" data-category="etf">קרנות סל</button><button class="filter" data-category="crypto">קריפטו</button><button class="filter" data-category="fx">מט"ח</button><button class="filter" data-category="futures">חוזים</button>
+</div>
+<div class="workspace">
+<section class="panel"><h2>סורק נכסים <span id="shown" class="small"></span></h2><div class="assetlist" id="assetlist"><div class="loading">ממתין לנרות שהושלמו…</div></div></section>
+<section class="panel" id="detail"><div class="loading">בחר נכס להצגת האינדיקציות ומגבלות המקורות</div></section>
+</div>
+<section class="panel compare"><h2>הצלבת נכסים · קורלציה היסטורית</h2>
+<div class="two"><label>נכס ראשון<select class="control" id="compareA" style="width:100%"></select></label><label>נכס שני<select class="control" id="compareB" style="width:100%"></select></label></div>
+<div id="comparison" class="risks">בחר שני נכסים עם לפחות 20 תצפיות חופפות.</div>
+<p class="small">ההשוואה מיושרת לתאריך UTC בנרות יומיים או לשעה מדויקת בנרות שעתיים. פערי אזור זמן ושעות מסחר עלולים להטות מתאמים. קורלציה אינה סיבתיות או תחזית.</p>
+</section>
+<footer class="foot">ניקוד 0–100 הוא שקלול כללים ולא הסתברות לרווח. CMF/MFI/OBV הם פרוקסי על בסיס נרות ונפח, אינם זרימת הוראות מוסדיות או CVD. אין מידע על Level 2, פקודות קנייה/מכירה בפועל, או פעילות מניפולטיבית מוכחת. ספק Yahoo בגרסה זו אינו ממשק מורשה ועלול להיחסם; מקורות חסרים לא יוחלפו במספרים מומצאים. בדיקה היסטורית אינה ביצועי אמת.</footer>
+</main><script defer src="./assets/pro.js"></script></body></html>

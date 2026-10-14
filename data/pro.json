@@ -1,0 +1,18 @@
+{
+  "schema_version": 3,
+  "generated_at": null,
+  "status": "awaiting_first_collection",
+  "coverage": {
+    "valid": 0,
+    "unavailable": 0,
+    "cross_verified": 0,
+    "total": 0
+  },
+  "assets": [],
+  "scope": {
+    "ohlcv": "historical research only",
+    "orderflow": "not available",
+    "confidence": "heuristic score, not probability"
+  },
+  "disclaimer": "נתוני מסחר היסטוריים בלבד, ללא אימות עצמאי."
+}
