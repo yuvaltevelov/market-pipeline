@@ -121,8 +121,33 @@ def collect_stooq(now):
     start = (now - timedelta(days=15)).strftime("%Y%m%d")
     end = now.strftime("%Y%m%d")
     url = "https://stooq.com/q/d/l/?" + urlencode({"s": "pltr.us", "i": "d", "d1": start, "d2": end})
-    rows = date_rows_csv(request_bytes(url), "Close")
-    return make_quote("PLTR", rows[-1][1], rows[-1][0], now, pct_from_pair(rows))
+    try:
+        rows = date_rows_csv(request_bytes(url), "Close")
+        return make_quote("PLTR", rows[-1][1], rows[-1][0], now, pct_from_pair(rows))
+    except Exception:
+        # Some Stooq IPs receive quota/no-data responses on historical CSV.
+        # The quote endpoint is still the SAME source, not independent verification.
+        # A quote may be intraday, so it must never be labeled 'daily close'.
+        fallback = "https://stooq.com/q/l/?" + urlencode(
+            {"s": "pltr.us", "f": "sd2t2ohlcvnp", "h": "", "e": "csv"}
+        )
+        raw = request_bytes(fallback).decode("utf-8-sig")
+        rows = list(csv.DictReader(io.StringIO(raw)))
+        if len(rows) != 1 or rows[0].get("Symbol", "").lower() != "pltr.us":
+            raise ValueError("Stooq quote identity mismatch or no data")
+        row = rows[0]
+        date = datetime.strptime(row["Date"], "%Y-%m-%d").date()
+        price = numeric(row["Close"])
+        change = None
+        try:
+            previous = numeric(row["Prev"])
+            change = round((price / previous - 1) * 100, 3)
+        except (KeyError, TypeError, ValueError):
+            pass
+        quote = make_quote("PLTR", price, date, now, change)
+        quote["pricing_basis"] = "delayed_market_quote"
+        quote["warning"] = "ציטוט אחרון מהספק; עשוי להיות מעוכב או תוך-יומי"
+        return quote
 
 def collect_gold(now):
     data = fetch_json("https://api.gold-api.com/price/XAU")

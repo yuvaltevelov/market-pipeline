@@ -56,6 +56,24 @@ class ValidationTests(unittest.TestCase):
             q = collect_stooq(NOW)
         self.assertEqual(q["change_percent"], 10.0)
 
+    def test_stooq_fallback_is_not_mislabeled_daily_close(self):
+        from scripts.refresh import request_bytes
+        bad = b"Exceeded the daily hits limit"
+        quote = b"Symbol,Date,Time,Open,High,Low,Close,Volume,Name,Prev\nPLTR.US,2026-10-13,16:00,165,171,163,170,12345,Palantir,168\n"
+        with patch("scripts.refresh.request_bytes", side_effect=[bad,quote]):
+            q = collect_stooq(NOW)
+        self.assertEqual(q["price"], 170)
+        self.assertEqual(q["pricing_basis"], "delayed_market_quote")
+        self.assertNotEqual(q["pricing_basis"], "daily_close")
+        self.assertEqual(q["verification"], "single_source")
+
+    def test_stooq_fallback_rejects_wrong_ticker(self):
+        bad = b"No data"
+        wrong = b"Symbol,Date,Time,Open,High,Low,Close\nOTHER.US,2026-10-13,16:00,1,1,1,999\n"
+        with patch("scripts.refresh.request_bytes", side_effect=[bad,wrong]):
+            with self.assertRaises(ValueError):
+                collect_stooq(NOW)
+
     def test_fred_daily_date_not_realtime(self):
         with patch("scripts.refresh.request_bytes", return_value=b"observation_date,DCOILBRENTEU\n2026-10-13,91.5\n"):
             q = collect_fred("BRENT","DCOILBRENTEU",NOW)

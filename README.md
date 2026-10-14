@@ -8,7 +8,7 @@ RTL Hebrew GitHub Pages dashboard backed by a Python standard-library collector.
 
 | Asset | Source | Price type | Timestamp semantics |
 | --- | --- | --- | --- |
-| PLTR | [Stooq](https://stooq.com/q/?s=pltr.us) | US stock daily close | Trading **date**, not intraday time |
+| PLTR | [Stooq](https://stooq.com/q/?s=pltr.us) | US stock daily close; **fallback** last reported quote if the historical endpoint fails | Trading **date** only; fallback can be intraday |
 | XAU/USD | [Gold-API](https://gold-api.com/docs) | Indicative USD per troy oz | Provider's \`updatedAt\` |
 | BTC, ETH | [CoinGecko](https://docs.coingecko.com/reference/simple-price) | Indicative USD spot | Provider's \`last_updated_at\` |
 | Brent | [FRED / EIA](https://fred.stlouisfed.org/series/DCOILBRENTEU) | **Brent spot** USD/barrel, daily (not futures) | Observation **date** |

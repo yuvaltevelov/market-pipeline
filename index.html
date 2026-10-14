@@ -93,7 +93,7 @@ function link(url,label){
 }
 function observeDate(a){
   if(!a.as_of)return "אין תאריך";
-  if(a.granularity==="date")return a.as_of+" · סגירה יומית";
+  if(a.granularity==="date")return a.as_of+(a.pricing_basis==="delayed_market_quote"?" · דיווח ספק, ייתכן תוך־יומי":" · סגירה יומית");
   const d=new Date(a.as_of);
   return Number.isFinite(d.getTime())?d.toLocaleString("he-IL",{timeZone:"Asia/Jerusalem",dateStyle:"short",timeStyle:"short"})+" (שעון ישראל)":"זמן לא תקין";
 }
@@ -114,7 +114,7 @@ function quoteStatus(a,generatedAge){
   if(a.quality!=="reported")return a.quality==="stale"?"נתון ישן":"לא זמין";
   if(!observationFresh(a))return "המדידה התיישנה";
   if(a.granularity==="timestamp"&&generatedAge>180*60*1000)return "תמונת מצב ישנה";
-  return a.granularity==="date"?"סגירה מדווחת":"דיווח מקור יחיד";
+  return a.pricing_basis==="delayed_market_quote"?"ציטוט ספק יחיד, ייתכן עיכוב":a.granularity==="date"?"סגירה מדווחת":"דיווח מקור יחיד";
 }
 function effectivePrice(a,generatedAge){return observationFresh(a)&&(a.granularity==="date"||generatedAge<=180*60*1000)&&typeof a.price==="number"&&Number.isFinite(a.price)&&a.price>0;}
 function renderAssets(data,age){
@@ -131,7 +131,7 @@ function renderAssets(data,age){
     }
     const tr=node("tr");
     const name=node("td",a.name);
-    name.append(node("span",a.description||"","small"));
+    name.append(node("span",a.pricing_basis==="delayed_market_quote"?"מניה · ציטוט אחרון (עשוי להיות תוך־יומי)":(a.description||""),"small"));
     const tdPrice=node("td",price);
     const tdChange=node("td",pct,pctCls);
     const tdAsOf=node("td",observeDate(a));
