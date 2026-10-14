@@ -8,7 +8,9 @@ const fmtTime=unix=>typeof unix==="number"?new Date(unix*1000).toLocaleString("h
 const statusOk=a=>{
  if(a.status!=="reported"||!Number.isFinite(a.as_of))return false;
  const sec=Date.now()/1000-a.as_of;
- const max=a.timeframe==="60m"?4*3600:a.category==="crypto"?2*86400:5*86400;
+ const max=a.timeframe==="60m"?
+    (a.category==="crypto"?2*3600:["stock","etf","futures"].includes(a.category)?72*3600:4*3600):
+    (a.category==="crypto"?2*86400:5*86400);
  return sec>=-300&&sec<=max;
 };
 const active=()=>report?.assets.filter(a=>a.timeframe===$("period").value)||[];
@@ -67,7 +69,11 @@ function detail(){
  const a=selection;if(!a)return;
  const target=$("detail");target.replaceChildren();
  const header=el("div",null,"detailtop"),title=el("div");
- title.append(el("h2",a.name),badge(a.category.toUpperCase()+" · "+a.timeframe),badge(statusOk(a)?"נתון היסטורי תקף":"לא זמין/התיישן",statusOk(a)?"bullish":"bearish"));
+ const marketAge=(Date.now()/1000-a.as_of)/3600;
+ const marketLabel=statusOk(a)&&a.timeframe==="60m"&&marketAge>4?
+  "נר מהמסחר האחרון; השוק עשוי להיות סגור — לא נתון תוך-יומי עדכני":
+  statusOk(a)?"נתון היסטורי תקף":"לא זמין/התיישן";
+ title.append(el("h2",a.name),badge(a.category.toUpperCase()+" · "+a.timeframe),badge(marketLabel,statusOk(a)?"bullish":"bearish"));
  header.append(title,el("div",statusOk(a)?num(a.price,5):"—","detailprice"));target.append(header);
  const info=el("p",null,"small");
  info.append("מקור: ",link(a.source_url,a.source)," | הנר האחרון: "+fmtTime(a.as_of)+" | כמות נרות: "+(a.bars||0));
