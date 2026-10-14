@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-14T13:48:04Z",
+  "generated_at": "2026-10-14T18:41:38Z",
   "status": "partial",
   "quality": {
     "reported": 4,
@@ -35,9 +35,9 @@
       "description": "ספוט אינדיקטיבי · אונקיית טרוי",
       "currency": "USD",
       "unit": "troy_oz",
-      "price": 4101.2998,
+      "price": 4093.5,
       "change_percent": null,
-      "as_of": "2026-10-14T13:47:56Z",
+      "as_of": "2026-10-14T18:41:26Z",
       "granularity": "timestamp",
       "source": "Gold-API",
       "source_url": "https://gold-api.com/docs",
@@ -52,9 +52,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 82835.0,
-      "change_percent": -0.57,
-      "as_of": "2026-10-14T13:47:20Z",
+      "price": 81571.0,
+      "change_percent": -1.693,
+      "as_of": "2026-10-14T18:41:02Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/bitcoin",
@@ -69,9 +69,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 2476.83,
-      "change_percent": -1.31,
-      "as_of": "2026-10-14T13:47:20Z",
+      "price": 2423.46,
+      "change_percent": -3.108,
+      "as_of": "2026-10-14T18:41:17Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ethereum",
@@ -150,12 +150,6 @@
       "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
       "published_at": "2026-10-08T20:30:00Z",
-      "source": "Federal Reserve"
-    },
-    {
-      "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
-      "published_at": "2026-10-07T18:00:00Z",
       "source": "Federal Reserve"
     }
   ],
