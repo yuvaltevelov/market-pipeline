@@ -18,6 +18,19 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m unittest discover -s tests -v
+      - name: Validate browser script and safe DOM rendering
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          html = Path("index.html").read_text(encoding="utf-8")
+          scripts = re.findall(r"<script>(.*?)</script>", html, flags=re.S)
+          assert len(scripts) == 1
+          assert "innerHTML" not in scripts[0]
+          assert "eval(" not in scripts[0]
+          Path("/tmp/market-pipeline-client.js").write_text(scripts[0], encoding="utf-8")
+          PY
+          node --check /tmp/market-pipeline-client.js
       - name: Verify public payload contract
         run: |
           python - <<'PY'
