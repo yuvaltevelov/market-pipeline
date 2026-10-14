@@ -1,1 +1,175 @@
-<!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Market Pipeline</title><style>:root{--bg:#0b1220;--card:#142038;--text:#f8fafc;--muted:#cbd5e1;--line:#334155;--gold:#f6c453;--green:#53d49a;--red:#ff8377}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,sans-serif;line-height:1.7}.wrap{max-width:900px;margin:auto;padding:18px}.hero{border-bottom:1px solid var(--line);padding-bottom:15px}.eyebrow{color:var(--gold);font-size:13px;font-weight:700}h1{line-height:1.2;margin:7px 0}.muted{color:var(--muted)}.tools{display:flex;flex-wrap:wrap;gap:8px;margin:15px 0}.btn{padding:9px 12px;border:1px solid var(--gold);border-radius:8px;background:var(--gold);color:#111827;font-weight:700;cursor:pointer;text-decoration:none}.btn.alt{background:transparent;color:var(--text);border-color:var(--line)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.card,details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px}.metric{font-size:22px;font-weight:700}.neg{color:var(--red)}.pos{color:var(--green)}.small{font-size:13px;color:var(--muted)}details{margin:12px 0;padding:0}summary{padding:14px;cursor:pointer;font-weight:bold}.inside{padding:0 14px 14px}table{width:100%;border-collapse:collapse}th,td{padding:9px;border-bottom:1px solid var(--line);text-align:right}th{color:var(--gold)}.pipe{display:grid;grid-template-columns:1fr 34px 1fr 34px 1fr}.node{background:#1b2a47;border:1px solid var(--line);border-radius:9px;padding:10px}.arrow{display:flex;align-items:center;justify-content:center;color:var(--gold);font-size:22px}@media(max-width:650px){.grid{grid-template-columns:1fr 1fr}.pipe{grid-template-columns:1fr}.arrow{height:28px;transform:rotate(90deg)}}@media print{body{background:#fff;color:#111827}.card,details,.node{background:#fff}.tools{display:none}}</style></head><body><main class="wrap"><header class="hero"><div class="eyebrow">MARKET PIPELINE · LIVE DASHBOARD</div><h1>למה התיק זז היום?</h1><p class="muted" id="updated">טוען נתונים…</p></header><nav class="tools"><button class="btn" onclick="all(true)">פתח הכול</button><button class="btn alt" onclick="all(false)">סגור הכול</button><button class="btn alt" onclick="window.print()">PDF / הדפסה</button><button class="btn alt" onclick="sharePage()">שתף</button><a class="btn alt" href="https://github.com/yuvaltevelov/market-pipeline/actions/workflows/refresh.yml" target="_blank">עדכן נתונים</a></nav><section class="grid" id="cards"></section><details open><summary>הצ׳קליסט החי: מה בודקים לפני החלטה</summary><div class="inside" id="checklist"></div></details><details open><summary>צינור סיבתי: מקור → אמצע → תוצאה</summary><div class="inside"><div class="pipe" id="pipeline"></div></div></details><details><summary>תיק ונכסים</summary><div class="inside"><table><thead><tr><th>נכס</th><th>מחיר</th><th>שינוי</th><th>סיווג</th></tr></thead><tbody id="rows"></tbody></table></div></details><details><summary>תסריט קריין</summary><div class="inside"><p id="narration"></p></div></details><p class="small">מידע לימודי בלבד, לא ייעוץ השקעות. כפתור עדכון מפנה להרצה ידנית מאובטחת ב-GitHub Actions; הוא לא חושף מפתחות באתר.</p></main><script>async function load(){const d=await fetch('data/latest.json?'+Date.now()).then(r=>r.json());document.getElementById('updated').textContent='עודכן: '+d.updated+' · '+d.status;document.getElementById('cards').innerHTML=d.cards.map(x=>`<article class="card"><div class="small">${x.label}</div><div class="metric ${x.cls||''}">${x.value}</div><div class="small">${x.note}</div></article>`).join('');document.getElementById('checklist').innerHTML='<ul>'+d.checklist.map(x=>`<li><b>${x.title}:</b> ${x.text}</li>`).join('')+'</ul>';document.getElementById('pipeline').innerHTML=d.pipeline.map((x,i)=>`${i?'<div class="arrow">←</div>':''}<div class="node"><b>${x.title}</b><br>${x.text}</div>`).join('');document.getElementById('rows').innerHTML=d.assets.map(x=>`<tr><td>${x.ticker}</td><td>${x.price}</td><td class="${x.change.startsWith('+')?'pos':'neg'}">${x.change}</td><td>${x.note}</td></tr>`).join('');document.getElementById('narration').textContent=d.narration}function all(v){document.querySelectorAll('details').forEach(x=>x.open=v)}async function sharePage(){if(navigator.share)await navigator.share({title:document.title,url:location.href});else{await navigator.clipboard.writeText(location.href);alert('הקישור הועתק')}}load().catch(()=>document.getElementById('updated').textContent='שגיאה בטעינת נתונים')</script></body></html>
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b1220">
+<meta name="description" content="Market Pipeline — מקורות נתוני שוק עם זמן מדידה, איכות נתונים וקישור למקור. לא ציטוטי מסחר בזמן אמת.">
+<title>Market Pipeline | נתונים עם מקורות</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1220;--panel:#17233a;--panel2:#1d2c45;--ink:#f4f7fb;--muted:#b9c7d9;--line:#34465e;--gold:#f1c766;--green:#7bd5b1;--red:#fd928b}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at 50% 0,#182640 0,#0b1220 52%);color:var(--ink);font:16px/1.65 system-ui,-apple-system,Arial,sans-serif}
+main{max-width:1120px;padding:clamp(16px,4vw,40px);margin:0 auto}
+h1,h2,h3,p{margin-top:0}h1{font-size:clamp(28px,5vw,42px);line-height:1.22;margin:10px 0}h2{font-size:clamp(19px,3vw,23px)}p{margin-bottom:12px}
+a{color:var(--gold);text-underline-offset:3px}
+.eyebrow{font-size:13px;letter-spacing:.07em;color:var(--gold);font-weight:800}
+.muted{color:var(--muted)}
+.hero{border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:22px}
+.toolbar{display:flex;flex-wrap:wrap;gap:9px;margin:18px 0}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:43px;border-radius:10px;border:1px solid var(--line);background:transparent;padding:9px 14px;color:var(--ink);font:inherit;font-weight:650;text-decoration:none;cursor:pointer}
+.btn.primary{color:#101828;background:var(--gold);border-color:var(--gold)}
+.btn:hover,.btn:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+#state{padding:12px 14px;background:#182945;border:1px solid var(--line);border-radius:11px;margin:10px 0}
+#state.alert{border-color:var(--red)}
+#summary{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0}
+.pill{border:1px solid var(--line);border-radius:999px;font-size:13px;padding:4px 10px;background:#1e2d45;color:var(--muted)}
+.metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.card,details,.panel{background:linear-gradient(135deg,#192640,#152035);border:1px solid var(--line);border-radius:16px;padding:18px;min-width:0}
+.card .name{font-weight:700;overflow-wrap:anywhere}
+.card .price{font-size:clamp(25px,3.3vw,36px);font-weight:800;margin:12px 0 4px;direction:ltr;text-align:right;font-variant-numeric:tabular-nums}
+.card .meta{font-size:13px;color:var(--muted);overflow-wrap:anywhere;margin-top:8px}
+.green{color:var(--green)}.red{color:var(--red)}
+.section{margin-top:23px}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.panel h2{margin-bottom:12px}
+.entry{padding:13px 0;border-bottom:1px solid var(--line)}
+.entry:last-child{border-bottom:0;padding-bottom:0}
+.entry a{overflow-wrap:anywhere}
+.small{font-size:13px;color:var(--muted)}
+.table-scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;white-space:nowrap;font-size:14px}
+th,td{border-bottom:1px solid var(--line);padding:12px 10px;text-align:right}
+th{color:var(--gold);font-weight:700}
+td .small{display:block;max-width:210px;white-space:normal}
+.note{margin-top:16px;color:var(--muted);font-size:13px}
+.pipeline{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.step{padding:12px;border:1px solid var(--line);border-radius:11px;background:var(--panel2)}
+.step strong{color:var(--gold)}
+footer{margin-top:28px;padding-top:16px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+@media(max-width:740px){.metrics{grid-template-columns:1fr}.grid-2{grid-template-columns:1fr}.pipeline{grid-template-columns:1fr}.card{padding:16px}.toolbar .btn{flex:1;min-width:max-content}}
+@media print{body{background:white;color:black}.card,.panel,.step{background:white;color:black;border-color:#bbb}.toolbar{display:none}a{color:#244986}.small,.muted,footer{color:#444}}
+</style>
+</head>
+<body>
+<main>
+<header class="hero">
+  <div class="eyebrow">MARKET PIPELINE · SOURCE-ATTRIBUTED DATA</div>
+  <h1>מה באמת ידוע על השוק?</h1>
+  <p class="muted">נתונים מדווחים עם זמן מדידה וקישור למקור. המחירים אינם בהכרח בזמן אמת, ואינם מחירי ביצוע.</p>
+  <div id="state" role="status" aria-live="polite">טוען נתונים מהדוח האחרון…</div>
+  <div id="summary" aria-label="מצב איכות הנתונים"></div>
+</header>
+<nav class="toolbar" aria-label="פעולות">
+  <button class="btn primary" id="reload" type="button">טען דוח מחדש</button>
+  <a class="btn" href="https://github.com/yuvaltevelov/market-pipeline/actions/workflows/refresh.yml" target="_blank" rel="noopener noreferrer">הרץ איסוף ב־GitHub</a>
+  <button class="btn" id="print" type="button">הדפס / PDF</button>
+  <button class="btn" id="share" type="button">שתף</button>
+</nav>
+<section aria-labelledby="main-title"><h2 id="main-title">נכסים במעקב</h2><div class="metrics" id="cards"></div></section>
+<section class="section grid-2">
+  <div class="panel"><h2>בדיקות איכות והקשר</h2><div id="signals"></div></div>
+  <div class="panel"><h2>פרסומים רשמיים מהפד</h2><div id="news"></div><p class="small">כותרות RSS מהבנק המרכזי בלבד. אין כאן קביעה שהפרסום גרם לשינוי במחיר.</p></div>
+</section>
+<section class="section panel" aria-labelledby="all-assets-title">
+  <h2 id="all-assets-title">מקורות הנתונים והמדידות</h2>
+  <div class="table-scroll"><table><thead><tr><th scope="col">נכס</th><th scope="col">מחיר</th><th scope="col">שינוי ביחס לתקופה המדווחת</th><th scope="col">זמן המדידה</th><th scope="col">מצב</th><th scope="col">מקור</th></tr></thead><tbody id="rows"></tbody></table></div>
+  <p class="note">נתוני סגירה יומיים מתייחסים לתאריך המסחר; נתוני ספוט מדווחים עם חותמת זמן מהספק. השינויים אינם תמיד מאותה תקופה ולכן אינם בני השוואה ישירה.</p>
+</section>
+<section class="section panel"><h2>איך הנתון מגיע לאתר?</h2><div class="pipeline"><div class="step"><strong>1 · איסוף</strong><p>גישה למקור ציבורי, קבלת מחיר וזמן מדידה מקורי.</p></div><div class="step"><strong>2 · בקרת איכות</strong><p>בדיקת מספר, תאריך, תחום סבירות וטריות. כשל לא הופך לנתון מומצא.</p></div><div class="step"><strong>3 · הצגה שקופה</strong><p>מחיר, מקור, איכות ועיכוב. אין הסקה אוטומטית על סיבת שינוי השוק.</p></div></div></section>
+<footer>המידע מוצג ללמידה ולמעקב בלבד, אינו המלצה להשקעה. בדיקת סבירות של מקור יחיד אינה אימות צולב בין ספקים. כדי לקבל מחיר סחיר בזמן אמת נדרש ספק מורשה מתאים.</footer>
+<noscript>יש להפעיל JavaScript לצפייה בנתונים.</noscript>
+</main>
+<script>
+"use strict";
+const byId = id => document.getElementById(id);
+const clear = node => node.replaceChildren();
+const node = (tag,text,cls) => {const x=document.createElement(tag); if(text!==undefined && text!==null)x.textContent=String(text); if(cls)x.className=cls;return x;};
+const displayNumber = (n, digits=2) => new Intl.NumberFormat("en-US",{minimumFractionDigits:0,maximumFractionDigits:digits}).format(n);
+const allowedHosts = new Set(["stooq.com","www.stooq.com","gold-api.com","www.coingecko.com","fred.stlouisfed.org","www.federalreserve.gov"]);
+function link(url,label){
+  try {const parsed=new URL(url);if(parsed.protocol!=="https:"||!allowedHosts.has(parsed.hostname))throw new Error("unapproved");const a=node("a",label);a.href=parsed.href;a.target="_blank";a.rel="noopener noreferrer";return a;}
+  catch{return node("span","מקור לא מאושר","small");}
+}
+function observeDate(a){
+  if(!a.as_of)return "אין תאריך";
+  if(a.granularity==="date")return a.as_of+" · סגירה יומית";
+  const d=new Date(a.as_of);
+  return Number.isFinite(d.getTime())?d.toLocaleString("he-IL",{timeZone:"Asia/Jerusalem",dateStyle:"short",timeStyle:"short"})+" (שעון ישראל)":"זמן לא תקין";
+}
+function quoteStatus(a,generatedAge){
+  if(a.quality!=="reported")return a.quality==="stale"?"נתון ישן":"לא זמין";
+  if(a.granularity==="timestamp"&&generatedAge>180*60*1000)return "תמונת מצב ישנה";
+  return a.granularity==="date"?"סגירה מדווחת":"דיווח מקור יחיד";
+}
+function effectivePrice(a,generatedAge){return a.quality==="reported"&&(a.granularity==="date"||generatedAge<=180*60*1000)&&typeof a.price==="number"&&Number.isFinite(a.price)&&a.price>0;}
+function renderAssets(data,age){
+  const cards=byId("cards"),rows=byId("rows");clear(cards);clear(rows);
+  for(const a of data.assets){
+    const okay=effectivePrice(a,age),price=okay?(a.currency==="USD"?"$":"")+displayNumber(a.price):"לא זמין";
+    const pct=okay&&typeof a.change_percent==="number"&&Number.isFinite(a.change_percent)?(a.change_percent>0?"+":"")+displayNumber(a.change_percent,2)+"%":"—";
+    const pctCls=typeof a.change_percent==="number"?(a.change_percent>0?"green":a.change_percent<0?"red":""):"";
+    if(["PLTR","XAUUSD","BRENT"].includes(a.id)){
+      const c=node("article",null,"card");
+      c.append(node("div",a.name,"name"),node("div",price,"price"+(pctCls?" "+pctCls:"")),node("div",pct+" · "+quoteStatus(a,age),"small"));
+      c.append(node("div",observeDate(a),"meta"));
+      const source=node("div",null,"meta");source.append("מקור: ",link(a.source_url,a.source));c.append(source);cards.append(c);
+    }
+    const tr=node("tr");
+    const name=node("td",a.name);
+    name.append(node("span",a.description||"","small"));
+    const tdPrice=node("td",price);
+    const tdChange=node("td",pct,pctCls);
+    const tdAsOf=node("td",observeDate(a));
+    const tdStatus=node("td",quoteStatus(a,age));
+    const tdSource=node("td");tdSource.append(link(a.source_url,a.source));
+    tr.append(name,tdPrice,tdChange,tdAsOf,tdStatus,tdSource);rows.append(tr);
+  }
+}
+function renderTextEntries(id,items,type){
+  const box=byId(id);clear(box);
+  if(!items.length){box.append(node("p",type==="news"?"לא התקבלו פרסומים רשמיים מתוארכים מהמקור.":"אין מידע שניתן להציג." ,"small"));return;}
+  for(const entry of items){
+    const c=node("div",null,"entry");
+    if(type==="news"){
+      c.append(link(entry.url,entry.title),node("div",entry.source+" · "+new Date(entry.published_at).toLocaleString("he-IL"),"small"));
+    }else{
+      c.append(node("strong",entry.title),node("p",entry.text,"small"));
+    }
+    box.append(c);
+  }
+}
+async function load(){
+  byId("state").textContent="טוען דוח מקור אחרון…";
+  try{
+    const response=await fetch("./data/latest.json?t="+Date.now(),{cache:"no-store"});
+    if(!response.ok)throw new Error("http "+response.status);
+    const d=await response.json();
+    if(d.schema_version!==2||!Array.isArray(d.assets)||d.assets.length!==6||!d.quality)throw new Error("legacy or invalid data schema");
+    const generated=d.generated_at?Date.parse(d.generated_at):NaN;
+    const age=Number.isFinite(generated)?Math.max(0,Date.now()-generated):Infinity;
+    const published=Number.isFinite(generated)?new Date(generated).toLocaleString("he-IL",{timeZone:"Asia/Jerusalem",dateStyle:"medium",timeStyle:"short"}):"טרם בוצע איסוף";
+    const old=age>2*60*60*1000;
+    const state=byId("state");
+    state.textContent="דוח אחרון: "+published+" (ישראל). "+(old?"אזהרה: הדוח לא התחדש בזמן; מחירי ספוט ישנים מוסתרים.":d.status==="complete"?"האיסוף הושלם; אין אימות צולב בין ספקים.":d.status==="partial"?"חלק מהמקורות לא היו זמינים.":"ממתינים לאיסוף ראשון.");
+    state.classList.toggle("alert",old||d.status!=="complete");
+    const summary=byId("summary");clear(summary);
+    summary.append(node("span","נתונים מדווחים: "+d.quality.reported+"/6","pill"),node("span","ישנים: "+d.quality.stale,"pill"),node("span","לא זמינים: "+d.quality.unavailable,"pill"),node("span","אימות צולב: 0","pill"));
+    renderAssets(d,age);
+    renderTextEntries("signals",Array.isArray(d.signals)?d.signals:[],"signals");
+    renderTextEntries("news",Array.isArray(d.news)?d.news:[],"news");
+  }catch(error){
+    const el=byId("state");el.textContent="לא ניתן לאמת את הדוח. אין להסתמך על המחירים. ("+error.message+")";el.classList.add("alert");
+    ["cards","rows","signals","news","summary"].forEach(id=>clear(byId(id)));
+  }
+}
+byId("reload").addEventListener("click",load);
+byId("print").addEventListener("click",()=>window.print());
+byId("share").addEventListener("click",async()=>{
+  try{if(navigator.share)await navigator.share({title:document.title,url:location.href});else if(navigator.clipboard){await navigator.clipboard.writeText(location.href);byId("state").textContent="הקישור הועתק. הנתונים עצמם לא שונו."}}
+  catch{/* sharing was canceled */}
+});
+load();
+</script>
+</body>
+</html>
