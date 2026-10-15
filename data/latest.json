@@ -1,14 +1,15 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-15T19:27:31Z",
+  "generated_at": "2026-10-15T22:41:37Z",
   "status": "partial",
   "quality": {
     "reported": 4,
-    "stale": 1,
-    "unavailable": 1,
+    "stale": 0,
+    "unavailable": 2,
     "cross_verified": 0,
     "source_errors": [
-      "PLTR: HTTPError"
+      "PLTR: HTTPError",
+      "XAUUSD: URLError"
     ]
   },
   "assets": [
@@ -35,16 +36,16 @@
       "description": "ספוט אינדיקטיבי · אונקיית טרוי",
       "currency": "USD",
       "unit": "troy_oz",
-      "price": 4162.2998,
+      "price": null,
       "change_percent": null,
-      "as_of": "2026-10-15T19:27:17Z",
-      "granularity": "timestamp",
+      "as_of": null,
+      "granularity": null,
       "source": "Gold-API",
       "source_url": "https://gold-api.com/docs",
       "pricing_basis": "indicative_spot",
-      "quality": "reported",
-      "verification": "single_source",
-      "warning": "המקור אינו אימות עצמאי נוסף"
+      "quality": "unavailable",
+      "verification": "none",
+      "warning": "source_unavailable"
     },
     {
       "id": "BTC",
@@ -52,9 +53,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 82475.0,
-      "change_percent": 0.877,
-      "as_of": "2026-10-15T19:27:25Z",
+      "price": 82399.0,
+      "change_percent": 1.154,
+      "as_of": "2026-10-15T22:40:39Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/bitcoin",
@@ -69,9 +70,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 2454.94,
-      "change_percent": 0.921,
-      "as_of": "2026-10-15T19:27:15Z",
+      "price": 2457.73,
+      "change_percent": 1.871,
+      "as_of": "2026-10-15T22:40:39Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ethereum",
@@ -86,16 +87,16 @@
       "description": "נפט · חבית",
       "currency": "USD",
       "unit": "barrel",
-      "price": 125.44,
-      "change_percent": -0.056,
-      "as_of": "2026-10-06",
+      "price": 126.55,
+      "change_percent": 0.612,
+      "as_of": "2026-10-14",
       "granularity": "date",
       "source": "FRED / EIA",
       "source_url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
       "pricing_basis": "daily_spot",
-      "quality": "stale",
+      "quality": "reported",
       "verification": "single_source",
-      "warning": "נתון ישן — אינו מחיר עדכני"
+      "warning": "המקור אינו אימות עצמאי נוסף"
     },
     {
       "id": "VIX",
@@ -127,10 +128,6 @@
     {
       "title": "ניתוח זהיר",
       "text": "שינוי יומי אינו מעיד לבדו על סיבת התנועה או על תנועה עתידית."
-    },
-    {
-      "title": "מידע ישן",
-      "text": "1 נכסים סומנו כישנים ולא יוצגו כמחיר נוכחי."
     }
   ],
   "news": [
@@ -144,12 +141,6 @@
       "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
       "published_at": "2026-10-09T14:00:00Z",
-      "source": "Federal Reserve"
-    },
-    {
-      "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
-      "published_at": "2026-10-08T20:30:00Z",
       "source": "Federal Reserve"
     }
   ],
