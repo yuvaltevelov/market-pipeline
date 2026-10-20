@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-20T15:09:24Z",
+  "generated_at": "2026-10-20T19:20:15Z",
   "status": "partial",
   "quality": {
     "reported": 5,
@@ -35,9 +35,9 @@
       "description": "ספוט אינדיקטיבי · אונקיית טרוי",
       "currency": "USD",
       "unit": "troy_oz",
-      "price": 4144.8999,
+      "price": 4121.7002,
       "change_percent": null,
-      "as_of": "2026-10-20T15:09:08Z",
+      "as_of": "2026-10-20T19:20:09Z",
       "granularity": "timestamp",
       "source": "Gold-API",
       "source_url": "https://gold-api.com/docs",
@@ -52,9 +52,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 83014.0,
-      "change_percent": 1.042,
-      "as_of": "2026-10-20T15:08:41Z",
+      "price": 82458.0,
+      "change_percent": 0.696,
+      "as_of": "2026-10-20T19:19:44Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/bitcoin",
@@ -69,9 +69,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 2462.65,
-      "change_percent": 2.366,
-      "as_of": "2026-10-20T15:08:41Z",
+      "price": 2432.83,
+      "change_percent": 1.448,
+      "as_of": "2026-10-20T19:19:33Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ethereum",
@@ -134,12 +134,6 @@
       "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
       "published_at": "2026-10-16T15:00:00Z",
-      "source": "Federal Reserve"
-    },
-    {
-      "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
-      "published_at": "2026-10-13T18:00:00Z",
       "source": "Federal Reserve"
     }
   ],
