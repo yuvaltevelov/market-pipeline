@@ -1,16 +1,15 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-22T00:01:37Z",
+  "generated_at": "2026-10-22T04:57:43Z",
   "status": "partial",
   "quality": {
-    "reported": 3,
+    "reported": 4,
     "stale": 0,
-    "unavailable": 3,
+    "unavailable": 2,
     "cross_verified": 0,
     "source_errors": [
       "PLTR: HTTPError",
-      "BRENT: ValueError",
-      "VIX: ValueError"
+      "XAUUSD: URLError"
     ]
   },
   "assets": [
@@ -37,16 +36,16 @@
       "description": "ספוט אינדיקטיבי · אונקיית טרוי",
       "currency": "USD",
       "unit": "troy_oz",
-      "price": 4123.7002,
+      "price": null,
       "change_percent": null,
-      "as_of": "2026-10-22T00:01:10Z",
-      "granularity": "timestamp",
+      "as_of": null,
+      "granularity": null,
       "source": "Gold-API",
       "source_url": "https://gold-api.com/docs",
       "pricing_basis": "indicative_spot",
-      "quality": "reported",
-      "verification": "single_source",
-      "warning": "המקור אינו אימות עצמאי נוסף"
+      "quality": "unavailable",
+      "verification": "none",
+      "warning": "source_unavailable"
     },
     {
       "id": "BTC",
@@ -54,9 +53,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 84039.0,
-      "change_percent": 1.374,
-      "as_of": "2026-10-22T00:01:05Z",
+      "price": 82804.0,
+      "change_percent": 0.103,
+      "as_of": "2026-10-22T04:56:53Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/bitcoin",
@@ -71,9 +70,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 2471.63,
-      "change_percent": 1.064,
-      "as_of": "2026-10-22T00:01:05Z",
+      "price": 2443.23,
+      "change_percent": 0.038,
+      "as_of": "2026-10-22T04:56:53Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ethereum",
@@ -88,16 +87,16 @@
       "description": "נפט · חבית",
       "currency": "USD",
       "unit": "barrel",
-      "price": null,
-      "change_percent": null,
-      "as_of": null,
-      "granularity": null,
+      "price": 115.22,
+      "change_percent": -3.03,
+      "as_of": "2026-10-20",
+      "granularity": "date",
       "source": "FRED / EIA",
       "source_url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
       "pricing_basis": "daily_spot",
-      "quality": "unavailable",
-      "verification": "none",
-      "warning": "source_unavailable"
+      "quality": "reported",
+      "verification": "single_source",
+      "warning": "המקור אינו אימות עצמאי נוסף"
     },
     {
       "id": "VIX",
@@ -105,22 +104,22 @@
       "description": "מדד תנודתיות",
       "currency": "index",
       "unit": "index",
-      "price": null,
-      "change_percent": null,
-      "as_of": null,
-      "granularity": null,
+      "price": 17.31,
+      "change_percent": -6.128,
+      "as_of": "2026-10-20",
+      "granularity": "date",
       "source": "FRED / CBOE",
       "source_url": "https://fred.stlouisfed.org/series/VIXCLS",
       "pricing_basis": "daily_close",
-      "quality": "unavailable",
-      "verification": "none",
-      "warning": "source_unavailable"
+      "quality": "reported",
+      "verification": "single_source",
+      "warning": "המקור אינו אימות עצמאי נוסף"
     }
   ],
   "signals": [
     {
       "title": "אימות מקורות",
-      "text": "3 מתוך 6 מקורות דיווחו נתון תקף לזמנם; אין אימות בלתי תלוי בין ספקים."
+      "text": "4 מתוך 6 מקורות דיווחו נתון תקף לזמנם; אין אימות בלתי תלוי בין ספקים."
     },
     {
       "title": "זמן מדידה",
