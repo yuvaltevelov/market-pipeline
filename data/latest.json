@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-23T12:11:33Z",
+  "generated_at": "2026-10-23T17:14:09Z",
   "status": "partial",
   "quality": {
     "reported": 5,
@@ -35,9 +35,9 @@
       "description": "ספוט אינדיקטיבי · אונקיית טרוי",
       "currency": "USD",
       "unit": "troy_oz",
-      "price": 4024.8,
+      "price": 3998.8999,
       "change_percent": null,
-      "as_of": "2026-10-23T12:11:13Z",
+      "as_of": "2026-10-23T17:13:44Z",
       "granularity": "timestamp",
       "source": "Gold-API",
       "source_url": "https://gold-api.com/docs",
@@ -52,9 +52,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 81514.0,
-      "change_percent": -0.285,
-      "as_of": "2026-10-23T12:10:32Z",
+      "price": 81681.0,
+      "change_percent": 0.679,
+      "as_of": "2026-10-23T17:13:11Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/bitcoin",
@@ -69,9 +69,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 2394.99,
-      "change_percent": -0.161,
-      "as_of": "2026-10-23T12:10:21Z",
+      "price": 2407.37,
+      "change_percent": 1.357,
+      "as_of": "2026-10-23T17:13:25Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ethereum",
@@ -103,9 +103,9 @@
       "description": "מדד תנודתיות",
       "currency": "index",
       "unit": "index",
-      "price": 16.68,
-      "change_percent": -3.64,
-      "as_of": "2026-10-21",
+      "price": 19.03,
+      "change_percent": 14.089,
+      "as_of": "2026-10-22",
       "granularity": "date",
       "source": "FRED / CBOE",
       "source_url": "https://fred.stlouisfed.org/series/VIXCLS",
@@ -129,13 +129,6 @@
       "text": "שינוי יומי אינו מעיד לבדו על סיבת התנועה או על תנועה עתידית."
     }
   ],
-  "news": [
-    {
-      "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
-      "published_at": "2026-10-16T15:00:00Z",
-      "source": "Federal Reserve"
-    }
-  ],
+  "news": [],
   "disclaimer": "נתוני מקור חינמי, חלקם מעוכבים או אינדיקטיביים. ללא אימות צולב וללא המלצת השקעה."
 }
