@@ -1,15 +1,14 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-26T05:25:22Z",
+  "generated_at": "2026-10-26T11:34:18Z",
   "status": "partial",
   "quality": {
-    "reported": 4,
+    "reported": 5,
     "stale": 0,
-    "unavailable": 2,
+    "unavailable": 1,
     "cross_verified": 0,
     "source_errors": [
-      "PLTR: HTTPError",
-      "XAUUSD: URLError"
+      "PLTR: HTTPError"
     ]
   },
   "assets": [
@@ -36,16 +35,16 @@
       "description": "ספוט אינדיקטיבי · אונקיית טרוי",
       "currency": "USD",
       "unit": "troy_oz",
-      "price": null,
+      "price": 4016.5,
       "change_percent": null,
-      "as_of": null,
-      "granularity": null,
+      "as_of": "2026-10-26T11:34:14Z",
+      "granularity": "timestamp",
       "source": "Gold-API",
       "source_url": "https://gold-api.com/docs",
       "pricing_basis": "indicative_spot",
-      "quality": "unavailable",
-      "verification": "none",
-      "warning": "source_unavailable"
+      "quality": "reported",
+      "verification": "single_source",
+      "warning": "המקור אינו אימות עצמאי נוסף"
     },
     {
       "id": "BTC",
@@ -53,9 +52,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 80050.0,
-      "change_percent": -0.918,
-      "as_of": "2026-10-26T05:24:10Z",
+      "price": 80202.0,
+      "change_percent": -0.138,
+      "as_of": "2026-10-26T11:33:18Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/bitcoin",
@@ -70,9 +69,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 2319.78,
-      "change_percent": -1.869,
-      "as_of": "2026-10-26T05:24:10Z",
+      "price": 2326.15,
+      "change_percent": -0.071,
+      "as_of": "2026-10-26T11:33:05Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ethereum",
@@ -119,7 +118,7 @@
   "signals": [
     {
       "title": "אימות מקורות",
-      "text": "4 מתוך 6 מקורות דיווחו נתון תקף לזמנם; אין אימות בלתי תלוי בין ספקים."
+      "text": "5 מתוך 6 מקורות דיווחו נתון תקף לזמנם; אין אימות בלתי תלוי בין ספקים."
     },
     {
       "title": "זמן מדידה",
