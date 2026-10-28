@@ -1,14 +1,14 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-28T16:07:37Z",
+  "generated_at": "2026-10-28T21:08:54Z",
   "status": "partial",
   "quality": {
-    "reported": 4,
-    "stale": 1,
+    "reported": 5,
+    "stale": 0,
     "unavailable": 1,
     "cross_verified": 0,
     "source_errors": [
-      "PLTR: URLError"
+      "PLTR: HTTPError"
     ]
   },
   "assets": [
@@ -35,9 +35,9 @@
       "description": "ספוט אינדיקטיבי · אונקיית טרוי",
       "currency": "USD",
       "unit": "troy_oz",
-      "price": 4039.7,
+      "price": 4068.6001,
       "change_percent": null,
-      "as_of": "2026-10-28T16:08:27Z",
+      "as_of": "2026-10-28T21:08:28Z",
       "granularity": "timestamp",
       "source": "Gold-API",
       "source_url": "https://gold-api.com/docs",
@@ -52,9 +52,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 80453.0,
-      "change_percent": 0.04,
-      "as_of": "2026-10-28T16:07:44Z",
+      "price": 81290.0,
+      "change_percent": 0.766,
+      "as_of": "2026-10-28T21:07:55Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/bitcoin",
@@ -69,9 +69,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 2330.88,
-      "change_percent": -0.478,
-      "as_of": "2026-10-28T16:07:25Z",
+      "price": 2360.69,
+      "change_percent": 0.816,
+      "as_of": "2026-10-28T21:07:39Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ethereum",
@@ -86,16 +86,16 @@
       "description": "נפט · חבית",
       "currency": "USD",
       "unit": "barrel",
-      "price": 115.22,
-      "change_percent": -3.03,
-      "as_of": "2026-10-20",
+      "price": 123.1,
+      "change_percent": -3.918,
+      "as_of": "2026-10-27",
       "granularity": "date",
       "source": "FRED / EIA",
       "source_url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
       "pricing_basis": "daily_spot",
-      "quality": "stale",
+      "quality": "reported",
       "verification": "single_source",
-      "warning": "נתון ישן — אינו מחיר עדכני"
+      "warning": "המקור אינו אימות עצמאי נוסף"
     },
     {
       "id": "VIX",
@@ -118,7 +118,7 @@
   "signals": [
     {
       "title": "אימות מקורות",
-      "text": "4 מתוך 6 מקורות דיווחו נתון תקף לזמנם; אין אימות בלתי תלוי בין ספקים."
+      "text": "5 מתוך 6 מקורות דיווחו נתון תקף לזמנם; אין אימות בלתי תלוי בין ספקים."
     },
     {
       "title": "זמן מדידה",
@@ -127,12 +127,15 @@
     {
       "title": "ניתוח זהיר",
       "text": "שינוי יומי אינו מעיד לבדו על סיבת התנועה או על תנועה עתידית."
-    },
-    {
-      "title": "מידע ישן",
-      "text": "1 נכסים סומנו כישנים ולא יוצגו כמחיר נוכחי."
     }
   ],
-  "news": [],
+  "news": [
+    {
+      "title": "Federal Reserve issues FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "published_at": "2026-10-28T18:00:00Z",
+      "source": "Federal Reserve"
+    }
+  ],
   "disclaimer": "נתוני מקור חינמי, חלקם מעוכבים או אינדיקטיביים. ללא אימות צולב וללא המלצת השקעה."
 }
