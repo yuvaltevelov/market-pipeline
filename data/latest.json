@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-29T19:54:03Z",
+  "generated_at": "2026-10-29T23:58:25Z",
   "status": "partial",
   "quality": {
     "reported": 5,
@@ -35,9 +35,9 @@
       "description": "ספוט אינדיקטיבי · אונקיית טרוי",
       "currency": "USD",
       "unit": "troy_oz",
-      "price": 4021.3,
+      "price": 4009.1001,
       "change_percent": null,
-      "as_of": "2026-10-29T19:53:39Z",
+      "as_of": "2026-10-29T23:58:10Z",
       "granularity": "timestamp",
       "source": "Gold-API",
       "source_url": "https://gold-api.com/docs",
@@ -52,9 +52,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 80814.0,
-      "change_percent": -0.732,
-      "as_of": "2026-10-29T19:53:33Z",
+      "price": 77843.0,
+      "change_percent": -4.217,
+      "as_of": "2026-10-29T23:57:49Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/bitcoin",
@@ -69,9 +69,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 2336.56,
-      "change_percent": -1.209,
-      "as_of": "2026-10-29T19:53:33Z",
+      "price": 2247.56,
+      "change_percent": -4.659,
+      "as_of": "2026-10-29T23:57:49Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ethereum",
@@ -130,6 +130,12 @@
     }
   ],
   "news": [
+    {
+      "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
+      "published_at": "2026-10-29T20:30:00Z",
+      "source": "Federal Reserve"
+    },
     {
       "title": "Federal Reserve issues FOMC statement",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
