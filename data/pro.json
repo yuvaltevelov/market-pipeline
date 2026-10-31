@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-31T20:04:11Z",
+  "generated_at": "2026-10-31T23:27:55Z",
   "status": "partial",
   "coverage": {
     "valid": 23,
@@ -431,10 +431,10 @@
       },
       "indicators": {
         "close": 184.11,
-        "ema20": 189.9687,
-        "ema50": 193.4642,
+        "ema20": 189.9685,
+        "ema50": 193.464,
         "sma200": null,
-        "rsi14": 29.7706,
+        "rsi14": 29.7641,
         "atr14": 2.5743,
         "momentum20_pct": -5.2591,
         "change_pct": 0.0054,
@@ -707,7 +707,7 @@
         },
         {
           "time": 1793215800,
-          "close": 196.82001
+          "close": 196.81
         },
         {
           "time": 1793280600,
@@ -2742,9 +2742,9 @@
       "indicators": {
         "close": 755.72,
         "ema20": 761.5171,
-        "ema50": 764.8872,
+        "ema50": 764.887,
         "sma200": null,
-        "rsi14": 34.3563,
+        "rsi14": 34.3558,
         "atr14": 2.8887,
         "momentum20_pct": -1.9793,
         "change_pct": 0.0013,
@@ -2849,7 +2849,7 @@
         },
         {
           "time": 1792524600,
-          "close": 769.02002
+          "close": 769.01001
         },
         {
           "time": 1792589400,
@@ -2905,7 +2905,7 @@
         },
         {
           "time": 1792697400,
-          "close": 763.98999
+          "close": 763.97998
         },
         {
           "time": 1792762200,
@@ -3508,10 +3508,10 @@
       },
       "indicators": {
         "close": 690.49,
-        "ema20": 702.2761,
+        "ema20": 702.2762,
         "ema50": 710.3315,
         "sma200": null,
-        "rsi14": 29.5094,
+        "rsi14": 29.5095,
         "atr14": 4.4022,
         "momentum20_pct": -4.3477,
         "change_pct": -0.0101,
@@ -3560,7 +3560,7 @@
         },
         {
           "time": 1792179000,
-          "close": 709.92999
+          "close": 709.84998
         },
         {
           "time": 1792416600,
@@ -3776,7 +3776,7 @@
         },
         {
           "time": 1793208600,
-          "close": 722.56
+          "close": 722.56958
         },
         {
           "time": 1793212200,
@@ -7732,8 +7732,8 @@
       "status": "reported",
       "error": null,
       "bars": 720,
-      "as_of": 1793473200,
-      "score": 23,
+      "as_of": 1793484000,
+      "score": 18,
       "bias": "bearish",
       "reasons": [
         "ממוצע 20 מתחת 50",
@@ -7753,37 +7753,25 @@
         "institutional_identity": "unavailable"
       },
       "indicators": {
-        "close": 77432.8,
-        "ema20": 77378.158,
-        "ema50": 77817.4789,
-        "sma200": 79751.728,
-        "rsi14": 50.0411,
-        "atr14": 272.4709,
-        "momentum20_pct": 0.296,
-        "change_pct": -0.0708,
-        "rvol": 0.6657,
-        "cmf20": -0.235,
-        "mfi14": 70.2874,
-        "obv_direction": 1,
-        "rolling_vwap20": 77330.5387,
+        "close": 77401.0,
+        "ema20": 77395.8284,
+        "ema50": 77775.5511,
+        "sma200": 79687.3895,
+        "rsi14": 48.9902,
+        "atr14": 252.6903,
+        "momentum20_pct": 0.1169,
+        "change_pct": -0.1552,
+        "rvol": 1.6329,
+        "cmf20": -0.2009,
+        "mfi14": 74.2705,
+        "obv_direction": -1,
+        "rolling_vwap20": 77362.6238,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
         "fvg": "none"
       },
       "chart": [
-        {
-          "time": 1793188800,
-          "close": 80620.8
-        },
-        {
-          "time": 1793192400,
-          "close": 80616.3
-        },
-        {
-          "time": 1793196000,
-          "close": 80487.6
-        },
         {
           "time": 1793199600,
           "close": 80418.6
@@ -8091,10 +8079,22 @@
         {
           "time": 1793473200,
           "close": 77432.8
+        },
+        {
+          "time": 1793476800,
+          "close": 77418.7
+        },
+        {
+          "time": 1793480400,
+          "close": 77521.3
+        },
+        {
+          "time": 1793484000,
+          "close": 77401.0
         }
       ],
       "currency": "USD",
-      "price": 77432.8,
+      "price": 77401.0,
       "volume_source": "exchange volume"
     },
     {
@@ -8496,14 +8496,17 @@
       "status": "reported",
       "error": null,
       "bars": 720,
-      "as_of": 1793473200,
-      "score": 31,
+      "as_of": 1793484000,
+      "score": 20,
       "bias": "bearish",
       "reasons": [
         "ממוצע 20 מתחת 50",
         "מחיר מתחת ממוצע 200"
       ],
-      "flags": [],
+      "flags": [
+        "נפח חריג פי 1.88 מהממוצע",
+        "נזילות דובי — תבנית בלבד, לא ראיה למניפולציה"
+      ],
       "backtest": {
         "status": "insufficient_trades",
         "trades": 4,
@@ -8516,37 +8519,25 @@
         "institutional_identity": "unavailable"
       },
       "indicators": {
-        "close": 2250.73,
-        "ema20": 2245.6393,
-        "ema50": 2255.0256,
-        "sma200": 2317.0563,
-        "rsi14": 54.229,
-        "atr14": 9.8679,
-        "momentum20_pct": 0.4176,
-        "change_pct": -0.071,
-        "rvol": 0.5161,
-        "cmf20": 0.001,
-        "mfi14": 64.3829,
-        "obv_direction": 1,
-        "rolling_vwap20": 2244.6584,
+        "close": 2251.34,
+        "ema20": 2247.1749,
+        "ema50": 2254.6321,
+        "sma200": 2314.738,
+        "rsi14": 54.4183,
+        "atr14": 9.5927,
+        "momentum20_pct": 0.3826,
+        "change_pct": -0.0595,
+        "rvol": 1.8842,
+        "cmf20": -0.041,
+        "mfi14": 67.6246,
+        "obv_direction": -1,
+        "rolling_vwap20": 2246.1716,
         "volume_available": true,
-        "sweep": "none",
+        "sweep": "bearish",
         "breakout": "none",
         "fvg": "none"
       },
       "chart": [
-        {
-          "time": 1793188800,
-          "close": 2336.53
-        },
-        {
-          "time": 1793192400,
-          "close": 2332.59
-        },
-        {
-          "time": 1793196000,
-          "close": 2329.9
-        },
         {
           "time": 1793199600,
           "close": 2331.59
@@ -8854,10 +8845,22 @@
         {
           "time": 1793473200,
           "close": 2250.73
+        },
+        {
+          "time": 1793476800,
+          "close": 2250.59
+        },
+        {
+          "time": 1793480400,
+          "close": 2252.68
+        },
+        {
+          "time": 1793484000,
+          "close": 2251.34
         }
       ],
       "currency": "USD",
-      "price": 2250.73,
+      "price": 2251.34,
       "volume_source": "exchange volume"
     }
   ],
