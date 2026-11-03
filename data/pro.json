@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-11-03T02:26:08Z",
+  "generated_at": "2026-11-03T12:02:11Z",
   "status": "complete",
   "coverage": {
     "valid": 24,
@@ -59,11 +59,11 @@
         "atr14": 8.3633,
         "momentum20_pct": -5.8395,
         "change_pct": -3.134,
-        "rvol": 1.5822,
-        "cmf20": 0.0206,
-        "mfi14": 28.4209,
+        "rvol": 1.582,
+        "cmf20": 0.0205,
+        "mfi14": 28.416,
         "obv_direction": -1,
-        "rolling_vwap20": 196.4846,
+        "rolling_vwap20": 196.4832,
         "volume_available": true,
         "sweep": "none",
         "breakout": "bearish",
@@ -825,11 +825,11 @@
         "atr14": 6.3735,
         "momentum20_pct": -15.4207,
         "change_pct": -1.2608,
-        "rvol": 1.1745,
+        "rvol": 1.1743,
         "cmf20": -0.2289,
-        "mfi14": 29.2427,
+        "mfi14": 29.2364,
         "obv_direction": -1,
-        "rolling_vwap20": 219.2189,
+        "rolling_vwap20": 219.2164,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
@@ -1211,11 +1211,11 @@
         "atr14": 30.6766,
         "momentum20_pct": -26.1037,
         "change_pct": -7.5198,
-        "rvol": 1.5603,
+        "rvol": 1.5599,
         "cmf20": -0.0349,
-        "mfi14": 33.399,
+        "mfi14": 33.3888,
         "obv_direction": -1,
-        "rolling_vwap20": 557.23,
+        "rolling_vwap20": 557.2171,
         "volume_available": true,
         "sweep": "none",
         "breakout": "bearish",
@@ -1597,11 +1597,11 @@
         "atr14": 12.7926,
         "momentum20_pct": -3.4388,
         "change_pct": -2.8338,
-        "rvol": 1.5729,
+        "rvol": 1.5727,
         "cmf20": -0.0391,
-        "mfi14": 17.8915,
+        "mfi14": 17.8898,
         "obv_direction": -1,
-        "rolling_vwap20": 529.8141,
+        "rolling_vwap20": 529.8135,
         "volume_available": true,
         "sweep": "none",
         "breakout": "bearish",
@@ -1984,11 +1984,11 @@
         "atr14": 13.7025,
         "momentum20_pct": -17.9436,
         "change_pct": -1.8467,
-        "rvol": 1.0975,
-        "cmf20": -0.1312,
-        "mfi14": 37.316,
+        "rvol": 1.0973,
+        "cmf20": -0.1313,
+        "mfi14": 37.3042,
         "obv_direction": -1,
-        "rolling_vwap20": 429.4394,
+        "rolling_vwap20": 429.4338,
         "volume_available": true,
         "sweep": "none",
         "breakout": "bearish",
@@ -2369,11 +2369,11 @@
         "atr14": 8.0477,
         "momentum20_pct": -2.9336,
         "change_pct": -0.479,
-        "rvol": 1.2918,
+        "rvol": 1.2917,
         "cmf20": -0.0411,
-        "mfi14": 38.5008,
+        "mfi14": 38.4966,
         "obv_direction": -1,
-        "rolling_vwap20": 767.8195,
+        "rolling_vwap20": 767.8184,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
@@ -3136,11 +3136,11 @@
         "atr14": 13.1699,
         "momentum20_pct": -9.9326,
         "change_pct": -1.3613,
-        "rvol": 1.3893,
+        "rvol": 1.389,
         "cmf20": -0.1074,
-        "mfi14": 24.924,
+        "mfi14": 24.9191,
         "obv_direction": -1,
-        "rolling_vwap20": 719.9586,
+        "rolling_vwap20": 719.9538,
         "volume_available": true,
         "sweep": "none",
         "breakout": "bearish",
@@ -3903,11 +3903,11 @@
         "atr14": 19.7524,
         "momentum20_pct": -19.8123,
         "change_pct": -2.7139,
-        "rvol": 0.9209,
+        "rvol": 0.9208,
         "cmf20": -0.1274,
-        "mfi14": 26.3217,
+        "mfi14": 26.3166,
         "obv_direction": -1,
-        "rolling_vwap20": 557.8964,
+        "rolling_vwap20": 557.8907,
         "volume_available": true,
         "sweep": "none",
         "breakout": "bearish",
@@ -4280,9 +4280,9 @@
         "atr14": 3.8534,
         "momentum20_pct": -1.4962,
         "change_pct": -0.068,
-        "rvol": 1.0122,
+        "rvol": 1.0121,
         "cmf20": 0.0376,
-        "mfi14": 48.1804,
+        "mfi14": 48.1784,
         "obv_direction": 1,
         "rolling_vwap20": 276.7559,
         "volume_available": true,
@@ -4660,11 +4660,11 @@
         "atr14": 6.3458,
         "momentum20_pct": -4.7161,
         "change_pct": 1.6499,
-        "rvol": 1.0423,
-        "cmf20": 0.0042,
-        "mfi14": 35.4255,
+        "rvol": 1.042,
+        "cmf20": 0.0041,
+        "mfi14": 35.4168,
         "obv_direction": -1,
-        "rolling_vwap20": 373.3532,
+        "rolling_vwap20": 373.35,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
@@ -5046,11 +5046,11 @@
         "atr14": 5.5194,
         "momentum20_pct": 8.9451,
         "change_pct": -7.0841,
-        "rvol": 1.6162,
-        "cmf20": 0.1089,
-        "mfi14": 55.5923,
+        "rvol": 1.6158,
+        "cmf20": 0.1087,
+        "mfi14": 55.6038,
         "obv_direction": 1,
-        "rolling_vwap20": 159.1466,
+        "rolling_vwap20": 159.1487,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
@@ -5773,9 +5773,9 @@
       "pricing_basis": "unofficial chart feed",
       "status": "reported",
       "error": null,
-      "bars": 499,
-      "as_of": 1793667600,
-      "score": 69,
+      "bars": 511,
+      "as_of": 1793703600,
+      "score": 74,
       "bias": "bullish",
       "reasons": [
         "ממוצע 20 מעל 50",
@@ -5783,12 +5783,18 @@
       ],
       "flags": [
         "אין נפח מסחר אמין: RVOL/CMF/MFI/OBV לא מחושבים",
+        "נזילות שורי — תבנית בלבד, לא ראיה למניפולציה",
         "פער שווי הוגן דובי — תבנית בלבד, לא ראיה למניפולציה"
       ],
       "backtest": {
-        "status": "insufficient_trades",
-        "trades": 4,
-        "method": "Long-only fixed rule; chronological 25% holdout"
+        "status": "measured",
+        "trades": 5,
+        "win_rate_pct": 20.0,
+        "total_return_pct": -0.82,
+        "max_drawdown_pct": -0.82,
+        "buy_hold_same_window_pct": -0.12,
+        "cost_bps_round_trip": 20,
+        "method": "Fixed long-only heuristic, 25% chronological holdout; next-bar OPEN, exit after 8 bars; no position sizing/borrow costs. NOT a forecast probability."
       },
       "data_needs": {
         "aggressor_side_trades": "unavailable",
@@ -5797,73 +5803,25 @@
         "institutional_identity": "unavailable"
       },
       "indicators": {
-        "close": 1.1188,
-        "ema20": 1.1197,
-        "ema50": 1.1187,
-        "sma200": 1.1185,
-        "rsi14": 45.7595,
+        "close": 1.1183,
+        "ema20": 1.1193,
+        "ema50": 1.1189,
+        "sma200": 1.1182,
+        "rsi14": 42.1468,
         "atr14": 0.0011,
-        "momentum20_pct": 0.1343,
-        "change_pct": -0.0336,
+        "momentum20_pct": -0.1454,
+        "change_pct": -0.0224,
         "rvol": null,
         "cmf20": null,
         "mfi14": null,
         "obv_direction": null,
         "rolling_vwap20": null,
         "volume_available": false,
-        "sweep": "none",
+        "sweep": "bullish",
         "breakout": "none",
         "fvg": "bearish"
       },
       "chart": [
-        {
-          "time": 1793196000,
-          "close": 1.11383
-        },
-        {
-          "time": 1793199600,
-          "close": 1.11433
-        },
-        {
-          "time": 1793203200,
-          "close": 1.1152
-        },
-        {
-          "time": 1793206800,
-          "close": 1.11408
-        },
-        {
-          "time": 1793210400,
-          "close": 1.11557
-        },
-        {
-          "time": 1793214000,
-          "close": 1.11582
-        },
-        {
-          "time": 1793217600,
-          "close": 1.1157
-        },
-        {
-          "time": 1793221200,
-          "close": 1.11557
-        },
-        {
-          "time": 1793224800,
-          "close": 1.11545
-        },
-        {
-          "time": 1793228400,
-          "close": 1.11595
-        },
-        {
-          "time": 1793232000,
-          "close": 1.11433
-        },
-        {
-          "time": 1793235600,
-          "close": 1.11532
-        },
         {
           "time": 1793239200,
           "close": 1.1152
@@ -6126,7 +6084,15 @@
         },
         {
           "time": 1793653200,
-          "close": 1.11932
+          "close": 1.11907
+        },
+        {
+          "time": 1793656800,
+          "close": 1.11919
+        },
+        {
+          "time": 1793660400,
+          "close": 1.11944
         },
         {
           "time": 1793664000,
@@ -6135,10 +6101,50 @@
         {
           "time": 1793667600,
           "close": 1.11882
+        },
+        {
+          "time": 1793671200,
+          "close": 1.11882
+        },
+        {
+          "time": 1793674800,
+          "close": 1.11932
+        },
+        {
+          "time": 1793678400,
+          "close": 1.11919
+        },
+        {
+          "time": 1793682000,
+          "close": 1.11957
+        },
+        {
+          "time": 1793685600,
+          "close": 1.11932
+        },
+        {
+          "time": 1793689200,
+          "close": 1.1202
+        },
+        {
+          "time": 1793692800,
+          "close": 1.11957
+        },
+        {
+          "time": 1793696400,
+          "close": 1.11944
+        },
+        {
+          "time": 1793700000,
+          "close": 1.11857
+        },
+        {
+          "time": 1793703600,
+          "close": 1.11832
         }
       ],
       "currency": "quote currency",
-      "price": 1.1188185214996338,
+      "price": 1.11831796169281,
       "volume_source": "unavailable"
     },
     {
@@ -6918,8 +6924,8 @@
       "pricing_basis": "unofficial chart feed",
       "status": "reported",
       "error": null,
-      "bars": 250,
-      "as_of": 1793332800,
+      "bars": 251,
+      "as_of": 1793595600,
       "score": 0,
       "bias": "bearish",
       "reasons": [
@@ -6929,7 +6935,7 @@
         "CMF שלילי (פרוקסי ללחץ מכירה)"
       ],
       "flags": [
-        "פריצה דובי — תבנית בלבד, לא ראיה למניפולציה"
+        "פער שווי הוגן דובי — תבנית בלבד, לא ראיה למניפולציה"
       ],
       "backtest": {
         "status": "insufficient_trades",
@@ -6943,29 +6949,25 @@
         "institutional_identity": "unavailable"
       },
       "indicators": {
-        "close": 3898.8999,
-        "ema20": 4108.6466,
-        "ema50": 4210.6147,
-        "sma200": 4519.3175,
-        "rsi14": 27.8853,
-        "atr14": 81.3768,
-        "momentum20_pct": -6.3282,
-        "change_pct": -3.2867,
-        "rvol": 0.9614,
-        "cmf20": -0.2014,
-        "mfi14": 36.4704,
+        "close": 3969.6001,
+        "ema20": 4095.4041,
+        "ema50": 4201.1631,
+        "sma200": 4516.047,
+        "rsi14": 36.1049,
+        "atr14": 82.1214,
+        "momentum20_pct": -4.5035,
+        "change_pct": 1.8133,
+        "rvol": 1.5713,
+        "cmf20": -0.1268,
+        "mfi14": 38.2911,
         "obv_direction": -1,
-        "rolling_vwap20": 4116.7754,
+        "rolling_vwap20": 4096.6802,
         "volume_available": true,
         "sweep": "none",
-        "breakout": "bearish",
-        "fvg": "none"
+        "breakout": "none",
+        "fvg": "bearish"
       },
       "chart": [
-        {
-          "time": 1783656000,
-          "close": 4113.7002
-        },
         {
           "time": 1783915200,
           "close": 4005.69995
@@ -7281,10 +7283,14 @@
         {
           "time": 1793332800,
           "close": 3898.8999
+        },
+        {
+          "time": 1793595600,
+          "close": 3969.6001
         }
       ],
       "currency": "USD",
-      "price": 3898.89990234375,
+      "price": 3969.60009765625,
       "volume_source": "reported instrument volume"
     },
     {
@@ -7299,9 +7305,9 @@
       "pricing_basis": "unofficial chart feed",
       "status": "reported",
       "error": null,
-      "bars": 250,
-      "as_of": 1793332800,
-      "score": 95,
+      "bars": 251,
+      "as_of": 1793595600,
+      "score": 85,
       "bias": "bullish",
       "reasons": [
         "ממוצע 20 מעל 50",
@@ -7310,7 +7316,7 @@
         "CMF חיובי (פרוקסי ללחץ קנייה)"
       ],
       "flags": [
-        "פריצה שורי — תבנית בלבד, לא ראיה למניפולציה"
+        "פער שווי הוגן דובי — תבנית בלבד, לא ראיה למניפולציה"
       ],
       "backtest": {
         "status": "measured",
@@ -7318,7 +7324,7 @@
         "win_rate_pct": 62.5,
         "total_return_pct": 7.61,
         "max_drawdown_pct": -13.92,
-        "buy_hold_same_window_pct": 48.84,
+        "buy_hold_same_window_pct": 31.7,
         "cost_bps_round_trip": 20,
         "method": "Fixed long-only heuristic, 25% chronological holdout; next-bar OPEN, exit after 5 bars; no position sizing/borrow costs. NOT a forecast probability."
       },
@@ -7329,29 +7335,25 @@
         "institutional_identity": "unavailable"
       },
       "indicators": {
-        "close": 117.64,
-        "ema20": 110.3963,
-        "ema50": 104.2213,
-        "sma200": 92.4556,
-        "rsi14": 70.2456,
-        "atr14": 3.9583,
-        "momentum20_pct": 15.0513,
-        "change_pct": 2.4025,
-        "rvol": 0.189,
-        "cmf20": 0.2249,
-        "mfi14": 71.3445,
+        "close": 104.77,
+        "ema20": 109.8605,
+        "ema50": 104.2428,
+        "sma200": 92.6606,
+        "rsi14": 44.4635,
+        "atr14": 4.7006,
+        "momentum20_pct": 4.4358,
+        "change_pct": -10.9402,
+        "rvol": 1.0908,
+        "cmf20": 0.2516,
+        "mfi14": 66.0675,
         "obv_direction": -1,
-        "rolling_vwap20": 106.9896,
+        "rolling_vwap20": 107.7575,
         "volume_available": true,
         "sweep": "none",
-        "breakout": "bullish",
-        "fvg": "none"
+        "breakout": "none",
+        "fvg": "bearish"
       },
       "chart": [
-        {
-          "time": 1783656000,
-          "close": 76.01
-        },
         {
           "time": 1783915200,
           "close": 83.3
@@ -7667,10 +7669,14 @@
         {
           "time": 1793332800,
           "close": 117.64
+        },
+        {
+          "time": 1793595600,
+          "close": 104.77
         }
       ],
       "currency": "USD",
-      "price": 117.63999938964844,
+      "price": 104.7699966430664,
       "volume_source": "reported instrument volume"
     },
     {
@@ -8069,24 +8075,22 @@
       "status": "reported",
       "error": null,
       "bars": 720,
-      "as_of": 1793667600,
-      "score": 23,
+      "as_of": 1793703600,
+      "score": 18,
       "bias": "bearish",
       "reasons": [
         "ממוצע 20 מתחת 50",
         "מחיר מתחת ממוצע 200",
         "CMF שלילי (פרוקסי ללחץ מכירה)"
       ],
-      "flags": [
-        "פער שווי הוגן שורי — תבנית בלבד, לא ראיה למניפולציה"
-      ],
+      "flags": [],
       "backtest": {
         "status": "measured",
         "trades": 5,
         "win_rate_pct": 20.0,
         "total_return_pct": -5.2,
         "max_drawdown_pct": -5.38,
-        "buy_hold_same_window_pct": -4.28,
+        "buy_hold_same_window_pct": -4.09,
         "cost_bps_round_trip": 20,
         "method": "Fixed long-only heuristic, 25% chronological holdout; next-bar OPEN, exit after 8 bars; no position sizing/borrow costs. NOT a forecast probability."
       },
@@ -8097,65 +8101,25 @@
         "institutional_identity": "unavailable"
       },
       "indicators": {
-        "close": 76987.3,
-        "ema20": 77252.1024,
-        "ema50": 77558.463,
-        "sma200": 78932.063,
-        "rsi14": 40.0892,
-        "atr14": 365.4907,
-        "momentum20_pct": -1.6141,
-        "change_pct": -0.0344,
-        "rvol": 0.6271,
-        "cmf20": -0.2787,
-        "mfi14": 20.5741,
+        "close": 76975.2,
+        "ema20": 76941.6693,
+        "ema50": 77289.0929,
+        "sma200": 78765.171,
+        "rsi14": 48.4454,
+        "atr14": 355.8349,
+        "momentum20_pct": -0.5538,
+        "change_pct": -0.0452,
+        "rvol": 0.5016,
+        "cmf20": -0.1788,
+        "mfi14": 53.5646,
         "obv_direction": 1,
-        "rolling_vwap20": 77151.4866,
+        "rolling_vwap20": 76818.7211,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
-        "fvg": "bullish"
+        "fvg": "none"
       },
       "chart": [
-        {
-          "time": 1793383200,
-          "close": 76500.2
-        },
-        {
-          "time": 1793386800,
-          "close": 76777.8
-        },
-        {
-          "time": 1793390400,
-          "close": 76777.5
-        },
-        {
-          "time": 1793394000,
-          "close": 76568.2
-        },
-        {
-          "time": 1793397600,
-          "close": 76798.6
-        },
-        {
-          "time": 1793401200,
-          "close": 77204.3
-        },
-        {
-          "time": 1793404800,
-          "close": 77399.8
-        },
-        {
-          "time": 1793408400,
-          "close": 77243.7
-        },
-        {
-          "time": 1793412000,
-          "close": 77310.6
-        },
-        {
-          "time": 1793415600,
-          "close": 77018.2
-        },
         {
           "time": 1793419200,
           "close": 77032.4
@@ -8435,10 +8399,50 @@
         {
           "time": 1793667600,
           "close": 76987.3
+        },
+        {
+          "time": 1793671200,
+          "close": 76587.7
+        },
+        {
+          "time": 1793674800,
+          "close": 76804.1
+        },
+        {
+          "time": 1793678400,
+          "close": 76815.2
+        },
+        {
+          "time": 1793682000,
+          "close": 76520.2
+        },
+        {
+          "time": 1793685600,
+          "close": 76453.2
+        },
+        {
+          "time": 1793689200,
+          "close": 76694.2
+        },
+        {
+          "time": 1793692800,
+          "close": 76493.2
+        },
+        {
+          "time": 1793696400,
+          "close": 76941.9
+        },
+        {
+          "time": 1793700000,
+          "close": 77010.0
+        },
+        {
+          "time": 1793703600,
+          "close": 76975.2
         }
       ],
       "currency": "USD",
-      "price": 76987.3,
+      "price": 76975.2,
       "volume_source": "exchange volume"
     },
     {
@@ -8837,12 +8841,13 @@
       "status": "reported",
       "error": null,
       "bars": 720,
-      "as_of": 1793667600,
-      "score": 26,
-      "bias": "bearish",
+      "as_of": 1793703600,
+      "score": 39,
+      "bias": "neutral",
       "reasons": [
         "ממוצע 20 מתחת 50",
-        "מחיר מתחת ממוצע 200"
+        "מחיר מתחת ממוצע 200",
+        "CMF חיובי (פרוקסי ללחץ קנייה)"
       ],
       "flags": [],
       "backtest": {
@@ -8851,7 +8856,7 @@
         "win_rate_pct": 14.3,
         "total_return_pct": -9.83,
         "max_drawdown_pct": -10.12,
-        "buy_hold_same_window_pct": -3.15,
+        "buy_hold_same_window_pct": -2.76,
         "cost_bps_round_trip": 20,
         "method": "Fixed long-only heuristic, 25% chronological holdout; next-bar OPEN, exit after 8 bars; no position sizing/borrow costs. NOT a forecast probability."
       },
@@ -8862,65 +8867,25 @@
         "institutional_identity": "unavailable"
       },
       "indicators": {
-        "close": 2254.87,
-        "ema20": 2262.9669,
-        "ema50": 2265.9603,
-        "sma200": 2291.7593,
-        "rsi14": 42.4669,
-        "atr14": 14.0137,
-        "momentum20_pct": -1.479,
-        "change_pct": 0.0155,
-        "rvol": 0.3476,
-        "cmf20": 0.0393,
-        "mfi14": 40.2822,
+        "close": 2263.29,
+        "ema20": 2258.634,
+        "ema50": 2262.3357,
+        "sma200": 2288.0721,
+        "rsi14": 52.3099,
+        "atr14": 12.8799,
+        "momentum20_pct": -0.3083,
+        "change_pct": -0.2389,
+        "rvol": 0.8949,
+        "cmf20": 0.2543,
+        "mfi14": 69.2669,
         "obv_direction": 1,
-        "rolling_vwap20": 2265.212,
+        "rolling_vwap20": 2254.117,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
         "fvg": "none"
       },
       "chart": [
-        {
-          "time": 1793383200,
-          "close": 2228.96
-        },
-        {
-          "time": 1793386800,
-          "close": 2235.81
-        },
-        {
-          "time": 1793390400,
-          "close": 2235.74
-        },
-        {
-          "time": 1793394000,
-          "close": 2234.54
-        },
-        {
-          "time": 1793397600,
-          "close": 2232.1
-        },
-        {
-          "time": 1793401200,
-          "close": 2241.37
-        },
-        {
-          "time": 1793404800,
-          "close": 2246.13
-        },
-        {
-          "time": 1793408400,
-          "close": 2240.47
-        },
-        {
-          "time": 1793412000,
-          "close": 2242.76
-        },
-        {
-          "time": 1793415600,
-          "close": 2236.51
-        },
         {
           "time": 1793419200,
           "close": 2236.4
@@ -9200,10 +9165,50 @@
         {
           "time": 1793667600,
           "close": 2254.87
+        },
+        {
+          "time": 1793671200,
+          "close": 2248.08
+        },
+        {
+          "time": 1793674800,
+          "close": 2249.61
+        },
+        {
+          "time": 1793678400,
+          "close": 2253.62
+        },
+        {
+          "time": 1793682000,
+          "close": 2244.4
+        },
+        {
+          "time": 1793685600,
+          "close": 2242.25
+        },
+        {
+          "time": 1793689200,
+          "close": 2254.43
+        },
+        {
+          "time": 1793692800,
+          "close": 2253.32
+        },
+        {
+          "time": 1793696400,
+          "close": 2264.53
+        },
+        {
+          "time": 1793700000,
+          "close": 2268.71
+        },
+        {
+          "time": 1793703600,
+          "close": 2263.29
         }
       ],
       "currency": "USD",
-      "price": 2254.87,
+      "price": 2263.29,
       "volume_source": "exchange volume"
     }
   ],
