@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-03T15:15:39Z",
+  "generated_at": "2026-11-03T21:06:15Z",
   "status": "partial",
   "quality": {
     "reported": 5,
@@ -8,7 +8,7 @@
     "unavailable": 1,
     "cross_verified": 0,
     "source_errors": [
-      "PLTR: URLError"
+      "PLTR: HTTPError"
     ]
   },
   "assets": [
@@ -35,9 +35,9 @@
       "description": "ספוט אינדיקטיבי · אונקיית טרוי",
       "currency": "USD",
       "unit": "troy_oz",
-      "price": 3933.3,
+      "price": 3922.0,
       "change_percent": null,
-      "as_of": "2026-11-03T15:16:27Z",
+      "as_of": "2026-11-03T21:05:57Z",
       "granularity": "timestamp",
       "source": "Gold-API",
       "source_url": "https://gold-api.com/docs",
@@ -52,9 +52,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 77303.0,
-      "change_percent": -0.701,
-      "as_of": "2026-11-03T15:15:41Z",
+      "price": 77793.0,
+      "change_percent": 1.421,
+      "as_of": "2026-11-03T21:04:57Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/bitcoin",
@@ -69,9 +69,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 2287.28,
-      "change_percent": -0.188,
-      "as_of": "2026-11-03T15:15:41Z",
+      "price": 2289.27,
+      "change_percent": 1.808,
+      "as_of": "2026-11-03T21:04:57Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ethereum",
