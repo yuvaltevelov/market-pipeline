@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-03T21:06:15Z",
+  "generated_at": "2026-11-04T01:27:07Z",
   "status": "partial",
   "quality": {
-    "reported": 5,
-    "stale": 0,
+    "reported": 4,
+    "stale": 1,
     "unavailable": 1,
     "cross_verified": 0,
     "source_errors": [
@@ -35,9 +35,9 @@
       "description": "ספוט אינדיקטיבי · אונקיית טרוי",
       "currency": "USD",
       "unit": "troy_oz",
-      "price": 3922.0,
+      "price": 3953.8999,
       "change_percent": null,
-      "as_of": "2026-11-03T21:05:57Z",
+      "as_of": "2026-11-04T01:26:58Z",
       "granularity": "timestamp",
       "source": "Gold-API",
       "source_url": "https://gold-api.com/docs",
@@ -52,9 +52,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 77793.0,
-      "change_percent": 1.421,
-      "as_of": "2026-11-03T21:04:57Z",
+      "price": 76940.0,
+      "change_percent": -0.306,
+      "as_of": "2026-11-04T01:25:54Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/bitcoin",
@@ -69,9 +69,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 2289.27,
-      "change_percent": 1.808,
-      "as_of": "2026-11-03T21:04:57Z",
+      "price": 2264.31,
+      "change_percent": 0.208,
+      "as_of": "2026-11-04T01:26:13Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ethereum",
@@ -93,9 +93,9 @@
       "source": "FRED / EIA",
       "source_url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
       "pricing_basis": "daily_spot",
-      "quality": "reported",
+      "quality": "stale",
       "verification": "single_source",
-      "warning": "המקור אינו אימות עצמאי נוסף"
+      "warning": "נתון ישן — אינו מחיר עדכני"
     },
     {
       "id": "VIX",
@@ -118,7 +118,7 @@
   "signals": [
     {
       "title": "אימות מקורות",
-      "text": "5 מתוך 6 מקורות דיווחו נתון תקף לזמנם; אין אימות בלתי תלוי בין ספקים."
+      "text": "4 מתוך 6 מקורות דיווחו נתון תקף לזמנם; אין אימות בלתי תלוי בין ספקים."
     },
     {
       "title": "זמן מדידה",
@@ -127,6 +127,10 @@
     {
       "title": "ניתוח זהיר",
       "text": "שינוי יומי אינו מעיד לבדו על סיבת התנועה או על תנועה עתידית."
+    },
+    {
+      "title": "מידע ישן",
+      "text": "1 נכסים סומנו כישנים ולא יוצגו כמחיר נוכחי."
     }
   ],
   "news": [
