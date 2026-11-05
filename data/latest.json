@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-05T18:05:04Z",
+  "generated_at": "2026-11-05T23:41:00Z",
   "status": "partial",
   "quality": {
     "reported": 5,
@@ -35,9 +35,9 @@
       "description": "ספוט אינדיקטיבי · אונקיית טרוי",
       "currency": "USD",
       "unit": "troy_oz",
-      "price": 4097.7998,
+      "price": 4089.6001,
       "change_percent": null,
-      "as_of": "2026-11-05T18:05:02Z",
+      "as_of": "2026-11-05T23:40:33Z",
       "granularity": "timestamp",
       "source": "Gold-API",
       "source_url": "https://gold-api.com/docs",
@@ -52,9 +52,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 75675.0,
-      "change_percent": -6.109,
-      "as_of": "2026-11-05T18:04:38Z",
+      "price": 75835.0,
+      "change_percent": -5.863,
+      "as_of": "2026-11-05T23:39:47Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/bitcoin",
@@ -69,9 +69,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 2243.96,
-      "change_percent": -7.61,
-      "as_of": "2026-11-05T18:04:26Z",
+      "price": 2230.31,
+      "change_percent": -8.087,
+      "as_of": "2026-11-05T23:40:04Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ethereum",
@@ -134,12 +134,6 @@
       "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
       "published_at": "2026-11-05T16:00:00Z",
-      "source": "Federal Reserve"
-    },
-    {
-      "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
-      "published_at": "2026-10-29T20:30:00Z",
       "source": "Federal Reserve"
     }
   ],
