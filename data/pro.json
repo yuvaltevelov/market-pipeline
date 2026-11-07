@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-11-07T14:56:48Z",
+  "generated_at": "2026-11-07T20:18:16Z",
   "status": "partial",
   "coverage": {
     "valid": 23,
@@ -432,9 +432,9 @@
       "indicators": {
         "close": 160.38,
         "ema20": 162.9541,
-        "ema50": 172.2286,
+        "ema50": 172.2285,
         "sma200": null,
-        "rsi14": 37.7333,
+        "rsi14": 37.7331,
         "atr14": 3.0967,
         "momentum20_pct": -5.5588,
         "change_pct": 0.0,
@@ -567,7 +567,7 @@
         },
         {
           "time": 1793215800,
-          "close": 196.82001
+          "close": 196.81
         },
         {
           "time": 1793280600,
@@ -2739,11 +2739,11 @@
       },
       "indicators": {
         "close": 735.29,
-        "ema20": 743.1183,
-        "ema50": 751.6179,
+        "ema20": 743.1184,
+        "ema50": 751.6181,
         "sma200": null,
-        "rsi14": 31.9553,
-        "atr14": 4.5462,
+        "rsi14": 31.9522,
+        "atr14": 4.546,
         "momentum20_pct": -3.778,
         "change_pct": -0.0068,
         "rvol": null,
@@ -2763,7 +2763,7 @@
         },
         {
           "time": 1792697400,
-          "close": 763.98999
+          "close": 763.97998
         },
         {
           "time": 1792762200,
@@ -2959,7 +2959,7 @@
         },
         {
           "time": 1793651400,
-          "close": 752.12
+          "close": 752.14001
         },
         {
           "time": 1793716200,
@@ -3505,11 +3505,11 @@
       },
       "indicators": {
         "close": 656.1,
-        "ema20": 664.5596,
-        "ema50": 679.9739,
+        "ema20": 664.5484,
+        "ema50": 679.9665,
         "sma200": null,
-        "rsi14": 35.2823,
-        "atr14": 6.0674,
+        "rsi14": 35.3881,
+        "atr14": 6.0785,
         "momentum20_pct": -4.9888,
         "change_pct": -0.0183,
         "rvol": null,
@@ -3633,7 +3633,7 @@
         },
         {
           "time": 1793208600,
-          "close": 722.56
+          "close": 722.56958
         },
         {
           "time": 1793212200,
@@ -3809,7 +3809,7 @@
         },
         {
           "time": 1793910600,
-          "close": 648.06
+          "close": 647.79999
         },
         {
           "time": 1793975400,
@@ -7708,7 +7708,7 @@
       "status": "reported",
       "error": null,
       "bars": 720,
-      "as_of": 1794056400,
+      "as_of": 1794078000,
       "score": 34,
       "bias": "bearish",
       "reasons": [
@@ -7729,49 +7729,25 @@
         "institutional_identity": "unavailable"
       },
       "indicators": {
-        "close": 75839.9,
-        "ema20": 75911.4162,
-        "ema50": 76366.1698,
-        "sma200": 77432.581,
-        "rsi14": 44.4731,
-        "atr14": 253.7594,
-        "momentum20_pct": 0.1924,
-        "change_pct": 0.0496,
-        "rvol": 0.9077,
-        "cmf20": 0.1042,
-        "mfi14": 62.6885,
+        "close": 75690.1,
+        "ema20": 75819.9605,
+        "ema50": 76226.498,
+        "sma200": 77369.2715,
+        "rsi14": 41.2603,
+        "atr14": 209.0173,
+        "momentum20_pct": -0.068,
+        "change_pct": -0.0016,
+        "rvol": 1.5729,
+        "cmf20": 0.1885,
+        "mfi14": 53.9778,
         "obv_direction": -1,
-        "rolling_vwap20": 75840.3318,
+        "rolling_vwap20": 75825.2091,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
         "fvg": "none"
       },
       "chart": [
-        {
-          "time": 1793772000,
-          "close": 77884.4
-        },
-        {
-          "time": 1793775600,
-          "close": 78019.0
-        },
-        {
-          "time": 1793779200,
-          "close": 78378.9
-        },
-        {
-          "time": 1793782800,
-          "close": 78285.0
-        },
-        {
-          "time": 1793786400,
-          "close": 78498.4
-        },
-        {
-          "time": 1793790000,
-          "close": 78372.3
-        },
         {
           "time": 1793793600,
           "close": 78195.8
@@ -8067,10 +8043,34 @@
         {
           "time": 1794056400,
           "close": 75839.9
+        },
+        {
+          "time": 1794060000,
+          "close": 75852.7
+        },
+        {
+          "time": 1794063600,
+          "close": 75667.1
+        },
+        {
+          "time": 1794067200,
+          "close": 75640.8
+        },
+        {
+          "time": 1794070800,
+          "close": 75740.3
+        },
+        {
+          "time": 1794074400,
+          "close": 75691.3
+        },
+        {
+          "time": 1794078000,
+          "close": 75690.1
         }
       ],
       "currency": "USD",
-      "price": 75839.9,
+      "price": 75690.1,
       "volume_source": "exchange volume"
     },
     {
@@ -8469,7 +8469,7 @@
       "status": "reported",
       "error": null,
       "bars": 720,
-      "as_of": 1794056400,
+      "as_of": 1794078000,
       "score": 34,
       "bias": "bearish",
       "reasons": [
@@ -8484,7 +8484,7 @@
         "win_rate_pct": 44.4,
         "total_return_pct": -4.62,
         "max_drawdown_pct": -8.26,
-        "buy_hold_same_window_pct": -0.21,
+        "buy_hold_same_window_pct": -0.48,
         "cost_bps_round_trip": 20,
         "method": "Fixed long-only heuristic, 25% chronological holdout; next-bar OPEN, exit after 8 bars; no position sizing/borrow costs. NOT a forecast probability."
       },
@@ -8495,49 +8495,25 @@
         "institutional_identity": "unavailable"
       },
       "indicators": {
-        "close": 2242.61,
-        "ema20": 2241.8088,
-        "ema50": 2257.5137,
-        "sma200": 2275.7497,
-        "rsi14": 48.5383,
-        "atr14": 10.3265,
-        "momentum20_pct": 0.7987,
-        "change_pct": 0.1572,
-        "rvol": 0.8625,
-        "cmf20": 0.2746,
-        "mfi14": 59.1808,
+        "close": 2232.3,
+        "ema20": 2238.3927,
+        "ema50": 2252.603,
+        "sma200": 2275.7083,
+        "rsi14": 41.4301,
+        "atr14": 8.8753,
+        "momentum20_pct": -0.14,
+        "change_pct": -0.0743,
+        "rvol": 1.1391,
+        "cmf20": 0.138,
+        "mfi14": 47.4379,
         "obv_direction": -1,
-        "rolling_vwap20": 2238.6278,
+        "rolling_vwap20": 2239.3046,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
         "fvg": "none"
       },
       "chart": [
-        {
-          "time": 1793772000,
-          "close": 2294.33
-        },
-        {
-          "time": 1793775600,
-          "close": 2300.53
-        },
-        {
-          "time": 1793779200,
-          "close": 2320.11
-        },
-        {
-          "time": 1793782800,
-          "close": 2319.39
-        },
-        {
-          "time": 1793786400,
-          "close": 2325.22
-        },
-        {
-          "time": 1793790000,
-          "close": 2324.97
-        },
         {
           "time": 1793793600,
           "close": 2311.38
@@ -8833,10 +8809,34 @@
         {
           "time": 1794056400,
           "close": 2242.61
+        },
+        {
+          "time": 1794060000,
+          "close": 2244.0
+        },
+        {
+          "time": 1794063600,
+          "close": 2234.4
+        },
+        {
+          "time": 1794067200,
+          "close": 2230.66
+        },
+        {
+          "time": 1794070800,
+          "close": 2232.81
+        },
+        {
+          "time": 1794074400,
+          "close": 2233.96
+        },
+        {
+          "time": 1794078000,
+          "close": 2232.3
         }
       ],
       "currency": "USD",
-      "price": 2242.61,
+      "price": 2232.3,
       "volume_source": "exchange volume"
     }
   ],
