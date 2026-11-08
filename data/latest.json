@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-08T18:31:36Z",
+  "generated_at": "2026-11-08T22:30:35Z",
   "status": "partial",
   "quality": {
     "reported": 5,
@@ -37,7 +37,7 @@
       "unit": "troy_oz",
       "price": 4072.1001,
       "change_percent": null,
-      "as_of": "2026-11-08T18:31:23Z",
+      "as_of": "2026-11-08T22:30:23Z",
       "granularity": "timestamp",
       "source": "Gold-API",
       "source_url": "https://gold-api.com/docs",
@@ -52,9 +52,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 75829.0,
-      "change_percent": 0.114,
-      "as_of": "2026-11-08T18:30:22Z",
+      "price": 74428.0,
+      "change_percent": -1.628,
+      "as_of": "2026-11-08T22:29:50Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/bitcoin",
@@ -69,9 +69,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 2231.46,
-      "change_percent": -0.147,
-      "as_of": "2026-11-08T18:30:22Z",
+      "price": 2124.49,
+      "change_percent": -4.766,
+      "as_of": "2026-11-08T22:29:50Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ethereum",
@@ -129,13 +129,6 @@
       "text": "שינוי יומי אינו מעיד לבדו על סיבת התנועה או על תנועה עתידית."
     }
   ],
-  "news": [
-    {
-      "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
-      "published_at": "2026-11-05T16:00:00Z",
-      "source": "Federal Reserve"
-    }
-  ],
+  "news": [],
   "disclaimer": "נתוני מקור חינמי, חלקם מעוכבים או אינדיקטיביים. ללא אימות צולב וללא המלצת השקעה."
 }
