@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-08T22:30:35Z",
+  "generated_at": "2026-11-09T02:02:01Z",
   "status": "partial",
   "quality": {
     "reported": 5,
@@ -35,9 +35,9 @@
       "description": "ספוט אינדיקטיבי · אונקיית טרוי",
       "currency": "USD",
       "unit": "troy_oz",
-      "price": 4072.1001,
+      "price": 4124.8999,
       "change_percent": null,
-      "as_of": "2026-11-08T22:30:23Z",
+      "as_of": "2026-11-09T02:01:53Z",
       "granularity": "timestamp",
       "source": "Gold-API",
       "source_url": "https://gold-api.com/docs",
@@ -52,9 +52,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 74428.0,
-      "change_percent": -1.628,
-      "as_of": "2026-11-08T22:29:50Z",
+      "price": 75097.0,
+      "change_percent": -0.732,
+      "as_of": "2026-11-09T02:00:50Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/bitcoin",
@@ -69,9 +69,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 2124.49,
-      "change_percent": -4.766,
-      "as_of": "2026-11-08T22:29:50Z",
+      "price": 2141.07,
+      "change_percent": -4.067,
+      "as_of": "2026-11-09T02:01:05Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ethereum",
@@ -129,6 +129,13 @@
       "text": "שינוי יומי אינו מעיד לבדו על סיבת התנועה או על תנועה עתידית."
     }
   ],
-  "news": [],
+  "news": [
+    {
+      "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
+      "published_at": "2026-11-05T16:00:00Z",
+      "source": "Federal Reserve"
+    }
+  ],
   "disclaimer": "נתוני מקור חינמי, חלקם מעוכבים או אינדיקטיביים. ללא אימות צולב וללא המלצת השקעה."
 }
