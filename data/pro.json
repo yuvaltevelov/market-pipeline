@@ -1,10 +1,10 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-11-14T00:54:55Z",
-  "status": "complete",
+  "generated_at": "2026-11-14T11:36:35Z",
+  "status": "partial",
   "coverage": {
-    "valid": 24,
-    "unavailable": 0,
+    "valid": 23,
+    "unavailable": 1,
     "cross_verified": 0,
     "total": 24
   },
@@ -57,11 +57,11 @@
         "atr14": 8.8327,
         "momentum20_pct": -9.6974,
         "change_pct": -2.0923,
-        "rvol": 0.593,
-        "cmf20": 0.0803,
-        "mfi14": 30.7982,
+        "rvol": 0.5945,
+        "cmf20": 0.0802,
+        "mfi14": 30.7954,
         "obv_direction": -1,
-        "rolling_vwap20": 179.6849,
+        "rolling_vwap20": 179.684,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
@@ -795,7 +795,7 @@
         "מומנטום 20 נרות שלילי"
       ],
       "flags": [
-        "נפח חריג פי 1.84 מהממוצע",
+        "נפח חריג פי 1.85 מהממוצע",
         "פער שווי הוגן דובי — תבנית בלבד, לא ראיה למניפולציה"
       ],
       "backtest": {
@@ -823,11 +823,11 @@
         "atr14": 9.9812,
         "momentum20_pct": -23.9481,
         "change_pct": -2.0097,
-        "rvol": 1.8436,
+        "rvol": 1.8504,
         "cmf20": -0.0066,
-        "mfi14": 31.4114,
+        "mfi14": 31.4338,
         "obv_direction": -1,
-        "rolling_vwap20": 184.1629,
+        "rolling_vwap20": 184.1564,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
@@ -1205,11 +1205,11 @@
         "atr14": 41.9352,
         "momentum20_pct": 1.0043,
         "change_pct": -8.7545,
-        "rvol": 1.4666,
-        "cmf20": -0.055,
-        "mfi14": 66.3944,
+        "rvol": 1.4741,
+        "cmf20": -0.0552,
+        "mfi14": 66.3649,
         "obv_direction": 1,
-        "rolling_vwap20": 509.9657,
+        "rolling_vwap20": 509.9774,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
@@ -1587,11 +1587,11 @@
         "atr14": 15.2176,
         "momentum20_pct": -0.9772,
         "change_pct": 0.1683,
-        "rvol": 0.9727,
-        "cmf20": 0.037,
-        "mfi14": 30.8926,
+        "rvol": 0.9994,
+        "cmf20": 0.0377,
+        "mfi14": 30.8449,
         "obv_direction": 1,
-        "rolling_vwap20": 530.8218,
+        "rolling_vwap20": 530.8093,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
@@ -1968,14 +1968,14 @@
         "ema50": 420.0494,
         "sma200": 403.0521,
         "rsi14": 45.2635,
-        "atr14": 17.1027,
+        "atr14": 17.1031,
         "momentum20_pct": -3.3639,
         "change_pct": -1.6671,
-        "rvol": 0.723,
+        "rvol": 0.7253,
         "cmf20": -0.1293,
-        "mfi14": 46.5885,
+        "mfi14": 46.5813,
         "obv_direction": 1,
-        "rolling_vwap20": 401.2599,
+        "rolling_vwap20": 401.2598,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
@@ -2351,14 +2351,14 @@
         "ema50": 761.2345,
         "sma200": 731.9175,
         "rsi14": 47.0844,
-        "atr14": 11.0349,
+        "atr14": 11.0356,
         "momentum20_pct": -1.1634,
         "change_pct": -0.3632,
-        "rvol": 0.7722,
-        "cmf20": -0.1868,
-        "mfi14": 39.7155,
+        "rvol": 0.7962,
+        "cmf20": -0.1865,
+        "mfi14": 39.6539,
         "obv_direction": -1,
-        "rolling_vwap20": 757.3239,
+        "rolling_vwap20": 757.3198,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
@@ -2726,10 +2726,10 @@
       },
       "indicators": {
         "close": 754.37,
-        "ema20": 754.512,
-        "ema50": 754.1828,
+        "ema20": 754.5115,
+        "ema50": 754.1826,
         "sma200": null,
-        "rsi14": 50.1544,
+        "rsi14": 50.1553,
         "atr14": 3.2762,
         "momentum20_pct": -0.6427,
         "change_pct": 0.0159,
@@ -2806,7 +2806,7 @@
         },
         {
           "time": 1793651400,
-          "close": 752.12
+          "close": 752.14001
         },
         {
           "time": 1793716200,
@@ -3030,7 +3030,7 @@
         },
         {
           "time": 1794515400,
-          "close": 757.20001
+          "close": 757.19
         },
         {
           "time": 1794580200,
@@ -3114,14 +3114,14 @@
         "ema50": 708.073,
         "sma200": 682.2389,
         "rsi14": 42.8052,
-        "atr14": 16.3362,
+        "atr14": 16.3384,
         "momentum20_pct": -4.2139,
         "change_pct": -1.2032,
-        "rvol": 0.8155,
-        "cmf20": -0.202,
-        "mfi14": 33.0991,
+        "rvol": 0.8262,
+        "cmf20": -0.2018,
+        "mfi14": 33.0766,
         "obv_direction": -1,
-        "rolling_vwap20": 689.9552,
+        "rolling_vwap20": 689.9493,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
@@ -3488,11 +3488,11 @@
       },
       "indicators": {
         "close": 679.89,
-        "ema20": 681.6704,
-        "ema50": 682.0189,
+        "ema20": 681.6681,
+        "ema50": 682.0157,
         "sma200": null,
-        "rsi14": 47.4922,
-        "atr14": 4.5826,
+        "rsi14": 47.494,
+        "atr14": 4.5834,
         "momentum20_pct": -1.8152,
         "change_pct": -0.0015,
         "rvol": null,
@@ -3652,7 +3652,7 @@
         },
         {
           "time": 1793910600,
-          "close": 648.06
+          "close": 647.79999
         },
         {
           "time": 1793975400,
@@ -3752,7 +3752,7 @@
         },
         {
           "time": 1794418200,
-          "close": 695.15503
+          "close": 695.14001
         },
         {
           "time": 1794421800,
@@ -3792,7 +3792,7 @@
         },
         {
           "time": 1794515400,
-          "close": 688.21002
+          "close": 688.16998
         },
         {
           "time": 1794580200,
@@ -3874,11 +3874,11 @@
         "atr14": 24.2164,
         "momentum20_pct": -9.826,
         "change_pct": -2.9857,
-        "rvol": 1.0102,
-        "cmf20": -0.1274,
-        "mfi14": 48.8565,
+        "rvol": 1.0284,
+        "cmf20": -0.1273,
+        "mfi14": 48.8013,
         "obv_direction": -1,
-        "rolling_vwap20": 508.5105,
+        "rolling_vwap20": 508.4902,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
@@ -4251,14 +4251,14 @@
         "ema50": 281.4958,
         "sma200": 279.4111,
         "rsi14": 47.7734,
-        "atr14": 4.8742,
+        "atr14": 4.8746,
         "momentum20_pct": 2.6254,
         "change_pct": -0.3232,
-        "rvol": 0.7269,
-        "cmf20": 0.0587,
-        "mfi14": 50.5086,
+        "rvol": 0.7301,
+        "cmf20": 0.0586,
+        "mfi14": 50.4976,
         "obv_direction": -1,
-        "rolling_vwap20": 278.3149,
+        "rolling_vwap20": 278.3148,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
@@ -4632,14 +4632,14 @@
         "ema50": 377.9208,
         "sma200": 408.4167,
         "rsi14": 37.9075,
-        "atr14": 6.9351,
+        "atr14": 6.9352,
         "momentum20_pct": -6.9527,
         "change_pct": 0.1578,
-        "rvol": 1.2786,
-        "cmf20": -0.1116,
-        "mfi14": 52.5078,
+        "rvol": 1.2961,
+        "cmf20": -0.1117,
+        "mfi14": 52.5606,
         "obv_direction": -1,
-        "rolling_vwap20": 367.6933,
+        "rolling_vwap20": 367.6831,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
@@ -5015,14 +5015,14 @@
         "ema50": 149.5013,
         "sma200": 127.6569,
         "rsi14": 42.3863,
-        "atr14": 5.325,
+        "atr14": 5.3266,
         "momentum20_pct": -10.0025,
         "change_pct": -0.3355,
-        "rvol": 0.3491,
-        "cmf20": 0.0482,
-        "mfi14": 44.813,
+        "rvol": 0.3515,
+        "cmf20": 0.0484,
+        "mfi14": 44.822,
         "obv_direction": -1,
-        "rolling_vwap20": 156.0994,
+        "rolling_vwap20": 156.098,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
@@ -5745,374 +5745,27 @@
       "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX/history/",
       "market_data_verification": "single_source",
       "pricing_basis": "unofficial chart feed",
-      "status": "reported",
-      "error": null,
-      "bars": 546,
-      "as_of": 1794607200,
-      "score": 21,
-      "bias": "bearish",
-      "reasons": [
-        "ממוצע 20 מתחת 50",
-        "מחיר מתחת ממוצע 200"
-      ],
-      "flags": [
-        "אין נפח מסחר אמין: RVOL/CMF/MFI/OBV לא מחושבים"
-      ],
+      "status": "unavailable",
+      "error": "ValueError",
+      "score": null,
+      "bias": "unavailable",
+      "price": null,
+      "as_of": null,
+      "indicators": {},
       "backtest": {
-        "status": "insufficient_trades",
-        "trades": 2,
-        "method": "Long-only fixed rule; chronological 25% holdout"
+        "status": "not_run"
       },
+      "chart": [],
+      "reasons": [
+        "לא התקבלו מספיק נתונים אמינים מהספק"
+      ],
+      "flags": [],
       "data_needs": {
         "aggressor_side_trades": "unavailable",
         "level2_order_book": "unavailable",
         "options_flow": "unavailable",
         "institutional_identity": "unavailable"
-      },
-      "indicators": {
-        "close": 1.1028,
-        "ema20": 1.1044,
-        "ema50": 1.1069,
-        "sma200": 1.1165,
-        "rsi14": 33.2443,
-        "atr14": 0.001,
-        "momentum20_pct": -0.3308,
-        "change_pct": 0.0221,
-        "rvol": null,
-        "cmf20": null,
-        "mfi14": null,
-        "obv_direction": null,
-        "rolling_vwap20": null,
-        "volume_available": false,
-        "sweep": "none",
-        "breakout": "none",
-        "fvg": "none"
-      },
-      "chart": [
-        {
-          "time": 1794322800,
-          "close": 1.11632
-        },
-        {
-          "time": 1794326400,
-          "close": 1.11545
-        },
-        {
-          "time": 1794330000,
-          "close": 1.11595
-        },
-        {
-          "time": 1794333600,
-          "close": 1.11669
-        },
-        {
-          "time": 1794337200,
-          "close": 1.11694
-        },
-        {
-          "time": 1794340800,
-          "close": 1.11657
-        },
-        {
-          "time": 1794344400,
-          "close": 1.11682
-        },
-        {
-          "time": 1794348000,
-          "close": 1.11682
-        },
-        {
-          "time": 1794351600,
-          "close": 1.11719
-        },
-        {
-          "time": 1794355200,
-          "close": 1.11682
-        },
-        {
-          "time": 1794358800,
-          "close": 1.11719
-        },
-        {
-          "time": 1794362400,
-          "close": 1.11694
-        },
-        {
-          "time": 1794366000,
-          "close": 1.11657
-        },
-        {
-          "time": 1794369600,
-          "close": 1.11682
-        },
-        {
-          "time": 1794373200,
-          "close": 1.11632
-        },
-        {
-          "time": 1794376800,
-          "close": 1.11595
-        },
-        {
-          "time": 1794380400,
-          "close": 1.11595
-        },
-        {
-          "time": 1794384000,
-          "close": 1.1152
-        },
-        {
-          "time": 1794387600,
-          "close": 1.11421
-        },
-        {
-          "time": 1794391200,
-          "close": 1.11421
-        },
-        {
-          "time": 1794394800,
-          "close": 1.11396
-        },
-        {
-          "time": 1794398400,
-          "close": 1.11346
-        },
-        {
-          "time": 1794402000,
-          "close": 1.11074
-        },
-        {
-          "time": 1794405600,
-          "close": 1.10889
-        },
-        {
-          "time": 1794409200,
-          "close": 1.10988
-        },
-        {
-          "time": 1794412800,
-          "close": 1.10963
-        },
-        {
-          "time": 1794416400,
-          "close": 1.10951
-        },
-        {
-          "time": 1794420000,
-          "close": 1.10926
-        },
-        {
-          "time": 1794423600,
-          "close": 1.10951
-        },
-        {
-          "time": 1794427200,
-          "close": 1.10914
-        },
-        {
-          "time": 1794430800,
-          "close": 1.10939
-        },
-        {
-          "time": 1794434400,
-          "close": 1.10926
-        },
-        {
-          "time": 1794438000,
-          "close": 1.10975
-        },
-        {
-          "time": 1794441600,
-          "close": 1.11012
-        },
-        {
-          "time": 1794445200,
-          "close": 1.10988
-        },
-        {
-          "time": 1794448800,
-          "close": 1.10742
-        },
-        {
-          "time": 1794452400,
-          "close": 1.10779
-        },
-        {
-          "time": 1794456000,
-          "close": 1.10816
-        },
-        {
-          "time": 1794459600,
-          "close": 1.10852
-        },
-        {
-          "time": 1794463200,
-          "close": 1.10754
-        },
-        {
-          "time": 1794466800,
-          "close": 1.10889
-        },
-        {
-          "time": 1794470400,
-          "close": 1.10963
-        },
-        {
-          "time": 1794474000,
-          "close": 1.10975
-        },
-        {
-          "time": 1794477600,
-          "close": 1.11
-        },
-        {
-          "time": 1794481200,
-          "close": 1.10963
-        },
-        {
-          "time": 1794484800,
-          "close": 1.10902
-        },
-        {
-          "time": 1794488400,
-          "close": 1.10889
-        },
-        {
-          "time": 1794492000,
-          "close": 1.10779
-        },
-        {
-          "time": 1794495600,
-          "close": 1.10681
-        },
-        {
-          "time": 1794499200,
-          "close": 1.10595
-        },
-        {
-          "time": 1794502800,
-          "close": 1.10509
-        },
-        {
-          "time": 1794506400,
-          "close": 1.10534
-        },
-        {
-          "time": 1794510000,
-          "close": 1.10583
-        },
-        {
-          "time": 1794513600,
-          "close": 1.10607
-        },
-        {
-          "time": 1794517200,
-          "close": 1.10583
-        },
-        {
-          "time": 1794520800,
-          "close": 1.10583
-        },
-        {
-          "time": 1794524400,
-          "close": 1.10534
-        },
-        {
-          "time": 1794528000,
-          "close": 1.10558
-        },
-        {
-          "time": 1794531600,
-          "close": 1.10656
-        },
-        {
-          "time": 1794535200,
-          "close": 1.10644
-        },
-        {
-          "time": 1794538800,
-          "close": 1.10668
-        },
-        {
-          "time": 1794542400,
-          "close": 1.10644
-        },
-        {
-          "time": 1794546000,
-          "close": 1.10619
-        },
-        {
-          "time": 1794549600,
-          "close": 1.10705
-        },
-        {
-          "time": 1794553200,
-          "close": 1.10619
-        },
-        {
-          "time": 1794556800,
-          "close": 1.10632
-        },
-        {
-          "time": 1794560400,
-          "close": 1.10619
-        },
-        {
-          "time": 1794564000,
-          "close": 1.10534
-        },
-        {
-          "time": 1794567600,
-          "close": 1.10583
-        },
-        {
-          "time": 1794571200,
-          "close": 1.10534
-        },
-        {
-          "time": 1794574800,
-          "close": 1.10546
-        },
-        {
-          "time": 1794578400,
-          "close": 1.10607
-        },
-        {
-          "time": 1794582000,
-          "close": 1.10302
-        },
-        {
-          "time": 1794585600,
-          "close": 1.10363
-        },
-        {
-          "time": 1794589200,
-          "close": 1.10302
-        },
-        {
-          "time": 1794592800,
-          "close": 1.10314
-        },
-        {
-          "time": 1794596400,
-          "close": 1.10278
-        },
-        {
-          "time": 1794600000,
-          "close": 1.10266
-        },
-        {
-          "time": 1794603600,
-          "close": 1.10254
-        },
-        {
-          "time": 1794607200,
-          "close": 1.10278
-        }
-      ],
-      "currency": "quote currency",
-      "price": 1.1027790307998657,
-      "volume_source": "unavailable"
+      }
     },
     {
       "id": "GBPUSD",
@@ -6886,7 +6539,7 @@
       "pricing_basis": "unofficial chart feed",
       "status": "reported",
       "error": null,
-      "bars": 252,
+      "bars": 251,
       "as_of": 1794546000,
       "score": 0,
       "bias": "bearish",
@@ -6911,19 +6564,19 @@
         "institutional_identity": "unavailable"
       },
       "indicators": {
-        "close": 3887.6001,
-        "ema20": 4038.8034,
-        "ema50": 4142.8665,
-        "sma200": 4472.252,
-        "rsi14": 36.0501,
+        "close": 3886.3,
+        "ema20": 4038.6796,
+        "ema50": 4142.8113,
+        "sma200": 4472.2455,
+        "rsi14": 35.9308,
         "atr14": 91.7273,
-        "momentum20_pct": -7.0197,
-        "change_pct": 0.0592,
-        "rvol": 0.8944,
-        "cmf20": -0.1426,
-        "mfi14": 48.3417,
+        "momentum20_pct": -7.0508,
+        "change_pct": 0.0257,
+        "rvol": 1.321,
+        "cmf20": -0.1644,
+        "mfi14": 45.3231,
         "obv_direction": -1,
-        "rolling_vwap20": 4040.1782,
+        "rolling_vwap20": 4033.5834,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
@@ -7248,11 +6901,11 @@
         },
         {
           "time": 1794546000,
-          "close": 3887.6001
+          "close": 3886.30005
         }
       ],
       "currency": "USD",
-      "price": 3887.60009765625,
+      "price": 3886.300048828125,
       "volume_source": "reported instrument volume"
     },
     {
@@ -7267,7 +6920,7 @@
       "pricing_basis": "unofficial chart feed",
       "status": "reported",
       "error": null,
-      "bars": 252,
+      "bars": 251,
       "as_of": 1794546000,
       "score": 39,
       "bias": "neutral",
@@ -7285,7 +6938,7 @@
         "win_rate_pct": 55.6,
         "total_return_pct": -1.87,
         "max_drawdown_pct": -13.92,
-        "buy_hold_same_window_pct": 5.02,
+        "buy_hold_same_window_pct": 4.76,
         "cost_bps_round_trip": 20,
         "method": "Fixed long-only heuristic, 25% chronological holdout; next-bar OPEN, exit after 5 bars; no position sizing/borrow costs. NOT a forecast probability."
       },
@@ -7296,19 +6949,19 @@
         "institutional_identity": "unavailable"
       },
       "indicators": {
-        "close": 96.08,
-        "ema20": 101.3469,
-        "ema50": 101.6786,
-        "sma200": 93.9959,
-        "rsi14": 40.8194,
+        "close": 95.84,
+        "ema20": 101.324,
+        "ema50": 101.6691,
+        "sma200": 93.9947,
+        "rsi14": 40.4188,
         "atr14": 4.9358,
-        "momentum20_pct": -12.5432,
-        "change_pct": 0.2713,
-        "rvol": 0.5915,
-        "cmf20": 0.0007,
-        "mfi14": 35.4383,
-        "obv_direction": -1,
-        "rolling_vwap20": 103.8175,
+        "momentum20_pct": -12.7617,
+        "change_pct": 0.0209,
+        "rvol": 0.9313,
+        "cmf20": -0.0013,
+        "mfi14": 37.7626,
+        "obv_direction": 1,
+        "rolling_vwap20": 103.5756,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
@@ -7633,11 +7286,11 @@
         },
         {
           "time": 1794546000,
-          "close": 96.08
+          "close": 95.84
         }
       ],
       "currency": "USD",
-      "price": 96.08000183105469,
+      "price": 95.83999633789062,
       "volume_source": "reported instrument volume"
     },
     {
@@ -8041,14 +7694,18 @@
       "status": "reported",
       "error": null,
       "bars": 720,
-      "as_of": 1794610800,
+      "as_of": 1794650400,
       "score": 21,
       "bias": "bearish",
       "reasons": [
         "ממוצע 20 מתחת 50",
-        "מחיר מתחת ממוצע 200"
+        "מחיר מתחת ממוצע 200",
+        "מומנטום 20 נרות שלילי",
+        "CMF חיובי (פרוקסי ללחץ קנייה)"
       ],
-      "flags": [],
+      "flags": [
+        "MFI נמוך; אין בכך הבטחת היפוך"
+      ],
       "backtest": {
         "status": "insufficient_trades",
         "trades": 0,
@@ -8061,69 +7718,25 @@
         "institutional_identity": "unavailable"
       },
       "indicators": {
-        "close": 68235.9,
-        "ema20": 69097.4772,
-        "ema50": 70501.3767,
-        "sma200": 74029.6735,
-        "rsi14": 31.1656,
-        "atr14": 576.8797,
-        "momentum20_pct": -0.9495,
-        "change_pct": 0.0685,
-        "rvol": 0.6939,
-        "cmf20": -0.0059,
-        "mfi14": 34.8793,
+        "close": 67234.6,
+        "ema20": 67884.2607,
+        "ema50": 69368.8434,
+        "sma200": 73553.687,
+        "rsi14": 35.1739,
+        "atr14": 547.0896,
+        "momentum20_pct": -2.4648,
+        "change_pct": -0.1573,
+        "rvol": 0.4108,
+        "cmf20": 0.1689,
+        "mfi14": 18.2596,
         "obv_direction": -1,
-        "rolling_vwap20": 68694.794,
+        "rolling_vwap20": 67903.1914,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
         "fvg": "none"
       },
       "chart": [
-        {
-          "time": 1794326400,
-          "close": 72812.6
-        },
-        {
-          "time": 1794330000,
-          "close": 73209.8
-        },
-        {
-          "time": 1794333600,
-          "close": 73401.8
-        },
-        {
-          "time": 1794337200,
-          "close": 73387.2
-        },
-        {
-          "time": 1794340800,
-          "close": 73674.4
-        },
-        {
-          "time": 1794344400,
-          "close": 73765.6
-        },
-        {
-          "time": 1794348000,
-          "close": 73605.4
-        },
-        {
-          "time": 1794351600,
-          "close": 73700.3
-        },
-        {
-          "time": 1794355200,
-          "close": 73444.0
-        },
-        {
-          "time": 1794358800,
-          "close": 73498.3
-        },
-        {
-          "time": 1794362400,
-          "close": 73544.1
-        },
         {
           "time": 1794366000,
           "close": 73671.9
@@ -8399,10 +8012,54 @@
         {
           "time": 1794610800,
           "close": 68235.9
+        },
+        {
+          "time": 1794614400,
+          "close": 68261.7
+        },
+        {
+          "time": 1794618000,
+          "close": 68211.7
+        },
+        {
+          "time": 1794621600,
+          "close": 67607.2
+        },
+        {
+          "time": 1794625200,
+          "close": 66683.5
+        },
+        {
+          "time": 1794628800,
+          "close": 67015.9
+        },
+        {
+          "time": 1794632400,
+          "close": 67166.2
+        },
+        {
+          "time": 1794636000,
+          "close": 67314.8
+        },
+        {
+          "time": 1794639600,
+          "close": 67109.5
+        },
+        {
+          "time": 1794643200,
+          "close": 66932.4
+        },
+        {
+          "time": 1794646800,
+          "close": 67340.5
+        },
+        {
+          "time": 1794650400,
+          "close": 67234.6
         }
       ],
       "currency": "USD",
-      "price": 68235.9,
+      "price": 67234.6,
       "volume_source": "exchange volume"
     },
     {
@@ -8805,12 +8462,14 @@
       "status": "reported",
       "error": null,
       "bars": 720,
-      "as_of": 1794610800,
-      "score": 21,
+      "as_of": 1794650400,
+      "score": 26,
       "bias": "bearish",
       "reasons": [
         "ממוצע 20 מתחת 50",
-        "מחיר מתחת ממוצע 200"
+        "מחיר מתחת ממוצע 200",
+        "מומנטום 20 נרות שלילי",
+        "CMF חיובי (פרוקסי ללחץ קנייה)"
       ],
       "flags": [],
       "backtest": {
@@ -8825,69 +8484,25 @@
         "institutional_identity": "unavailable"
       },
       "indicators": {
-        "close": 1927.29,
-        "ema20": 1947.4132,
-        "ema50": 1982.6916,
-        "sma200": 2121.9414,
-        "rsi14": 38.1069,
-        "atr14": 20.3622,
-        "momentum20_pct": -0.2758,
-        "change_pct": 0.293,
-        "rvol": 0.3495,
-        "cmf20": 0.0303,
-        "mfi14": 50.3337,
+        "close": 1907.55,
+        "ema20": 1918.6946,
+        "ema50": 1955.0459,
+        "sma200": 2103.3663,
+        "rsi14": 41.8212,
+        "atr14": 19.5395,
+        "momentum20_pct": -2.1855,
+        "change_pct": -0.2171,
+        "rvol": 0.1663,
+        "cmf20": 0.0942,
+        "mfi14": 27.1371,
         "obv_direction": -1,
-        "rolling_vwap20": 1936.2602,
+        "rolling_vwap20": 1919.5122,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
         "fvg": "none"
       },
       "chart": [
-        {
-          "time": 1794326400,
-          "close": 2016.82
-        },
-        {
-          "time": 1794330000,
-          "close": 2026.74
-        },
-        {
-          "time": 1794333600,
-          "close": 2041.97
-        },
-        {
-          "time": 1794337200,
-          "close": 2042.5
-        },
-        {
-          "time": 1794340800,
-          "close": 2056.97
-        },
-        {
-          "time": 1794344400,
-          "close": 2054.44
-        },
-        {
-          "time": 1794348000,
-          "close": 2046.05
-        },
-        {
-          "time": 1794351600,
-          "close": 2051.0
-        },
-        {
-          "time": 1794355200,
-          "close": 2047.23
-        },
-        {
-          "time": 1794358800,
-          "close": 2050.98
-        },
-        {
-          "time": 1794362400,
-          "close": 2055.89
-        },
         {
           "time": 1794366000,
           "close": 2060.05
@@ -9163,10 +8778,54 @@
         {
           "time": 1794610800,
           "close": 1927.29
+        },
+        {
+          "time": 1794614400,
+          "close": 1930.09
+        },
+        {
+          "time": 1794618000,
+          "close": 1925.66
+        },
+        {
+          "time": 1794621600,
+          "close": 1909.85
+        },
+        {
+          "time": 1794625200,
+          "close": 1882.01
+        },
+        {
+          "time": 1794628800,
+          "close": 1897.1
+        },
+        {
+          "time": 1794632400,
+          "close": 1903.92
+        },
+        {
+          "time": 1794636000,
+          "close": 1903.7
+        },
+        {
+          "time": 1794639600,
+          "close": 1896.92
+        },
+        {
+          "time": 1794643200,
+          "close": 1893.44
+        },
+        {
+          "time": 1794646800,
+          "close": 1911.7
+        },
+        {
+          "time": 1794650400,
+          "close": 1907.55
         }
       ],
       "currency": "USD",
-      "price": 1927.29,
+      "price": 1907.55,
       "volume_source": "exchange volume"
     }
   ],
