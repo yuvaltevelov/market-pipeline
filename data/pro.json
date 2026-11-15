@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-11-15T06:46:51Z",
+  "generated_at": "2026-11-15T15:42:39Z",
   "status": "partial",
   "coverage": {
     "valid": 23,
@@ -7694,13 +7694,12 @@
       "status": "reported",
       "error": null,
       "bars": 720,
-      "as_of": 1794718800,
-      "score": 10,
+      "as_of": 1794751200,
+      "score": 18,
       "bias": "bearish",
       "reasons": [
         "ממוצע 20 מתחת 50",
         "מחיר מתחת ממוצע 200",
-        "מומנטום 20 נרות שלילי",
         "CMF שלילי (פרוקסי ללחץ מכירה)"
       ],
       "flags": [],
@@ -7716,61 +7715,25 @@
         "institutional_identity": "unavailable"
       },
       "indicators": {
-        "close": 64479.5,
-        "ema20": 65154.454,
-        "ema50": 66986.9508,
-        "sma200": 72539.29,
-        "rsi14": 41.4801,
-        "atr14": 891.6717,
-        "momentum20_pct": -4.2486,
-        "change_pct": -0.6533,
-        "rvol": 0.6916,
-        "cmf20": -0.1488,
-        "mfi14": 25.2766,
+        "close": 64719.5,
+        "ema20": 65121.0681,
+        "ema50": 66406.7053,
+        "sma200": 72052.6275,
+        "rsi14": 44.3498,
+        "atr14": 789.5048,
+        "momentum20_pct": -1.186,
+        "change_pct": -1.0383,
+        "rvol": 0.7147,
+        "cmf20": -0.1591,
+        "mfi14": 43.2804,
         "obv_direction": -1,
-        "rolling_vwap20": 64614.6332,
+        "rolling_vwap20": 64223.0952,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
         "fvg": "none"
       },
       "chart": [
-        {
-          "time": 1794434400,
-          "close": 73854.9
-        },
-        {
-          "time": 1794438000,
-          "close": 73928.4
-        },
-        {
-          "time": 1794441600,
-          "close": 73989.1
-        },
-        {
-          "time": 1794445200,
-          "close": 73627.6
-        },
-        {
-          "time": 1794448800,
-          "close": 73710.6
-        },
-        {
-          "time": 1794452400,
-          "close": 73707.4
-        },
-        {
-          "time": 1794456000,
-          "close": 73642.1
-        },
-        {
-          "time": 1794459600,
-          "close": 73494.2
-        },
-        {
-          "time": 1794463200,
-          "close": 73432.6
-        },
         {
           "time": 1794466800,
           "close": 73552.7
@@ -8054,10 +8017,46 @@
         {
           "time": 1794718800,
           "close": 64479.5
+        },
+        {
+          "time": 1794722400,
+          "close": 64438.2
+        },
+        {
+          "time": 1794726000,
+          "close": 63980.4
+        },
+        {
+          "time": 1794729600,
+          "close": 65191.9
+        },
+        {
+          "time": 1794733200,
+          "close": 65310.7
+        },
+        {
+          "time": 1794736800,
+          "close": 65551.7
+        },
+        {
+          "time": 1794740400,
+          "close": 65322.7
+        },
+        {
+          "time": 1794744000,
+          "close": 65474.3
+        },
+        {
+          "time": 1794747600,
+          "close": 65398.5
+        },
+        {
+          "time": 1794751200,
+          "close": 64719.5
         }
       ],
       "currency": "USD",
-      "price": 64479.5,
+      "price": 64719.5,
       "volume_source": "exchange volume"
     },
     {
@@ -8461,13 +8460,12 @@
       "status": "reported",
       "error": null,
       "bars": 720,
-      "as_of": 1794718800,
-      "score": 18,
+      "as_of": 1794751200,
+      "score": 26,
       "bias": "bearish",
       "reasons": [
         "ממוצע 20 מתחת 50",
-        "מחיר מתחת ממוצע 200",
-        "מומנטום 20 נרות שלילי"
+        "מחיר מתחת ממוצע 200"
       ],
       "flags": [],
       "backtest": {
@@ -8482,61 +8480,25 @@
         "institutional_identity": "unavailable"
       },
       "indicators": {
-        "close": 1799.16,
-        "ema20": 1818.1409,
-        "ema50": 1877.0377,
-        "sma200": 2063.9778,
-        "rsi14": 42.7753,
-        "atr14": 31.0347,
-        "momentum20_pct": -5.8869,
-        "change_pct": -0.7338,
-        "rvol": 0.3199,
-        "cmf20": -0.071,
-        "mfi14": 29.7892,
+        "close": 1805.89,
+        "ema20": 1817.357,
+        "ema50": 1858.4167,
+        "sma200": 2044.786,
+        "rsi14": 45.2884,
+        "atr14": 27.6781,
+        "momentum20_pct": -1.277,
+        "change_pct": -1.318,
+        "rvol": 0.348,
+        "cmf20": -0.0169,
+        "mfi14": 50.7261,
         "obv_direction": -1,
-        "rolling_vwap20": 1800.243,
+        "rolling_vwap20": 1781.3087,
         "volume_available": true,
         "sweep": "none",
         "breakout": "none",
         "fvg": "none"
       },
       "chart": [
-        {
-          "time": 1794434400,
-          "close": 2054.69
-        },
-        {
-          "time": 1794438000,
-          "close": 2053.48
-        },
-        {
-          "time": 1794441600,
-          "close": 2059.52
-        },
-        {
-          "time": 1794445200,
-          "close": 2048.87
-        },
-        {
-          "time": 1794448800,
-          "close": 2055.49
-        },
-        {
-          "time": 1794452400,
-          "close": 2052.41
-        },
-        {
-          "time": 1794456000,
-          "close": 2047.86
-        },
-        {
-          "time": 1794459600,
-          "close": 2044.0
-        },
-        {
-          "time": 1794463200,
-          "close": 2042.34
-        },
         {
           "time": 1794466800,
           "close": 2048.95
@@ -8820,10 +8782,46 @@
         {
           "time": 1794718800,
           "close": 1799.16
+        },
+        {
+          "time": 1794722400,
+          "close": 1792.14
+        },
+        {
+          "time": 1794726000,
+          "close": 1781.15
+        },
+        {
+          "time": 1794729600,
+          "close": 1810.81
+        },
+        {
+          "time": 1794733200,
+          "close": 1821.55
+        },
+        {
+          "time": 1794736800,
+          "close": 1830.55
+        },
+        {
+          "time": 1794740400,
+          "close": 1822.63
+        },
+        {
+          "time": 1794744000,
+          "close": 1834.79
+        },
+        {
+          "time": 1794747600,
+          "close": 1830.01
+        },
+        {
+          "time": 1794751200,
+          "close": 1805.89
         }
       ],
       "currency": "USD",
-      "price": 1799.16,
+      "price": 1805.89,
       "volume_source": "exchange volume"
     }
   ],
