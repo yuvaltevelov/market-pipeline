@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-16T17:29:32Z",
+  "generated_at": "2026-11-17T01:06:02Z",
   "status": "partial",
   "quality": {
     "reported": 5,
@@ -35,9 +35,9 @@
       "description": "ספוט אינדיקטיבי · אונקיית טרוי",
       "currency": "USD",
       "unit": "troy_oz",
-      "price": 3871.77,
+      "price": 3853.8201,
       "change_percent": null,
-      "as_of": "2026-11-16T17:29:27Z",
+      "as_of": "2026-11-17T01:05:57Z",
       "granularity": "timestamp",
       "source": "Gold-API",
       "source_url": "https://gold-api.com/docs",
@@ -52,9 +52,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 65022.0,
-      "change_percent": 0.267,
-      "as_of": "2026-11-16T17:28:25Z",
+      "price": 64536.0,
+      "change_percent": -0.364,
+      "as_of": "2026-11-17T01:05:09Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/bitcoin",
@@ -69,9 +69,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 1832.13,
-      "change_percent": 0.871,
-      "as_of": "2026-11-16T17:28:09Z",
+      "price": 1811.42,
+      "change_percent": 0.106,
+      "as_of": "2026-11-17T01:05:09Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ethereum",
@@ -152,12 +152,6 @@
       "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
       "published_at": "2026-11-12T16:00:00Z",
-      "source": "Federal Reserve"
-    },
-    {
-      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
-      "published_at": "2026-11-09T21:00:00Z",
       "source": "Federal Reserve"
     }
   ],
