@@ -1,15 +1,14 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-19T07:59:00Z",
+  "generated_at": "2026-11-19T17:25:21Z",
   "status": "partial",
   "quality": {
-    "reported": 4,
+    "reported": 5,
     "stale": 0,
-    "unavailable": 2,
+    "unavailable": 1,
     "cross_verified": 0,
     "source_errors": [
-      "PLTR: HTTPError",
-      "XAUUSD: URLError"
+      "PLTR: HTTPError"
     ]
   },
   "assets": [
@@ -36,16 +35,16 @@
       "description": "ספוט אינדיקטיבי · אונקיית טרוי",
       "currency": "USD",
       "unit": "troy_oz",
-      "price": null,
+      "price": 3686.95,
       "change_percent": null,
-      "as_of": null,
-      "granularity": null,
+      "as_of": "2026-11-19T17:25:04Z",
+      "granularity": "timestamp",
       "source": "Gold-API",
       "source_url": "https://gold-api.com/docs",
       "pricing_basis": "indicative_spot",
-      "quality": "unavailable",
-      "verification": "none",
-      "warning": "source_unavailable"
+      "quality": "reported",
+      "verification": "single_source",
+      "warning": "המקור אינו אימות עצמאי נוסף"
     },
     {
       "id": "BTC",
@@ -53,9 +52,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 63674.0,
-      "change_percent": -1.824,
-      "as_of": "2026-11-19T07:58:18Z",
+      "price": 62628.0,
+      "change_percent": -0.776,
+      "as_of": "2026-11-19T17:24:47Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/bitcoin",
@@ -70,9 +69,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 1802.5,
-      "change_percent": -0.789,
-      "as_of": "2026-11-19T07:58:18Z",
+      "price": 1765.55,
+      "change_percent": -0.131,
+      "as_of": "2026-11-19T17:24:47Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ethereum",
@@ -104,9 +103,9 @@
       "description": "מדד תנודתיות",
       "currency": "index",
       "unit": "index",
-      "price": 25.46,
-      "change_percent": 11.131,
-      "as_of": "2026-11-17",
+      "price": 24.56,
+      "change_percent": -3.535,
+      "as_of": "2026-11-18",
       "granularity": "date",
       "source": "FRED / CBOE",
       "source_url": "https://fred.stlouisfed.org/series/VIXCLS",
@@ -119,7 +118,7 @@
   "signals": [
     {
       "title": "אימות מקורות",
-      "text": "4 מתוך 6 מקורות דיווחו נתון תקף לזמנם; אין אימות בלתי תלוי בין ספקים."
+      "text": "5 מתוך 6 מקורות דיווחו נתון תקף לזמנם; אין אימות בלתי תלוי בין ספקים."
     },
     {
       "title": "זמן מדידה",
@@ -131,6 +130,12 @@
     }
   ],
   "news": [
+    {
+      "title": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
+      "published_at": "2026-11-19T16:00:00Z",
+      "source": "Federal Reserve"
+    },
     {
       "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
@@ -153,12 +158,6 @@
       "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
       "published_at": "2026-11-12T17:45:00Z",
-      "source": "Federal Reserve"
-    },
-    {
-      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
-      "published_at": "2026-11-12T16:00:00Z",
       "source": "Federal Reserve"
     }
   ],
