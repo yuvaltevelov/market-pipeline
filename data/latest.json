@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-19T17:25:21Z",
+  "generated_at": "2026-11-19T23:54:02Z",
   "status": "partial",
   "quality": {
     "reported": 5,
@@ -35,9 +35,9 @@
       "description": "ספוט אינדיקטיבי · אונקיית טרוי",
       "currency": "USD",
       "unit": "troy_oz",
-      "price": 3686.95,
+      "price": 3605.1201,
       "change_percent": null,
-      "as_of": "2026-11-19T17:25:04Z",
+      "as_of": "2026-11-19T23:53:34Z",
       "granularity": "timestamp",
       "source": "Gold-API",
       "source_url": "https://gold-api.com/docs",
@@ -52,9 +52,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 62628.0,
-      "change_percent": -0.776,
-      "as_of": "2026-11-19T17:24:47Z",
+      "price": 61856.0,
+      "change_percent": -2.049,
+      "as_of": "2026-11-19T23:53:44Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/bitcoin",
@@ -69,9 +69,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 1765.55,
-      "change_percent": -0.131,
-      "as_of": "2026-11-19T17:24:47Z",
+      "price": 1753.4,
+      "change_percent": -1.422,
+      "as_of": "2026-11-19T23:53:44Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ethereum",
@@ -146,18 +146,6 @@
       "title": "Agencies extend comment period for proposed third-party risk management guidance",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm",
       "published_at": "2026-11-13T21:15:00Z",
-      "source": "Federal Reserve"
-    },
-    {
-      "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
-      "published_at": "2026-11-12T18:30:00Z",
-      "source": "Federal Reserve"
-    },
-    {
-      "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
-      "published_at": "2026-11-12T17:45:00Z",
       "source": "Federal Reserve"
     }
   ],
