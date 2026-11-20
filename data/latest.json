@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-20T16:25:00Z",
+  "generated_at": "2026-11-20T22:49:59Z",
   "status": "partial",
   "quality": {
     "reported": 5,
@@ -8,7 +8,7 @@
     "unavailable": 1,
     "cross_verified": 0,
     "source_errors": [
-      "PLTR: URLError"
+      "PLTR: HTTPError"
     ]
   },
   "assets": [
@@ -35,9 +35,9 @@
       "description": "ספוט אינדיקטיבי · אונקיית טרוי",
       "currency": "USD",
       "unit": "troy_oz",
-      "price": 3541.5,
+      "price": 3539.0,
       "change_percent": null,
-      "as_of": "2026-11-20T16:25:36Z",
+      "as_of": "2026-11-20T22:49:36Z",
       "granularity": "timestamp",
       "source": "Gold-API",
       "source_url": "https://gold-api.com/docs",
@@ -52,9 +52,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 59344.0,
-      "change_percent": -5.951,
-      "as_of": "2026-11-20T16:25:15Z",
+      "price": 58888.0,
+      "change_percent": -5.375,
+      "as_of": "2026-11-20T22:49:34Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/bitcoin",
@@ -69,9 +69,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 1641.32,
-      "change_percent": -7.667,
-      "as_of": "2026-11-20T16:25:26Z",
+      "price": 1614.91,
+      "change_percent": -8.424,
+      "as_of": "2026-11-20T22:49:25Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ethereum",
@@ -131,6 +131,12 @@
   ],
   "news": [
     {
+      "title": "Federal Reserve announces College Fed Challenge winners",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120b.htm",
+      "published_at": "2026-11-20T21:15:00Z",
+      "source": "Federal Reserve"
+    },
+    {
       "title": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm",
       "published_at": "2026-11-20T15:00:00Z",
@@ -146,12 +152,6 @@
       "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
       "published_at": "2026-11-18T19:00:00Z",
-      "source": "Federal Reserve"
-    },
-    {
-      "title": "Agencies extend comment period for proposed third-party risk management guidance",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm",
-      "published_at": "2026-11-13T21:15:00Z",
       "source": "Federal Reserve"
     }
   ],
