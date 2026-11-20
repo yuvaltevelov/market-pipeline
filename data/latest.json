@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-20T07:25:23Z",
+  "generated_at": "2026-11-20T16:25:00Z",
   "status": "partial",
   "quality": {
     "reported": 5,
@@ -8,7 +8,7 @@
     "unavailable": 1,
     "cross_verified": 0,
     "source_errors": [
-      "PLTR: HTTPError"
+      "PLTR: URLError"
     ]
   },
   "assets": [
@@ -35,9 +35,9 @@
       "description": "ספוט אינדיקטיבי · אונקיית טרוי",
       "currency": "USD",
       "unit": "troy_oz",
-      "price": 3556.25,
+      "price": 3541.5,
       "change_percent": null,
-      "as_of": "2026-11-20T07:25:05Z",
+      "as_of": "2026-11-20T16:25:36Z",
       "granularity": "timestamp",
       "source": "Gold-API",
       "source_url": "https://gold-api.com/docs",
@@ -52,9 +52,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 61796.0,
-      "change_percent": -2.796,
-      "as_of": "2026-11-20T07:24:46Z",
+      "price": 59344.0,
+      "change_percent": -5.951,
+      "as_of": "2026-11-20T16:25:15Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/bitcoin",
@@ -69,9 +69,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 1743.7,
-      "change_percent": -3.277,
-      "as_of": "2026-11-20T07:24:52Z",
+      "price": 1641.32,
+      "change_percent": -7.667,
+      "as_of": "2026-11-20T16:25:26Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ethereum",
@@ -103,9 +103,9 @@
       "description": "מדד תנודתיות",
       "currency": "index",
       "unit": "index",
-      "price": 24.56,
-      "change_percent": -3.535,
-      "as_of": "2026-11-18",
+      "price": 28.44,
+      "change_percent": 15.798,
+      "as_of": "2026-11-19",
       "granularity": "date",
       "source": "FRED / CBOE",
       "source_url": "https://fred.stlouisfed.org/series/VIXCLS",
@@ -130,6 +130,12 @@
     }
   ],
   "news": [
+    {
+      "title": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm",
+      "published_at": "2026-11-20T15:00:00Z",
+      "source": "Federal Reserve"
+    },
     {
       "title": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
