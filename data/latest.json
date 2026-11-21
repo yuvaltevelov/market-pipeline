@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-21T04:00:07Z",
+  "generated_at": "2026-11-21T12:45:04Z",
   "status": "partial",
   "quality": {
     "reported": 5,
@@ -37,7 +37,7 @@
       "unit": "troy_oz",
       "price": 3539.0,
       "change_percent": null,
-      "as_of": "2026-11-21T04:00:07Z",
+      "as_of": "2026-11-21T12:44:38Z",
       "granularity": "timestamp",
       "source": "Gold-API",
       "source_url": "https://gold-api.com/docs",
@@ -52,9 +52,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 56690.0,
-      "change_percent": -8.704,
-      "as_of": "2026-11-21T03:59:12Z",
+      "price": 58766.0,
+      "change_percent": -4.493,
+      "as_of": "2026-11-21T12:44:02Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/bitcoin",
@@ -69,9 +69,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 1570.82,
-      "change_percent": -9.992,
-      "as_of": "2026-11-21T03:59:12Z",
+      "price": 1663.82,
+      "change_percent": -4.302,
+      "as_of": "2026-11-21T12:44:02Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ethereum",
@@ -129,6 +129,31 @@
       "text": "שינוי יומי אינו מעיד לבדו על סיבת התנועה או על תנועה עתידית."
     }
   ],
-  "news": [],
+  "news": [
+    {
+      "title": "Federal Reserve announces College Fed Challenge winners",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120b.htm",
+      "published_at": "2026-11-20T21:15:00Z",
+      "source": "Federal Reserve"
+    },
+    {
+      "title": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm",
+      "published_at": "2026-11-20T15:00:00Z",
+      "source": "Federal Reserve"
+    },
+    {
+      "title": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
+      "published_at": "2026-11-19T16:00:00Z",
+      "source": "Federal Reserve"
+    },
+    {
+      "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+      "published_at": "2026-11-18T19:00:00Z",
+      "source": "Federal Reserve"
+    }
+  ],
   "disclaimer": "נתוני מקור חינמי, חלקם מעוכבים או אינדיקטיביים. ללא אימות צולב וללא המלצת השקעה."
 }
