@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-22T07:30:28Z",
+  "generated_at": "2026-11-22T15:42:28Z",
   "status": "partial",
   "quality": {
     "reported": 5,
@@ -8,7 +8,7 @@
     "unavailable": 1,
     "cross_verified": 0,
     "source_errors": [
-      "PLTR: URLError"
+      "PLTR: HTTPError"
     ]
   },
   "assets": [
@@ -37,7 +37,7 @@
       "unit": "troy_oz",
       "price": 3539.0,
       "change_percent": null,
-      "as_of": "2026-11-22T07:31:09Z",
+      "as_of": "2026-11-22T15:42:10Z",
       "granularity": "timestamp",
       "source": "Gold-API",
       "source_url": "https://gold-api.com/docs",
@@ -52,9 +52,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 59018.0,
-      "change_percent": 1.56,
-      "as_of": "2026-11-22T07:30:34Z",
+      "price": 60776.0,
+      "change_percent": 1.647,
+      "as_of": "2026-11-22T15:41:13Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/bitcoin",
@@ -69,9 +69,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 1660.76,
-      "change_percent": 1.722,
-      "as_of": "2026-11-22T07:30:34Z",
+      "price": 1714.82,
+      "change_percent": 2.029,
+      "as_of": "2026-11-22T15:41:28Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ethereum",
