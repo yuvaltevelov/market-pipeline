@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-25T13:05:43Z",
+  "generated_at": "2026-11-25T22:36:06Z",
   "status": "partial",
   "quality": {
-    "reported": 4,
-    "stale": 1,
+    "reported": 5,
+    "stale": 0,
     "unavailable": 1,
     "cross_verified": 0,
     "source_errors": [
@@ -35,9 +35,9 @@
       "description": "ספוט אינדיקטיבי · אונקיית טרוי",
       "currency": "USD",
       "unit": "troy_oz",
-      "price": 3517.8,
+      "price": 3588.3999,
       "change_percent": null,
-      "as_of": "2026-11-25T13:05:16Z",
+      "as_of": "2026-11-25T22:35:46Z",
       "granularity": "timestamp",
       "source": "Gold-API",
       "source_url": "https://gold-api.com/docs",
@@ -52,9 +52,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 58606.0,
-      "change_percent": -2.975,
-      "as_of": "2026-11-25T13:05:20Z",
+      "price": 60106.0,
+      "change_percent": 0.239,
+      "as_of": "2026-11-25T22:34:38Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/bitcoin",
@@ -69,9 +69,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 1644.2,
-      "change_percent": -3.415,
-      "as_of": "2026-11-25T13:05:20Z",
+      "price": 1683.69,
+      "change_percent": 0.027,
+      "as_of": "2026-11-25T22:34:58Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ethereum",
@@ -86,16 +86,16 @@
       "description": "נפט · חבית",
       "currency": "USD",
       "unit": "barrel",
-      "price": 92.94,
-      "change_percent": 0.043,
-      "as_of": "2026-11-17",
+      "price": 91.8,
+      "change_percent": 0.658,
+      "as_of": "2026-11-24",
       "granularity": "date",
       "source": "FRED / EIA",
       "source_url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
       "pricing_basis": "daily_spot",
-      "quality": "stale",
+      "quality": "reported",
       "verification": "single_source",
-      "warning": "נתון ישן — אינו מחיר עדכני"
+      "warning": "המקור אינו אימות עצמאי נוסף"
     },
     {
       "id": "VIX",
@@ -103,9 +103,9 @@
       "description": "מדד תנודתיות",
       "currency": "index",
       "unit": "index",
-      "price": 26.62,
-      "change_percent": -25.829,
-      "as_of": "2026-11-23",
+      "price": 26.36,
+      "change_percent": -0.977,
+      "as_of": "2026-11-24",
       "granularity": "date",
       "source": "FRED / CBOE",
       "source_url": "https://fred.stlouisfed.org/series/VIXCLS",
@@ -118,7 +118,7 @@
   "signals": [
     {
       "title": "אימות מקורות",
-      "text": "4 מתוך 6 מקורות דיווחו נתון תקף לזמנם; אין אימות בלתי תלוי בין ספקים."
+      "text": "5 מתוך 6 מקורות דיווחו נתון תקף לזמנם; אין אימות בלתי תלוי בין ספקים."
     },
     {
       "title": "זמן מדידה",
@@ -127,13 +127,21 @@
     {
       "title": "ניתוח זהיר",
       "text": "שינוי יומי אינו מעיד לבדו על סיבת התנועה או על תנועה עתידית."
-    },
-    {
-      "title": "מידע ישן",
-      "text": "1 נכסים סומנו כישנים ולא יוצגו כמחיר נוכחי."
     }
   ],
   "news": [
+    {
+      "title": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm",
+      "published_at": "2026-11-25T20:00:00Z",
+      "source": "Federal Reserve"
+    },
+    {
+      "title": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125a.htm",
+      "published_at": "2026-11-25T20:00:00Z",
+      "source": "Federal Reserve"
+    },
     {
       "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
@@ -150,18 +158,6 @@
       "title": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm",
       "published_at": "2026-11-20T15:00:00Z",
-      "source": "Federal Reserve"
-    },
-    {
-      "title": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
-      "published_at": "2026-11-19T16:00:00Z",
-      "source": "Federal Reserve"
-    },
-    {
-      "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
-      "published_at": "2026-11-18T19:00:00Z",
       "source": "Federal Reserve"
     }
   ],
