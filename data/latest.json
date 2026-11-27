@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-27T15:38:10Z",
+  "generated_at": "2026-11-27T23:45:52Z",
   "status": "partial",
   "quality": {
     "reported": 5,
@@ -35,9 +35,9 @@
       "description": "ספוט אינדיקטיבי · אונקיית טרוי",
       "currency": "USD",
       "unit": "troy_oz",
-      "price": 3628.1001,
+      "price": 3650.0,
       "change_percent": null,
-      "as_of": "2026-11-27T15:37:50Z",
+      "as_of": "2026-11-27T23:45:50Z",
       "granularity": "timestamp",
       "source": "Gold-API",
       "source_url": "https://gold-api.com/docs",
@@ -52,9 +52,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 59949.0,
-      "change_percent": -0.733,
-      "as_of": "2026-11-27T15:37:01Z",
+      "price": 59804.0,
+      "change_percent": -1.028,
+      "as_of": "2026-11-27T23:44:57Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/bitcoin",
@@ -69,9 +69,9 @@
       "description": "קריפטו · USD",
       "currency": "USD",
       "unit": "coin",
-      "price": 1668.62,
-      "change_percent": -1.013,
-      "as_of": "2026-11-27T15:37:01Z",
+      "price": 1659.34,
+      "change_percent": -1.531,
+      "as_of": "2026-11-27T23:45:04Z",
       "granularity": "timestamp",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ethereum",
@@ -146,12 +146,6 @@
       "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
       "published_at": "2026-11-24T19:00:00Z",
-      "source": "Federal Reserve"
-    },
-    {
-      "title": "Federal Reserve announces College Fed Challenge winners",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120b.htm",
-      "published_at": "2026-11-20T21:15:00Z",
       "source": "Federal Reserve"
     }
   ],
